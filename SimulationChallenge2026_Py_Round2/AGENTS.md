@@ -25,6 +25,127 @@ expresa y documentan el proyecto; no forman parte de la estrategia ejecutable.
    antes de ejecutar la siguiente.
 6. No copiar estrategias de Round 1 sin adaptar rutas, indices y ventanas.
 
+## Restricciones Vigentes Del Usuario (2026-09-13)
+
+- No ejecutar la simulacion, ni siquiera como parte de una prueba corta.
+- El usuario autorizo expresamente un commit local de los cambios realizados
+  y esta actualizacion de `AGENTS.md` el 2026-09-13. Esa solicitud sustituye
+  la prohibicion anterior de commit para esta entrega. No autoriza push,
+  pull, merge ni nuevas simulaciones; futuras escrituras Git requieren
+  autorizacion en la tarea correspondiente.
+- Modificar codigo, pruebas, analisis y artefactos solo en `response_strategies/`.
+  La actualizacion de este `AGENTS.md` en la raiz esta autorizada expresamente.
+- Implementar una sola hipotesis a la vez. La candidata actual aplica solo H1:
+  retirar la media separacion entre servicios del coste del booking ya embarcado.
+- H2 (penalizacion de conexiones) y H3 (navegacion lenta frente a desvio) siguen
+  pendientes de experimentos separados. No activarlas junto con H1.
+- No cambiar umbrales de atraque, ocupacion, conexiones, congestion o flota.
+- El protocolo de corrida y los comandos generales de abajo solo se aplican
+  cuando el usuario autorice expresamente una simulacion en una tarea posterior.
+
+## Entrega Actual Y Continuidad
+
+- Entrada activa: `response_strategies/user_strategy.py`, que hereda de
+  `response_strategies/resilience_strategy.py`.
+- Leer `response_strategies/ONBOARD_COST_ANALYSIS.md` y
+  `response_strategies/benchmark_results/onboard_cost_20260913/observed_run_20260913_120119/RESUMEN.md`
+  antes de continuar. El primero conserva el analisis previo; el segundo
+  documenta la corrida completa observada posteriormente.
+- Control conservado: `response_strategies/benchmark_results/onboard_cost_20260913/control/`.
+  Contiene estrategia original, entrada, pruebas originales, los ocho CSV de
+  `Output/` y `protected_hashes.json` (SHA-256 de 163 archivos protegidos).
+- El control tiene KPI de perdida 19.0288385840 y ATT medio por intervalo
+  14.8018055556 dias. **19.03 no es el ATT medio.**
+- La referencia anterior de KPI 27.8656551610 esta en
+  `response_strategies/benchmark_results/01_expected_time_booking/`.
+- `resilience_20260910_094223/` contiene solo 325 dias y `complete: false`;
+  no usar esa carpeta como corrida completa. El control copia los 360 dias
+  presentes en `Output/` sin volver a simular.
+- Corrida observada: termino el 2026-09-13 a las 12:01:19, con 140 dias de
+  warm-up y 360 dias medidos en 72 intervalos; duracion real 00:15:02.
+  Esta archivada en
+  `response_strategies/benchmark_results/onboard_cost_20260913/observed_run_20260913_120119/`:
+  ocho CSV, log completo, estrategia y entrada capturadas despues de la corrida,
+  `snapshot_hashes.json`, `metrics.json` y `RESUMEN.md`.
+- Resultados observados: KPI de perdida **11.8203520321** (-37.88% frente al
+  control), ATT medio por intervalo **14.4352777778 dias** (-2.48%; -8.80 h).
+  El baseline medio es 13.8541111111 dias. El ATT se recalcula desde las filas
+  redondeadas del CSV; su fila `OverallMean` muestra 14.43 usando valores
+  internos sin redondear. **11.82 es el KPI de perdida, no el ATT.**
+- La estrategia activa coincide con H1 y con el hash validado
+  `bde16bfcd00ab5084beded9e99baa7a1d393b329306797be8211165daa2fac1b`.
+  Su modificacion precede al inicio del log, pero el log no registra el hash
+  cargado al iniciar. Describir la corrida como consistente con H1 y la mejora
+  como observada; no afirmar una atribucion exacta o una replica independiente.
+- La espera media en puertos baja de 8,626 a 8,227 TEU; la de transbordo,
+  de 2,983 a 2,737. Vigilar Shenzhen (765 -> 946 TEU) y Piraeus (469 -> 516).
+  Los CSV son promedios, no maximos ni colas finales. Utilizacion total 3.54%;
+  total medio reportado de buques 41.00. No permiten auditar estados finales
+  individuales ni descartar rutas alternativas temporales sin carga.
+- Al resumir la corrida, 156 de los 163 hashes del control seguian intactos:
+  solo cambiaron los siete CSV generados de `Output/`. Entradas, configuracion,
+  escenario, motor y baseline no cambiaron. Este es un registro historico;
+  las actualizaciones documentales posteriores deben identificarse aparte.
+- La ultima verificacion unitaria guardada sigue siendo 25 pruebas pasadas,
+  una excluida; cero llamadas a `Model.run` o `Model.warmup`. Su
+  `validation.json` precede a la corrida; `candidate_kpi: null` es historico.
+  El KPI observado posterior esta en el `metrics.json` de la corrida archivada.
+- `validate_onboard_cost.py` bloquea `Model.run` y `Model.warmup`, excluye
+  la prueba de diez dias y usa `-B` y pytest sin cache. Sin embargo, compara
+  contra el manifiesto anterior, que incluye los CSV de `Output/`, y ahora
+  rechazara esa diferencia antes de ejecutar pruebas. Antes de reutilizarlo,
+  adaptar la verificacion como se indica abajo; no sobrescribir el control
+  ni los resultados unitarios historicos para hacer pasar el chequeo.
+- No usar `validate_resilience.py --tests-only` ni `pytest` sin seleccion bajo
+  la restriccion actual: algunas pruebas ejecutan la simulacion.
+- Las ventanas 141-200 y 261-360 bajan de 11.5194 a 9.3992 y de 8.0974
+  a 3.7590 puntos de perdida. En 276-320 el aporte baja de 6.4546 a 3.5398.
+  Colombo-New Jersey (41-100) y Qingdao-Busan (216-240) empeoran ligeramente.
+  Consultar todas las ventanas y los retrocesos locales antes de aceptar
+  una variante; un mejor total no basta.
+
+## Pasos A Seguir
+
+1. Mantener H1 como entrada activa y conservar inalterados el control y la
+   corrida observada. La regla `.gitattributes` dentro del archivo de resultados
+   conserva los bytes de las copias para que Git no normalice sus finales de
+   linea y rompa los hashes. No confundir una copia posterior del codigo con
+   un registro de la estrategia cargada al iniciar.
+2. Antes de nuevas pruebas, adaptar el validador dentro de `response_strategies/`
+   para verificar entradas, configuracion, escenario, motor y baseline contra
+   el control original; comprobar los CSV actuales contra la corrida archivada
+   y registrar por separado cambios documentales autorizados. Congelar un
+   manifiesto nuevo para comparar antes/despues de las pruebas y guardar
+   resultados en una carpeta nueva. Mantener los bloqueos de avance del
+   modelo y la exclusion de la prueba de diez dias. No actualizar hashes de
+   entradas o motor para ocultar diferencias y no modificar el control.
+3. Revisar primero las regresiones de espera/transbordo en Shenzhen y Piraeus
+   y las ventanas de Colombo-New Jersey y Qingdao-Busan usando los archivos
+   guardados. Los maximos de cola y los estados individuales de buques siguen
+   pendientes de observacion en una futura corrida autorizada.
+4. En la proxima corrida autorizada, guardar ANTES de iniciar el hash y la
+   copia de la variante exacta, entrada, manifiesto protegido, semilla y
+   configuracion. Si se requiere confirmar la atribucion de H1, repetir H1
+   sin ajustes. Registrar el log y los ocho CSV al terminar. Ninguna de estas
+   corridas esta autorizada por la solicitud de commit.
+5. La siguiente hipotesis propuesta es H2: sustituir el veto de conexiones
+   operativas por una penalizacion finita y usar consistentemente el coste
+   completo de transferencia. Definir su formula y prueba medible antes de
+   implementar, conservar imposibilidad por cierre o falta de flota y no
+   retocar otros umbrales. Prepararla en una variante separada desde el
+   control previo a H1, con H1 desactivada; mantener H1 activa hasta la tarea
+   correspondiente. No activar H1+H2 sin una instruccion posterior que
+   autorice expresamente un experimento acumulativo y defina su control.
+6. Evaluar H3 despues, en otro experimento aislado: comparar el tiempo de
+   navegar por legs lentos con el desvio, ponderando la distancia de cada
+   segmento por su multiplicador. Conservar cierres, conectividad, indices
+   circulares de S4 y la clave de disrupcion de las rutas alternativas.
+7. Para cada variante comparar ATT medio, KPI total y ventanas 41-100,
+   141-200, 216-240, 261-275, 276-320, 321-330 y 331-360; usar 261-360 solo
+   como subtotal. Revisar espera por puerto, transbordos, carga de rutas,
+   acumulaciones y estados de los 41 buques. Archivar todo antes de cambiar
+   de hipotesis; no declarar una mejora comprobada con una corrida parcial.
+
 ## Archivos Relevantes
 
 - Entrada: `main.py`
@@ -80,6 +201,8 @@ La red usa 20 puertos, 9 rutas, 54 segmentos y 41 buques. `S4` tiene solo tres
 segmentos: `Shanghai -> Kaohsiung -> Los Angeles -> Shanghai`.
 
 ## Protocolo Antes De Cada Corrida
+
+Solo despues de una autorizacion posterior del usuario para simular.
 
 1. Confirmar que solo cambian archivos permitidos en `response_strategies/`.
 2. Validar que entradas, configuracion y escenario conservan sus hashes.

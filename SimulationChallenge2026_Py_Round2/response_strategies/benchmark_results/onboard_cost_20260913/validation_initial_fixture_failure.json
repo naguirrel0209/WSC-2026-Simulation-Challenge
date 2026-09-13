@@ -1,0 +1,10 @@
+{
+  "pytest_exit_code": 1,
+  "model_run_calls": 0,
+  "model_warmup_calls": 0,
+  "protected_files_checked": 163,
+  "changed_protected_files": [],
+  "excluded_simulation_test": "response_strategies/test_resilience_strategy.py::test_bookings_connect_and_replace_reverse_references",
+  "candidate_kpi": null,
+  "strategy_sha256": "bde16bfcd00ab5084beded9e99baa7a1d393b329306797be8211165daa2fac1b"
+}

@@ -130,7 +130,7 @@ class ResilienceStrategy:
         return state
 
     @classmethod
-    def _edge_cost(cls, state, edge, transfer):
+    def _edge_cost(cls, state, edge, transfer, *, onboard=False):
         speed, headway = state.headways.get(edge.service_route, (0, math.inf))
         if speed <= 0:
             return math.inf
@@ -139,7 +139,9 @@ class ResilienceStrategy:
         if transfer and slack < cls.CONNECTION_BUFFER * wait:
             return math.inf
         penalty = 24 * max(0, (rho - cls.RHO_LIMIT) / (1 - cls.RHO_LIMIT)) if transfer else 0
-        return edge.total_distance / speed + slack + wait + penalty + (18 if transfer else 0)
+        # Cargo already on this vessel does not wait for the next service.
+        service_wait = 0.0 if onboard else slack
+        return edge.total_distance / speed + service_wait + wait + penalty + (18 if transfer else 0)
 
     @classmethod
     def _path(cls, state, origin, destination):
@@ -284,7 +286,7 @@ def _remaining_cost(cls, state, shipment, current, segment):
         edge = d._CandidateBookingEdge(b.service_route, legs[0].associated_leg.departure_port,
                                      legs[-1].associated_leg.arrival_port, start + 1, end + 1,
                                      sum(s.associated_leg.sailing_distance for s in legs))
-        cost += cls._edge_cost(state, edge, b is not current)
+        cost += cls._edge_cost(state, edge, b is not current, onboard=b is current)
     return cost
 
 

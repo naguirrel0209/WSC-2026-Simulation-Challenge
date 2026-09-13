@@ -1,0 +1,119 @@
+{
+  "source": "Existing completed simulation; read and archived on 2026-09-13. No simulation or model advance executed for this analysis.",
+  "complete": true,
+  "measurement_periods": 72,
+  "measurement_end_day": 360,
+  "warmup_days": 140,
+  "log": "202609131146_SimulationProgressResults.log",
+  "log_runtime": "00:15:02",
+  "output_last_write_local": "2026-09-13T12:01:19",
+  "control": "../control/Output",
+  "mean_interval_att_days": 14.435277777777777,
+  "control_mean_interval_att_days": 14.801805555555555,
+  "baseline_mean_interval_att_days": 13.854111111111111,
+  "loss_kpi": 11.820352032108838,
+  "control_loss_kpi": 19.028838584012554,
+  "att_reduction_percent": 2.4762369455678224,
+  "att_reduction_hours": 8.796666666666667,
+  "loss_kpi_reduction_percent": 37.881904983733826,
+  "windows": [
+    {
+      "days": "41-100",
+      "att": 13.564166666666667,
+      "control_att": 13.43,
+      "kpi": 0.2656366806002669,
+      "control_kpi": -0.32586785978025057
+    },
+    {
+      "days": "141-200",
+      "att": 16.531666666666666,
+      "control_att": 17.288333333333334,
+      "kpi": 9.399215369272621,
+      "control_kpi": 11.519401997175283
+    },
+    {
+      "days": "216-240",
+      "att": 13.714,
+      "control_att": 13.64,
+      "kpi": -0.6926356689204705,
+      "control_kpi": -0.8343919203625894
+    },
+    {
+      "days": "261-275",
+      "att": 13.816666666666666,
+      "control_att": 14.06,
+      "kpi": -0.2363883927422955,
+      "control_kpi": 0.03796662503655235
+    },
+    {
+      "days": "276-320",
+      "att": 15.533333333333333,
+      "control_att": 16.752222222222223,
+      "kpi": 3.539822622319625,
+      "control_kpi": 6.454585535400678
+    },
+    {
+      "days": "321-330",
+      "att": 14.46,
+      "control_att": 14.795,
+      "kpi": 0.03203275541384054,
+      "control_kpi": 0.24543685218025968
+    },
+    {
+      "days": "331-360",
+      "att": 14.69,
+      "control_att": 15.158333333333333,
+      "kpi": 0.42352448789075736,
+      "control_kpi": 1.3593741557775556
+    },
+    {
+      "days": "261-360",
+      "att": 14.9155,
+      "control_att": 15.6745,
+      "kpi": 3.7589914728819274,
+      "control_kpi": 8.097363168395045
+    }
+  ],
+  "waiting_teu_mean": {
+    "current": 8227,
+    "control": 8626
+  },
+  "transshipment_waiting_teu_mean": {
+    "current": 2737,
+    "control": 2983
+  },
+  "completed_teu_sum_of_rounded_od_cells": {
+    "current": 490283,
+    "control": 489296
+  },
+  "route_utilization_percent": {
+    "current": 3.54,
+    "control": 3.55
+  },
+  "mean_vessel_counts": {
+    "sailing": 38.82,
+    "waiting": 0.19,
+    "served": 1.98,
+    "reported_total": 41
+  },
+  "peak_interval": {
+    "days": "186-190",
+    "att": 19.22,
+    "control_att": 20.56
+  },
+  "protected_manifest_check": {
+    "checked": 163,
+    "unchanged": 156,
+    "changed_only_seven_generated_output_csvs": true,
+    "baseline_unchanged": true
+  },
+  "strategy_snapshot_sha256": "bde16bfcd00ab5084beded9e99baa7a1d393b329306797be8211165daa2fac1b",
+  "strategy_attribution": "Current source matches validated H1 and predates log creation (11:37:42 versus 11:46:17 local). The log does not record the strategy hash loaded at process start. Source snapshot was captured after completion, not at run launch.",
+  "limits": [
+    "ATT recomputed from 72 rounded interval rows; footer OverallMean=14.43 uses unrounded internal values.",
+    "Port waiting values are time averages, not cumulative TEU, end queues, or maxima.",
+    "Vessel CSV reports mean counts, not final state of each vessel.",
+    "Only S1-S9 appear in route output; it cannot establish absence of temporary empty alternatives.",
+    "No independent replication was run."
+  ]
+}

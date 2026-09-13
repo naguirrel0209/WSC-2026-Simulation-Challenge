@@ -1,0 +1,78 @@
+......FF.................                                                [100%]
+================================== FAILURES ===================================
+___________ test_future_booking_keeps_wait_and_transfer_cost[False] ___________
+
+voyage = (<response_strategies.resilience_strategy._State object at 0x000001ACB5E8C270>, [Shanghai, Kaohsiung, Los Angeles], S4 | StartDay=0.00, Shipment-0 (10 TEU), Booking-1 (S4: Seg1->Seg2))
+finished_current = False
+
+    @pytest.mark.parametrize('finished_current', [False, True])
+    def test_future_booking_keeps_wait_and_transfer_cost(voyage, finished_current):
+        state, ports, route, shipment, current = voyage
+        destination = Port('Destination')
+        onward = _route('Onward', [ports[2], destination], [400, 400])
+        state.headways[onward] = (20, 48)
+        state.metrics[ports[2]] = (0.9, 8)
+        future = Booking(2, shipment, onward, 1, 1)
+        _commit(shipment, [current, future], 1)
+        shipment.demand.destination_port = destination
+        segment = route.segments[1 if finished_current else 0]
+        # Future booking: 20 sailing + 24 service wait + 8 port wait + 12 rho + 18 transfer.
+>       assert _remaining_cost(S, state, shipment, current, segment) == pytest.approx(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            82 + (0 if finished_current else 14)
+        )
+
+response_strategies\test_onboard_cost.py:74: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+response_strategies\resilience_strategy.py:283: in _remaining_cost
+    if any(not math.isfinite(state.metrics[s.associated_leg.arrival_port][1])
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+.0 = <list_iterator object at 0x000001ACB5E7F880>
+
+>   if any(not math.isfinite(state.metrics[s.associated_leg.arrival_port][1])
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           or s.associated_leg.sailing_time_multiplier > 1 for s in legs):
+E          KeyError: Destination
+
+response_strategies\resilience_strategy.py:283: KeyError
+___________ test_future_booking_keeps_wait_and_transfer_cost[True] ____________
+
+voyage = (<response_strategies.resilience_strategy._State object at 0x000001ACB5E8CC00>, [Shanghai, Kaohsiung, Los Angeles], S4 | StartDay=0.00, Shipment-0 (10 TEU), Booking-1 (S4: Seg1->Seg2))
+finished_current = True
+
+    @pytest.mark.parametrize('finished_current', [False, True])
+    def test_future_booking_keeps_wait_and_transfer_cost(voyage, finished_current):
+        state, ports, route, shipment, current = voyage
+        destination = Port('Destination')
+        onward = _route('Onward', [ports[2], destination], [400, 400])
+        state.headways[onward] = (20, 48)
+        state.metrics[ports[2]] = (0.9, 8)
+        future = Booking(2, shipment, onward, 1, 1)
+        _commit(shipment, [current, future], 1)
+        shipment.demand.destination_port = destination
+        segment = route.segments[1 if finished_current else 0]
+        # Future booking: 20 sailing + 24 service wait + 8 port wait + 12 rho + 18 transfer.
+>       assert _remaining_cost(S, state, shipment, current, segment) == pytest.approx(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            82 + (0 if finished_current else 14)
+        )
+
+response_strategies\test_onboard_cost.py:74: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+response_strategies\resilience_strategy.py:283: in _remaining_cost
+    if any(not math.isfinite(state.metrics[s.associated_leg.arrival_port][1])
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+.0 = <list_iterator object at 0x000001ACB5E7F460>
+
+>   if any(not math.isfinite(state.metrics[s.associated_leg.arrival_port][1])
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           or s.associated_leg.sailing_time_multiplier > 1 for s in legs):
+E          KeyError: Destination
+
+response_strategies\resilience_strategy.py:283: KeyError
+=========================== short test summary info ===========================
+FAILED response_strategies/test_onboard_cost.py::test_future_booking_keeps_wait_and_transfer_cost[False]
+FAILED response_strategies/test_onboard_cost.py::test_future_booking_keeps_wait_and_transfer_cost[True]
+2 failed, 23 passed, 1 deselected in 0.21s

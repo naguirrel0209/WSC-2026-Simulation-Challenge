@@ -1,0 +1,3 @@
+# Preserve archived bytes so recorded SHA-256 hashes survive Git checkout.
+control/** -text
+observed_run_20260913_120119/** -text

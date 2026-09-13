@@ -1,5 +1,17 @@
 # Estrategia de resiliencia — Round 2
 
+Actualizacion 2026-09-13: la candidata activa aplica H1 (coste a bordo).
+Ver [ONBOARD_COST_ANALYSIS.md](ONBOARD_COST_ANALYSIS.md) para el control
+(KPI de perdida 19.028839), el cambio aislado y las hipotesis pendientes.
+La corrida completa observada despues tiene KPI 11.820352 y ATT medio por
+intervalo 14.435278 dias; ver
+[el resumen archivado](benchmark_results/onboard_cost_20260913/observed_run_20260913_120119/RESUMEN.md)
+para la comparacion y la limitacion de atribucion de la estrategia.
+La restriccion actual del usuario prohibe nuevas simulaciones, incluso desde
+pruebas. `validate_onboard_cost.py` bloquea el avance del modelo, pero su
+manifiesto anterior debe adaptarse segun `../AGENTS.md` antes de reutilizarlo
+con la salida nueva. `validate_resilience.py --tests-only` incluye simulacion.
+
 `user_strategy.py` expone `ResilienceStrategy`. La política anterior se conserva
 sin cambios en `expected_time_reference.py`. No se modifica Round1.
 
