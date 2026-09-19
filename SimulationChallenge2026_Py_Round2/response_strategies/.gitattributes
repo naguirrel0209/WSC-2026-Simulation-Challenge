@@ -1,0 +1,4 @@
+# Keep the isolated pre-H1 base byte-identical to the archived control.
+h2_control_strategy.py -text
+benchmark_results/h2_connections_20260913/** -text
+benchmark_results/integrated_mechanisms_20260913/** -text

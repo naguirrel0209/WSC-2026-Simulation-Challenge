@@ -1,0 +1,20 @@
+{
+  "S1-ALT-1": {
+    "first_day": 261,
+    "last_day": 360,
+    "source": "S1",
+    "max_vessels": 0,
+    "max_teu": 0,
+    "days_with_vessels": 0,
+    "observed_days": 100
+  },
+  "S7-ALT-1": {
+    "first_day": 261,
+    "last_day": 360,
+    "source": "S7",
+    "max_vessels": 0,
+    "max_teu": 0,
+    "days_with_vessels": 0,
+    "observed_days": 100
+  }
+}

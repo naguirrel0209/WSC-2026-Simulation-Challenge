@@ -1,0 +1,63 @@
+{
+  "groups": {
+    "original_protected_including_baseline": {
+      "checked": 156,
+      "differences": {}
+    },
+    "control_outputs": {
+      "checked": 8,
+      "differences": {}
+    },
+    "observed_archive": {
+      "checked": 11,
+      "differences": {}
+    },
+    "current_outputs_vs_observed": {
+      "checked": 8,
+      "differences": {}
+    },
+    "control_source": {
+      "checked": 1,
+      "differences": {}
+    },
+    "candidate_base": {
+      "checked": 1,
+      "differences": {}
+    },
+    "active_H1": {
+      "checked": 2,
+      "differences": {}
+    },
+    "documentation_original": {
+      "checked": 1,
+      "differences": {}
+    },
+    "authorized_documentation": {
+      "checked": 1,
+      "differences": {}
+    }
+  },
+  "documentation": {
+    "README.md": {
+      "control": "959c352d3072e05a72bae9fe59f2391b1b4a846c9c67f2762ecc87e4df09dcac",
+      "current": "959c352d3072e05a72bae9fe59f2391b1b4a846c9c67f2762ecc87e4df09dcac"
+    },
+    "o2despy/README.md": {
+      "control": "37b332d9b903130d7f9f6cd2ecfcefd0cdb9a9730f4247c43ab1ed58ababade7",
+      "current": "37b332d9b903130d7f9f6cd2ecfcefd0cdb9a9730f4247c43ab1ed58ababade7"
+    },
+    "AGENTS.md": {
+      "control": null,
+      "before_task": "db3ed0deaa544db03ab0b8e8dab3200c716fc0474775e53e946cd523e69c63cb",
+      "current": "2a7fc6356a76ed7ab3f9a36291b3ed7c77694e67330497b8a5e2b99fea774074",
+      "authorization": {
+        "previous_sha256": "db3ed0deaa544db03ab0b8e8dab3200c716fc0474775e53e946cd523e69c63cb",
+        "authorized_sha256": "2a7fc6356a76ed7ab3f9a36291b3ed7c77694e67330497b8a5e2b99fea774074",
+        "authorized_on_local": "2026-09-13",
+        "request": "es cierto, no corras la simulaci\u00f3n, y modifica el Agents.md",
+        "scope": "Solo documentacion de estado, restricciones y continuidad; no autoriza simulaciones ni Git de escritura."
+      }
+    }
+  },
+  "errors": []
+}

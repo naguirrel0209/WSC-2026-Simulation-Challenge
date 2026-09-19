@@ -1,0 +1,9 @@
+{
+  "AGENTS.md": {
+    "previous_sha256": "db3ed0deaa544db03ab0b8e8dab3200c716fc0474775e53e946cd523e69c63cb",
+    "authorized_sha256": "2a7fc6356a76ed7ab3f9a36291b3ed7c77694e67330497b8a5e2b99fea774074",
+    "authorized_on_local": "2026-09-13",
+    "request": "es cierto, no corras la simulación, y modifica el Agents.md",
+    "scope": "Solo documentacion de estado, restricciones y continuidad; no autoriza simulaciones ni Git de escritura."
+  }
+}

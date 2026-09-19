@@ -1,0 +1,33 @@
+> Retirada del 18 de septiembre de 2026: se eliminaron del código de trabajo
+> integrated_strategy.py, test_integrated_strategy.py, validate_integrated.py
+> y run_integrated_experiment.py por solicitud del usuario. H1 sigue activa.
+> Las fuentes, pruebas y resultados archivados se conservan como historia.
+> Las referencias a esos archivos y comandos en el texto siguiente son históricas.
+> Ver [STRATEGY_OPTIONS.md](STRATEGY_OPTIONS.md). No ejecutar simulaciones.
+> Para comprobaciones sin avance sigue disponible validate_onboard_cost.py.
+
+# Resultado de la evaluación de IntegratedStrategy
+
+La corrida completa terminó el 14 de septiembre de 2026 a las 23:48:45 (Guatemala).
+Se seleccionó la candidata en un proceso aislado; user_strategy.py conserva H1.
+
+**No adoptar esta combinación:** ATT 15.091667 días frente a 14.435278 de H1
+(+4.55%); KPI de pérdida 24.579206 frente a 11.820352 (+107.94%). Espera media
+9,359 frente a 8,227 TEU; transbordo 3,115 frente a 2,737 TEU.
+
+Los últimos 100 días explican el 82.64% del aumento de pérdida. La mejora en
+41-100 no compensa la peor recuperación. Los tres mecanismos se evaluaron
+juntos; esta corrida no permite asignar el deterioro a uno solo.
+
+La candidata competitiva conserva su hash
+7ca9ce3562e47ecae0ad307ea4384ca7dd22c4912124c4a967201d6c4859340c.
+Se conservan las 95 pruebas pasadas y la evidencia de selección antes del avance.
+No hubo cambios de archivos fuera de la carpeta del experimento durante la corrida.
+
+[Informe completo y límites de la telemetría](benchmark_results/integrated_evaluation_20260915T052345_579591Z/RESUMEN.md).
+
+El lanzador run_integrated_experiment.py permite seleccionar la variante en
+memoria y conserva resultados separados. Su opción --check-only no construye
+ni avanza el modelo. No ejecutar una nueva corrida sin autorización en la tarea
+correspondiente. No modificar H1 por este resultado; separar mecanismos en
+experimentos posteriores con controles explícitos.

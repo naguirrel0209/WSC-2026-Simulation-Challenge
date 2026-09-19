@@ -1,0 +1,299 @@
+"""Isolated evaluation of the integrated candidate, authorized by the user.
+--check-only validates bindings and protected files without advancing the model.
+"""
+import argparse
+from collections import Counter
+import contextlib
+import datetime as dt
+import inspect
+import json
+import os
+from pathlib import Path
+import platform
+import shutil
+import sys
+import time
+import traceback
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.dont_write_bytecode = True
+sys.path[:0] = [str(ROOT), str(ROOT / 'o2despy')]
+os.environ['PYTHONDONTWRITEBYTECODE'] = '1'
+from response_strategies.validation_integrity import compare, digest, historical_checks, snapshot
+
+
+def save(folder, name, data):
+    (folder / name).write_text(json.dumps(data, indent=2, default=str) + '\n', encoding='utf-8')
+
+
+def install(variant):
+    import simulation_model
+    from response_strategies.user_strategy import UserStrategy
+    from response_strategies.integrated_strategy import IntegratedStrategy
+    from response_strategies.resilience_strategy import ResilienceStrategy
+    selected = IntegratedStrategy if variant == 'integrated' else ResilienceStrategy
+    UserStrategy.__bases__ = (selected,)
+    UserStrategy._context = UserStrategy._state = None
+    bindings = {}
+    for name in ('shipment_waiting_for_loading_at_origin_port', 'berth_idle',
+                 'vessel_being_served', 'vessel_queuing_for_berth'):
+        module = sys.modules['simulation_model.' + name]
+        assert module.UserStrategy is UserStrategy
+        bindings[module.__name__] = module.UserStrategy.__bases__[0].__name__
+    origins = {}
+    for name in ('_edge_cost', '_path', '_remaining_cost', 'adjust_bookings_before_cargo_handling'):
+        method = getattr(UserStrategy, name)
+        assert method.__func__ is getattr(selected, name).__func__
+        origins[name] = inspect.getsourcefile(method)
+    return UserStrategy, {
+        'variant': variant, 'class': selected.__module__ + '.' + selected.__name__,
+        'sha256': digest(Path(inspect.getsourcefile(selected))),
+        'mro': [c.__module__ + '.' + c.__name__ for c in UserStrategy.__mro__],
+        'engine_bindings': bindings, 'method_origins': origins,
+        'selection': 'Change UserStrategy base only in isolated process; preserve identity and disk entry.'
+    }
+
+
+class Observer:
+    def __init__(self, sim, folder, strategy):
+        self.sim, self.folder, self.strategy = sim, folder, strategy
+        self.measuring = False
+        self.start = None
+        self.maxima = {}
+        self.hooks, self.none, self.sailing, self.empty = (Counter() for _ in range(4))
+        self.original_vessels = tuple(sim.data_context.vessels)
+        self.original_legs = tuple(sim.data_context.legs)
+        self.initial_routes = {v.index: v.assigned_service_route.id for v in self.original_vessels}
+        self.origin = sim.shipment_waiting_for_loading_at_origin_port.hc_teus_by_origin_port
+        self.transfer = sim.shipment_waiting_for_loading_at_transshipment_port.hc_teus_by_transshipment_port
+        self.file = (folder / 'daily_observations.jsonl').open('w', encoding='utf-8')
+        for port in sim.data_context.ports:
+            for mapping in (self.origin, self.transfer):
+                if port in mapping:
+                    self.wrap_counter(mapping[port], port)
+        sim.vessel_sailing.on_start.add(self.on_sailing)
+        for name in ('select_vessel_for_berth', 'create_alternative_service_routes',
+                     'assign_associated_bookings', 'adjust_bookings_before_cargo_handling'):
+            self.wrap_hook(name)
+
+    def wrap_counter(self, counter, port):
+        original = counter.observe_count
+        def observed(*args, **kwargs):
+            result = original(*args, **kwargs)
+            if self.measuring:
+                self.peak(port)
+            return result
+        counter.observe_count = observed
+
+    def wrap_hook(self, name):
+        original = getattr(self.strategy, name)
+        def observed(cls, *args, **kwargs):
+            if self.measuring:
+                self.hooks[name] += 1
+            result = original(*args, **kwargs)
+            if self.measuring and result is None:
+                self.none[name] += 1
+            return result
+        setattr(self.strategy, name, classmethod(observed))
+
+    def on_sailing(self, vessel):
+        if self.measuring:
+            route = vessel.assigned_service_route.id
+            self.sailing[route] += 1
+            if sum(s.teu_size for s in vessel.carried_shipments) == 0:
+                self.empty[route] += 1
+
+    def values(self, port):
+        a = self.origin[port].last_count if port in self.origin else 0
+        b = self.transfer[port].last_count if port in self.transfer else 0
+        return {'origin': a, 'transshipment': b, 'total': a + b}
+
+    def peak(self, port):
+        record = self.maxima.setdefault(port.name, {})
+        for kind, teu in self.values(port).items():
+            if kind not in record or teu > record[kind]['teu']:
+                record[kind] = {'teu': teu, 'day': (self.sim.clock_time - self.start).total_seconds() / 86400}
+
+    def begin(self):
+        self.start = self.sim.clock_time
+        self.measuring = True
+        for port in self.sim.data_context.ports:
+            self.peak(port)
+        self.sample(0)
+
+    def vessels(self):
+        members = {v: [] for v in self.sim.data_context.vessels}
+        for name in ('vessel_awaiting_instructions', 'vessel_sailing',
+                     'vessel_queuing_for_berth', 'vessel_being_served'):
+            activity = getattr(self.sim, name)
+            for stage in ('r_loads_requested_start', 's_loads_started',
+                          'd_loads_ready_finish', 'f_loads_finished'):
+                for v in getattr(activity, stage):
+                    if v in members:
+                        members[v].append(name + '.' + stage)
+        rows = []
+        for v in sorted(members, key=lambda v: v.index):
+            route, segment = v.assigned_service_route, v.current_segment
+            leg = segment.associated_leg if segment else None
+            rows.append({
+                'id': v.index, 'states': members[v], 'route': getattr(route, 'id', None),
+                'initial_route': self.initial_routes[v.index],
+                'pending_route': getattr(v.pending_assigned_service_route, 'id', None),
+                'segment': segment.sequence_index if segment else None,
+                'leg': [leg.departure_port.name, leg.arrival_port.name] if leg else None,
+                'cargo_teu': sum(s.teu_size for s in v.carried_shipments),
+                'capacity_teu': v.vessel_class.teu_capacity,
+                'shipment_count': len(v.carried_shipments),
+                'registered': route is not None and v in route.deployed_vessels,
+                'cargo_references_valid': all(s.carrying_vessel is v for s in v.carried_shipments)})
+        return rows
+
+    def sample(self, day):
+        ports = []
+        for port in self.sim.data_context.ports:
+            ages = [(self.sim.clock_time - s.generated_time).total_seconds() / 86400
+                    for s in port.shipments_in_storage
+                    if s.carrying_vessel is None and s.generated_time is not None]
+            ports.append({'port': port.name, **self.values(port),
+                          'max_stored_shipment_age_days': max(ages, default=0)})
+        record = {
+            'day': day, 'clock': str(self.sim.clock_time), 'ports': ports, 'vessels': self.vessels(),
+            'routes': [{'id': r.id, 'source': getattr(r.source_service_route, 'id', None),
+                        'disruption_key': r.disruption_key,
+                        'vessels': [v.index for v in r.deployed_vessels],
+                        'onboard_teu': sum(s.teu_size for v in r.deployed_vessels for s in v.carried_shipments)}
+                       for r in self.sim.data_context.service_routes],
+            'strategy_errors': dict(getattr(self.strategy._state, 'errors', {})),
+            'hook_calls': dict(self.hooks), 'hook_none': dict(self.none)}
+        self.file.write(json.dumps(record, default=str) + '\n')
+        self.file.flush()
+        save(self.folder, 'progress.json', {'stage': 'measurement', 'day': day, 'total_days': 360})
+        if day in (0, 360):
+            save(self.folder, 'state_day_' + str(day) + '.json', record)
+
+    def finish(self):
+        save(self.folder, 'observation_summary.json', {
+            'queue_maxima_at_every_counter_update': self.maxima,
+            'sailing_legs_started': dict(self.sailing), 'empty_sailing_legs_started': dict(self.empty),
+            'strategy_errors': dict(getattr(self.strategy._state, 'errors', {})),
+            'hook_calls': dict(self.hooks), 'hook_none': dict(self.none),
+            'same_41_vessel_objects': len(self.original_vessels) == 41 and
+                set(self.original_vessels) == set(self.sim.data_context.vessels),
+            'same_leg_objects': set(self.original_legs) == set(self.sim.data_context.legs),
+            'limitations': ['Vessel states sampled daily, not continuously.',
+                'Shipment age is since generation, not local queue residence.',
+                'Historical H1 lacks comparable queue maxima and vessel snapshots.',
+                'Booking cost components not traced.']})
+        self.file.close()
+
+
+def run(variant, check_only=False):
+    checks = historical_checks()
+    if checks['errors']:
+        raise RuntimeError(json.dumps(checks['errors']))
+    strategy, binding = install(variant)
+    import main as official
+    from config.simulation_config import WARM_UP_DAYS, SIMULATION_DAYS, STATISTICS_INTERVAL_DAYS
+    assert (WARM_UP_DAYS, SIMULATION_DAYS, STATISTICS_INTERVAL_DAYS) == (140, 360, 5)
+    if check_only:
+        print(json.dumps({'binding': binding, 'historical_errors': [],
+                          'model_constructed': False, 'simulation_executed': False}, indent=2))
+        return
+    stamp = dt.datetime.now(dt.timezone.utc).strftime('%Y%m%dT%H%M%S_%fZ')
+    folder = ROOT / 'response_strategies/benchmark_results' / ('integrated_evaluation_' + stamp)
+    folder.mkdir(exist_ok=False)
+    (folder / '.gitattributes').write_text('* -text\n', encoding='utf-8')
+    output, sources = folder / 'Output', folder / 'sources_before_run'
+    output.mkdir()
+    sources.mkdir()
+    before = snapshot(excluded=[folder])
+    save(folder, 'before_hashes.json', before)
+    save(folder, 'historical_checks_before.json', checks)
+    shutil.copytree(ROOT / 'Output', folder / 'H1_control_Output')
+    shutil.copyfile(ROOT / 'Output/Baseline_ATT_By_Statistics_Interval.csv',
+                    output / 'Baseline_ATT_By_Statistics_Interval.csv')
+    names = ['user_strategy.py', 'integrated_strategy.py', 'resilience_strategy.py',
+             'h2_connection_strategy.py', 'h2_control_strategy.py', 'default_strategy.py',
+             'strategy_validation.py', 'run_integrated_experiment.py', 'INTEGRATED_MECHANISMS.md']
+    for name in names:
+        shutil.copyfile(ROOT / 'response_strategies' / name, sources / name)
+    for name in ('main.py', 'config/simulation_config.py', 'scenario_builders/disruption_scenario.py'):
+        dest = sources / name
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(ROOT / name, dest)
+    metadata = {
+        'authorization': 'User: evalua la candidata integrada',
+        'started_local': dt.datetime.now().astimezone().isoformat(), 'binding': binding,
+        'seed': 2026, 'warmup_days': 140, 'measurement_days': 360, 'interval_days': 5, 'advance_days': 1,
+        'control': 'H1_control_Output, H1 run completed at 2026-09-13 23:43:51',
+        'python': sys.version, 'executable': sys.executable, 'platform': platform.platform(),
+        'command': [sys.executable, '-B', *sys.argv],
+        'sources': {p.relative_to(sources).as_posix(): digest(p) for p in sources.rglob('*') if p.is_file()},
+        'complete': False}
+    save(folder, 'run.json', metadata)
+    save(folder, 'progress.json', {'stage': 'warmup', 'day': 0, 'total_days': 360})
+    print('EXPERIMENT_DIRECTORY=' + str(folder), flush=True)
+    print('SELECTED_CLASS=' + binding['class'], flush=True)
+    holder = []
+    base = official.Model
+
+    class ObservedModel(base):
+        def __init__(self, context, seed):
+            assert seed == 2026
+            super().__init__(context, seed=seed)
+            self.observer = Observer(self, folder, strategy)
+            self.measured_day = 0
+            holder.append(self)
+
+        def warmup(self, **kwargs):
+            assert kwargs == {'period': dt.timedelta(days=140)}
+            result = super().warmup(**kwargs)
+            self.observer.begin()
+            return result
+
+        def run(self, **kwargs):
+            result = super().run(**kwargs)
+            if self.observer.measuring:
+                assert kwargs == {'duration': dt.timedelta(days=1)}
+                self.measured_day += 1
+                self.observer.sample(self.measured_day)
+            return result
+
+    official.Model = ObservedModel
+    official.OUTPUT_DIRECTORY = output
+    official.clear_console_screen = lambda: None
+    started = time.perf_counter()
+    try:
+        with (folder / 'SimulationProgressResults.log').open('w', encoding='utf-8', buffering=1) as log:
+            with contextlib.redirect_stdout(log), contextlib.redirect_stderr(log):
+                print(json.dumps({'loaded_before_model_creation': binding}, indent=2))
+                official.run_simulation()
+        assert len(holder) == 1 and holder[0].measured_day == 360
+        metadata['complete'] = True
+    except BaseException:
+        metadata['error'] = traceback.format_exc()
+        raise
+    finally:
+        if holder:
+            holder[0].observer.finish()
+            metadata['measured_days_completed'] = holder[0].measured_day
+        metadata['wall_seconds'] = time.perf_counter() - started
+        metadata['finished_local'] = dt.datetime.now().astimezone().isoformat()
+        after = snapshot(excluded=[folder])
+        save(folder, 'after_hashes.json', after)
+        metadata['changes_outside_experiment'] = compare(before, after)
+        metadata['output_hashes'] = {p.name: digest(p) for p in output.glob('*.csv')}
+        save(folder, 'historical_checks_after.json', historical_checks())
+        save(folder, 'run.json', metadata)
+        print(json.dumps({'report': str(folder), 'complete': metadata['complete'],
+                          'wall_seconds': metadata['wall_seconds'],
+                          'changes_outside_experiment': metadata['changes_outside_experiment']}, indent=2), flush=True)
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--variant', choices=['integrated', 'h1'], default='integrated')
+    parser.add_argument('--check-only', action='store_true')
+    args = parser.parse_args()
+    run(args.variant, args.check_only)
+

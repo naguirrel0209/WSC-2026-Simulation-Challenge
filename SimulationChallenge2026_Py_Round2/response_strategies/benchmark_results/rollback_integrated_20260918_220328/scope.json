@@ -1,0 +1,17 @@
+{
+  "request": "Retirar candidata integrada y listar estrategias; no simular",
+  "removed": [
+    "integrated_strategy.py",
+    "test_integrated_strategy.py",
+    "validate_integrated.py",
+    "run_integrated_experiment.py"
+  ],
+  "h1_entry_unchanged": true,
+  "preserve_h2_isolated": true,
+  "preserve_historical_results": true,
+  "simulation_authorized": false,
+  "audit_excludes": [
+    "runtime caches",
+    "temporary unit-test fixtures"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "authorization": "User: evalua la candidata integrada",
+  "started_local": "2026-09-14T23:24:00.451084-06:00",
+  "binding": {
+    "variant": "integrated",
+    "class": "response_strategies.integrated_strategy.IntegratedStrategy",
+    "sha256": "7ca9ce3562e47ecae0ad307ea4384ca7dd22c4912124c4a967201d6c4859340c",
+    "mro": [
+      "response_strategies.user_strategy.UserStrategy",
+      "response_strategies.integrated_strategy.IntegratedStrategy",
+      "response_strategies.h2_connection_strategy.H2ConnectionStrategy",
+      "response_strategies.h2_control_strategy.ResilienceStrategy",
+      "builtins.object"
+    ],
+    "engine_bindings": {
+      "simulation_model.shipment_waiting_for_loading_at_origin_port": "IntegratedStrategy",
+      "simulation_model.berth_idle": "IntegratedStrategy",
+      "simulation_model.vessel_being_served": "IntegratedStrategy",
+      "simulation_model.vessel_queuing_for_berth": "IntegratedStrategy"
+    },
+    "method_origins": {
+      "_edge_cost": "C:\\Users\\norma\\OneDrive\\Documentos\\Norman\\Simio\\SimulationChallenge2026_Py_Round2\\response_strategies\\integrated_strategy.py",
+      "_path": "C:\\Users\\norma\\OneDrive\\Documentos\\Norman\\Simio\\SimulationChallenge2026_Py_Round2\\response_strategies\\integrated_strategy.py",
+      "_remaining_cost": "C:\\Users\\norma\\OneDrive\\Documentos\\Norman\\Simio\\SimulationChallenge2026_Py_Round2\\response_strategies\\integrated_strategy.py",
+      "adjust_bookings_before_cargo_handling": "C:\\Users\\norma\\OneDrive\\Documentos\\Norman\\Simio\\SimulationChallenge2026_Py_Round2\\response_strategies\\integrated_strategy.py"
+    },
+    "selection": "Change UserStrategy base only in isolated process; preserve identity and disk entry."
+  },
+  "seed": 2026,
+  "warmup_days": 140,
+  "measurement_days": 360,
+  "interval_days": 5,
+  "advance_days": 1,
+  "control": "H1_control_Output, H1 run completed at 2026-09-13 23:43:51",
+  "python": "3.13.15 (tags/v3.13.15:4061bc4, Aug  5 2026, 13:05:39) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "C:\\Users\\norma\\OneDrive\\Documentos\\Norman\\Simio\\SimulationChallenge2026_Py_Round2\\.venv\\Scripts\\python.exe",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "command": [
+    "C:\\Users\\norma\\OneDrive\\Documentos\\Norman\\Simio\\SimulationChallenge2026_Py_Round2\\.venv\\Scripts\\python.exe",
+    "-B",
+    "response_strategies/run_integrated_experiment.py"
+  ],
+  "sources": {
+    "default_strategy.py": "f28426364225c26ec929e93ae49f0b2f6f555adcc02a40524427152d5f4e539d",
+    "h2_connection_strategy.py": "587b4994a530c8d386f2a9a8f4ffcd3b92508642feea428d47c79ed11ba0ff96",
+    "h2_control_strategy.py": "a387c563fb91e77b7f5010e4a3f3b43ca772f4e4d58c80ab5c7be3f5245d502b",
+    "INTEGRATED_MECHANISMS.md": "868bc93dbc0406f61707e43eb333b485e67f7f020e1b18f539e8e685ab76c79e",
+    "integrated_strategy.py": "7ca9ce3562e47ecae0ad307ea4384ca7dd22c4912124c4a967201d6c4859340c",
+    "main.py": "7aaf1b04cc3b06c7301de8f8d8bd037f1a571031af7124f93bda4ffcc3ad986d",
+    "resilience_strategy.py": "bde16bfcd00ab5084beded9e99baa7a1d393b329306797be8211165daa2fac1b",
+    "run_integrated_experiment.py": "7be9f6b754dc3f824cbd1d56795ce0d4af7dabb2b6fdd98d2ca5165c085ae9b3",
+    "strategy_validation.py": "f2ac2922e3fe14c57aeb35be388ac4996146ea56454d660e04066a0b4ea446e4",
+    "user_strategy.py": "06b108f0150678cc432db02f5116f53b9ed45a9c58e385f3421e73b6058be93e",
+    "config/simulation_config.py": "d1e32030620c57fe88008da981aa942e318a87a408119ba1cb7847b5d8261a16",
+    "scenario_builders/disruption_scenario.py": "7adbbde77fea55bedeffe3d0cccd1dacb4010f4dc5af3fcae208cfec72758487"
+  },
+  "complete": true,
+  "measured_days_completed": 360,
+  "wall_seconds": 1484.9006518999995,
+  "finished_local": "2026-09-14T23:48:45.472194-06:00",
+  "changes_outside_experiment": {},
+  "output_hashes": {
+    "ATT_By_Statistics_Interval.csv": "ec8eea44867d9fda5ec41a877547aee4e49d7ca222510bfd5b02058c6df75c7b",
+    "Average_In_Transit_TEU_By_OD.csv": "10ef59840d86cc3bf3b8016e90efa04723f44f76f625183138f63ba932b41e89",
+    "Average_Origin_Waiting_TEU_By_OD.csv": "716b02c7b1eb4590893addf3fb1b97f38c7ed47c338c6279c28f14d56d47d63f",
+    "Average_Vessel_State_Counts.csv": "537e514005c12a096055731e3289e4ac9291f997fdb166ae7d9f6c40e30878c5",
+    "Baseline_ATT_By_Statistics_Interval.csv": "1dc6e2dc9067f6b9f34760c65aba85d9431de2f187d8704100b7e018d9edfa3f",
+    "Cumulative_Completed_TEU_By_OD.csv": "4084cb16c98d638e7c538f8348dc5a2044f89b1ab01ceeb2feb8dadb8990f920",
+    "Port_Waiting_Statistics.csv": "51abd67193a6a115e7d7d1def59922f47e5c1aa4706af20ce26ac4ec502f2609",
+    "Service_Route_Utilization.csv": "21ad7563ba4406c8c46aeef51c6825781eaa229aec8ebe7a62216197791fbc16"
+  }
+}

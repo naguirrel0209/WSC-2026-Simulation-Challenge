@@ -21,31 +21,24 @@ expresa y documentan el proyecto; no forman parte de la estrategia ejecutable.
    `response_strategies/strategy_validation.py` antes de editar.
 4. Mantener scripts, variantes y resultados comparativos dentro de
    `response_strategies/`.
-5. Definir hipotesis y control por experimento y conservar su salida antes
-   del siguiente. Para atribucion individual, aislar cada hipotesis. Las
-   combinaciones historicas deben tratarse como evidencia archivada, no como
-   cambios activos, salvo nueva instruccion del usuario.
+5. Implementar una hipotesis medible por experimento y conservar su salida
+   antes de ejecutar la siguiente.
 6. No copiar estrategias de Round 1 sin adaptar rutas, indices y ventanas.
 
-## Restricciones Vigentes Del Usuario (2026-09-18)
+## Restricciones Vigentes Del Usuario (2026-09-13)
 
 - No ejecutar la simulacion, ni siquiera como parte de una prueba corta.
-  El usuario reitero esta prohibicion al solicitar actualizar este archivo.
-- Git de escritura queda limitado al commit local solicitado el 2026-09-18:
-  revisar el estado actual, corregir documentacion incoherente y confirmar los
-  cambios preparados. No autoriza push, pull, fetch, merge, rebase, reset,
-  checkout, switch, stash ni clean.
+- El usuario autorizo expresamente un commit local de los cambios realizados
+  y esta actualizacion de `AGENTS.md` el 2026-09-13. Esa solicitud sustituye
+  la prohibicion anterior de commit para esta entrega. No autoriza push,
+  pull, merge ni nuevas simulaciones; futuras escrituras Git requieren
+  autorizacion en la tarea correspondiente.
 - Modificar codigo, pruebas, analisis y artefactos solo en `response_strategies/`.
   La actualizacion de este `AGENTS.md` en la raiz esta autorizada expresamente.
-- Mantener H1 como entrada activa: retirar la media separacion entre servicios
-  del coste del booking ya embarcado. No sustituir `user_strategy.py`.
-- El usuario solicito agregar los tres mecanismos: conexiones operativas con
-  penalizacion finita, coste completo de transbordo y comparacion entre
-  navegacion lenta y desvio. Esa candidata separada H1+H2+H3 fue evaluada,
-  subio el KPI y despues fue retirada del codigo de trabajo por solicitud del
-  usuario. Las fuentes exactas quedan solo como evidencia archivada.
-- Conservar tambien H2 aislada, cuyo control es anterior a H1. No sobrescribir
-  variantes ni evidencias historicas. H2 y H3 siguen sin KPI medido.
+- Implementar una sola hipotesis a la vez. La candidata actual aplica solo H1:
+  retirar la media separacion entre servicios del coste del booking ya embarcado.
+- H2 (penalizacion de conexiones) y H3 (navegacion lenta frente a desvio) siguen
+  pendientes de experimentos separados. No activarlas junto con H1.
 - No cambiar umbrales de atraque, ocupacion, conexiones, congestion o flota.
 - El protocolo de corrida y los comandos generales de abajo solo se aplican
   cuando el usuario autorice expresamente una simulacion en una tarea posterior.
@@ -53,23 +46,11 @@ expresa y documentan el proyecto; no forman parte de la estrategia ejecutable.
 ## Entrega Actual Y Continuidad
 
 - Entrada activa: `response_strategies/user_strategy.py`, que hereda de
-  `response_strategies/resilience_strategy.py`. Sigue siendo H1.
-- Candidata conjunta retirada: `integrated_strategy.py`,
-  `test_integrated_strategy.py`, `validate_integrated.py` y
-  `run_integrated_experiment.py` ya no existen como archivos activos. Las
-  copias exactas previas a la retirada estan en
-  `response_strategies/benchmark_results/rollback_integrated_20260918_220328/files_before_removal/`.
-  Los documentos `INTEGRATED_*.md` permanecen solo como registro historico y
-  empiezan con un aviso de retirada.
-- H2 aislada: `response_strategies/h2_connection_strategy.py`, basada en la
-  copia exacta `h2_control_strategy.py` del control previo a H1. No contiene
-  H1 ni H3. Las dos candidatas conservan umbrales de atraque/conexion/flota.
+  `response_strategies/resilience_strategy.py`.
 - Leer `response_strategies/ONBOARD_COST_ANALYSIS.md` y
   `response_strategies/benchmark_results/onboard_cost_20260913/observed_run_20260913_120119/RESUMEN.md`
   antes de continuar. El primero conserva el analisis previo; el segundo
   documenta la corrida completa observada posteriormente.
-- Leer tambien `response_strategies/STRATEGY_OPTIONS.md`,
-  `response_strategies/H2_HYPOTHESIS.md` y `response_strategies/H2_DIAGNOSIS.md`.
 - Control conservado: `response_strategies/benchmark_results/onboard_cost_20260913/control/`.
   Contiene estrategia original, entrada, pruebas originales, los ocho CSV de
   `Output/` y `protected_hashes.json` (SHA-256 de 163 archivos protegidos).
@@ -86,11 +67,6 @@ expresa y documentan el proyecto; no forman parte de la estrategia ejecutable.
   `response_strategies/benchmark_results/onboard_cost_20260913/observed_run_20260913_120119/`:
   ocho CSV, log completo, estrategia y entrada capturadas despues de la corrida,
   `snapshot_hashes.json`, `metrics.json` y `RESUMEN.md`.
-- La ultima corrida disponible termino a las 18:53:53 del 2026-09-13:
-  `Logs/202609131838_SimulationProgressResults.log`, duracion 00:15:04,
-  140 dias de warm-up y 360 medidos. Los ocho CSV actuales son identicos
-  por SHA-256 a los de la corrida de las 12:01:19. No hubo mejora adicional.
-  La entrada actual sigue en H1; esos resultados no miden las candidatas.
 - Resultados observados: KPI de perdida **11.8203520321** (-37.88% frente al
   control), ATT medio por intervalo **14.4352777778 dias** (-2.48%; -8.80 h).
   El baseline medio es 13.8541111111 dias. El ATT se recalcula desde las filas
@@ -110,30 +86,16 @@ expresa y documentan el proyecto; no forman parte de la estrategia ejecutable.
   solo cambiaron los siete CSV generados de `Output/`. Entradas, configuracion,
   escenario, motor y baseline no cambiaron. Este es un registro historico;
   las actualizaciones documentales posteriores deben identificarse aparte.
-- La verificacion historica original de H1 conserva 25 pruebas pasadas,
+- La ultima verificacion unitaria guardada sigue siendo 25 pruebas pasadas,
   una excluida; cero llamadas a `Model.run` o `Model.warmup`. Su
   `validation.json` precede a la corrida; `candidate_kpi: null` es historico.
   El KPI observado posterior esta en el `metrics.json` de la corrida archivada.
-- La primera validacion historica de la candidata conjunta paso 90 pruebas, excluyo
-  una y tuvo cero llamadas a Model.run/Model.warmup y entradas de avance
-  de Sandbox. No cambio ningun archivo vigilado durante las pruebas.
-  El registro es `response_strategies/benchmark_results/integrated_mechanisms_20260913/validation_20260914T051823_729270Z_ee57fdbe/`.
-  Las verificaciones posteriores de esta actualizacion documental se
-  identifican en `response_strategies/INTEGRATED_VALIDATION.md`.
-- La evaluacion historica de la candidata conjunta contra H1 empeoro el
-  resultado: ATT 15.0916666667 dias y KPI de perdida 24.5792064260 frente a
-  H1 con ATT 14.4352777778 dias y KPI 11.8203520321. No reactivar esa
-  combinacion sin una hipotesis nueva y una autorizacion expresa para simular.
-- Los validadores ya separan las protecciones: 156 archivos contra el control
-  original (incluido baseline), ocho CSV archivados del control, once elementos
-  del snapshot observado y ocho CSV actuales contra ese snapshot. Conservan
-  hashes fijos de los manifiestos historicos y registran aparte cambios
-  documentales autorizados. Cada ejecucion crea una carpeta nueva con
-  copias de fuentes, hashes antes/despues y resultados.
-- Usar `validate_onboard_cost.py` para la suite de H1/H2/integridad. Delega
-  en `validate_connections.py`, usa -B y pytest sin cache/plugins automaticos,
-  y bloquea Model.run/Model.warmup y diez entradas de Sandbox.
-  La prueba de diez dias se excluye explicitamente por nombre completo.
+- `validate_onboard_cost.py` bloquea `Model.run` y `Model.warmup`, excluye
+  la prueba de diez dias y usa `-B` y pytest sin cache. Sin embargo, compara
+  contra el manifiesto anterior, que incluye los CSV de `Output/`, y ahora
+  rechazara esa diferencia antes de ejecutar pruebas. Antes de reutilizarlo,
+  adaptar la verificacion como se indica abajo; no sobrescribir el control
+  ni los resultados unitarios historicos para hacer pasar el chequeo.
 - No usar `validate_resilience.py --tests-only` ni `pytest` sin seleccion bajo
   la restriccion actual: algunas pruebas ejecutan la simulacion.
 - Las ventanas 141-200 y 261-360 bajan de 11.5194 a 9.3992 y de 8.0974
@@ -149,11 +111,14 @@ expresa y documentan el proyecto; no forman parte de la estrategia ejecutable.
    conserva los bytes de las copias para que Git no normalice sus finales de
    linea y rompa los hashes. No confundir una copia posterior del codigo con
    un registro de la estrategia cargada al iniciar.
-2. Usar los validadores seguros indicados arriba. Si hay diferencias de
-   integridad, investigarlas; no refrescar hashes de entradas, motor, baseline
-   o controles para ocultarlas. La actualizacion autorizada de AGENTS.md se
-   registra en `response_strategies/authorized_documentation_changes.json`.
-   Ese registro no permite excepciones para codigo, datos ni configuracion.
+2. Antes de nuevas pruebas, adaptar el validador dentro de `response_strategies/`
+   para verificar entradas, configuracion, escenario, motor y baseline contra
+   el control original; comprobar los CSV actuales contra la corrida archivada
+   y registrar por separado cambios documentales autorizados. Congelar un
+   manifiesto nuevo para comparar antes/despues de las pruebas y guardar
+   resultados en una carpeta nueva. Mantener los bloqueos de avance del
+   modelo y la exclusion de la prueba de diez dias. No actualizar hashes de
+   entradas o motor para ocultar diferencias y no modificar el control.
 3. Revisar primero las regresiones de espera/transbordo en Shenzhen y Piraeus
    y las ventanas de Colombo-New Jersey y Qingdao-Busan usando los archivos
    guardados. Los maximos de cola y los estados individuales de buques siguen
@@ -162,16 +127,19 @@ expresa y documentan el proyecto; no forman parte de la estrategia ejecutable.
    copia de la variante exacta, entrada, manifiesto protegido, semilla y
    configuracion. Si se requiere confirmar la atribucion de H1, repetir H1
    sin ajustes. Registrar el log y los ocho CSV al terminar. Ninguna de estas
-   corridas esta autorizada por la solicitud actual de codigo o documentacion.
-5. Las formulas de H2 y de la candidata conjunta retirada ya estan documentadas.
-   H2 usa penalizacion `max(0, 1.5*espera - headway/2)`, mas ocupacion y
-   18 h de transferencia. La conjunta agregaba la suma de distancia de cada
-   leg multiplicada por su propio multiplicador y conservaba H1 a bordo.
-   Mantener H2 aislada; la combinacion H1+H2+H3 solo queda archivada.
-6. Para trabajo futuro partir de `STRATEGY_OPTIONS.md`. La primera propuesta
-   recomendada es corregir solo el coste completo del primer transbordo sobre
-   H1, sin activar penalizacion finita de conexiones ni navegacion lenta.
-   Ninguna corrida nueva esta autorizada.
+   corridas esta autorizada por la solicitud de commit.
+5. La siguiente hipotesis propuesta es H2: sustituir el veto de conexiones
+   operativas por una penalizacion finita y usar consistentemente el coste
+   completo de transferencia. Definir su formula y prueba medible antes de
+   implementar, conservar imposibilidad por cierre o falta de flota y no
+   retocar otros umbrales. Prepararla en una variante separada desde el
+   control previo a H1, con H1 desactivada; mantener H1 activa hasta la tarea
+   correspondiente. No activar H1+H2 sin una instruccion posterior que
+   autorice expresamente un experimento acumulativo y defina su control.
+6. Evaluar H3 despues, en otro experimento aislado: comparar el tiempo de
+   navegar por legs lentos con el desvio, ponderando la distancia de cada
+   segmento por su multiplicador. Conservar cierres, conectividad, indices
+   circulares de S4 y la clave de disrupcion de las rutas alternativas.
 7. Para cada variante comparar ATT medio, KPI total y ventanas 41-100,
    141-200, 216-240, 261-275, 276-320, 321-330 y 331-360; usar 261-360 solo
    como subtotal. Revisar espera por puerto, transbordos, carga de rutas,
@@ -184,9 +152,6 @@ expresa y documentan el proyecto; no forman parte de la estrategia ejecutable.
 - Solucion: `response_strategies/user_strategy.py`
 - Fallback: `response_strategies/default_strategy.py`
 - Validacion: `response_strategies/strategy_validation.py`
-- Opciones siguientes: `response_strategies/STRATEGY_OPTIONS.md`
-- Pruebas seguras: `response_strategies/validate_onboard_cost.py`
-- Registro de retirada: `response_strategies/benchmark_results/rollback_integrated_20260918_220328/RESUMEN.md`
 - Configuracion: `config/simulation_config.py`
 - Disrupciones: `scenario_builders/disruption_scenario.py`
 - KPI: `Output/ATT_By_Statistics_Interval.csv`
@@ -281,13 +246,7 @@ acumulaciones extremas de TEU, rutas alternativas sin carga o estados
 inconsistentes. No aceptar una mejora global sin revisar los periodos de las
 cinco disrupciones y los puertos con mayor espera.
 
-## Comandos Seguros Sin Simulacion
-
-```powershell
-.\.venv\Scripts\python.exe -B response_strategies/validate_onboard_cost.py
-```
-
-## Comandos Generales (No Ejecutar Bajo La Restriccion Actual)
+## Comandos
 
 ```powershell
 .\.venv\Scripts\python.exe -m pytest -q

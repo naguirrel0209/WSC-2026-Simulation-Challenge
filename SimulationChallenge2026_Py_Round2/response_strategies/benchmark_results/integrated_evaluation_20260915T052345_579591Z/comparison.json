@@ -1,0 +1,6127 @@
+{
+  "control": {
+    "mean_interval_att_days": 14.435277777777777,
+    "loss_kpi": 11.820352032108838,
+    "baseline_mean_days": 13.854111111111111,
+    "intervals": [
+      {
+        "start": 1,
+        "end": 5,
+        "att": 13.39,
+        "loss": 0.11725168035847666
+      },
+      {
+        "start": 6,
+        "end": 10,
+        "att": 13.1,
+        "loss": -0.07404580152671758
+      },
+      {
+        "start": 11,
+        "end": 15,
+        "att": 13.26,
+        "loss": 0.0037707390648566985
+      },
+      {
+        "start": 16,
+        "end": 20,
+        "att": 13.28,
+        "loss": -0.11445783132530085
+      },
+      {
+        "start": 21,
+        "end": 25,
+        "att": 13.26,
+        "loss": -0.10105580693816063
+      },
+      {
+        "start": 26,
+        "end": 30,
+        "att": 12.9,
+        "loss": -0.16201550387596853
+      },
+      {
+        "start": 31,
+        "end": 35,
+        "att": 13.25,
+        "loss": -0.05283018867924594
+      },
+      {
+        "start": 36,
+        "end": 40,
+        "att": 13.37,
+        "loss": -0.02692595362752459
+      },
+      {
+        "start": 41,
+        "end": 45,
+        "att": 13.35,
+        "loss": -0.12883895131086232
+      },
+      {
+        "start": 46,
+        "end": 50,
+        "att": 13.51,
+        "loss": 0.02960769800148033
+      },
+      {
+        "start": 51,
+        "end": 55,
+        "att": 13.28,
+        "loss": -0.0060240963855417995
+      },
+      {
+        "start": 56,
+        "end": 60,
+        "att": 13.03,
+        "loss": -0.052954719877206236
+      },
+      {
+        "start": 61,
+        "end": 65,
+        "att": 13.81,
+        "loss": 0.11440984793627818
+      },
+      {
+        "start": 66,
+        "end": 70,
+        "att": 13.9,
+        "loss": 0.20215827338129544
+      },
+      {
+        "start": 71,
+        "end": 75,
+        "att": 13.27,
+        "loss": -0.07611152976639057
+      },
+      {
+        "start": 76,
+        "end": 80,
+        "att": 13.82,
+        "loss": 0.11070911722141863
+      },
+      {
+        "start": 81,
+        "end": 85,
+        "att": 13.27,
+        "loss": -0.1371514694800302
+      },
+      {
+        "start": 86,
+        "end": 90,
+        "att": 13.56,
+        "loss": -0.10619469026548645
+      },
+      {
+        "start": 91,
+        "end": 95,
+        "att": 14.0,
+        "loss": 0.17000000000000015
+      },
+      {
+        "start": 96,
+        "end": 100,
+        "att": 13.97,
+        "loss": 0.14602720114531176
+      },
+      {
+        "start": 101,
+        "end": 105,
+        "att": 13.71,
+        "loss": 0.04376367614879695
+      },
+      {
+        "start": 106,
+        "end": 110,
+        "att": 13.47,
+        "loss": 0.04231625835189323
+      },
+      {
+        "start": 111,
+        "end": 115,
+        "att": 13.58,
+        "loss": -0.025036818851251752
+      },
+      {
+        "start": 116,
+        "end": 120,
+        "att": 14.2,
+        "loss": 0.28239436619718283
+      },
+      {
+        "start": 121,
+        "end": 125,
+        "att": 14.34,
+        "loss": 0.3423988842398884
+      },
+      {
+        "start": 126,
+        "end": 130,
+        "att": 13.84,
+        "loss": 0.06575144508670527
+      },
+      {
+        "start": 131,
+        "end": 135,
+        "att": 14.03,
+        "loss": 0.08695652173913049
+      },
+      {
+        "start": 136,
+        "end": 140,
+        "att": 13.97,
+        "loss": -0.07015032211882599
+      },
+      {
+        "start": 141,
+        "end": 145,
+        "att": 14.61,
+        "loss": 0.32169746748802186
+      },
+      {
+        "start": 146,
+        "end": 150,
+        "att": 14.83,
+        "loss": 0.3991908293998647
+      },
+      {
+        "start": 151,
+        "end": 155,
+        "att": 15.54,
+        "loss": 0.5637065637065636
+      },
+      {
+        "start": 156,
+        "end": 160,
+        "att": 16.27,
+        "loss": 0.7719729563614014
+      },
+      {
+        "start": 161,
+        "end": 165,
+        "att": 16.98,
+        "loss": 0.9652532391048291
+      },
+      {
+        "start": 166,
+        "end": 170,
+        "att": 17.23,
+        "loss": 1.0603598374927454
+      },
+      {
+        "start": 171,
+        "end": 175,
+        "att": 17.6,
+        "loss": 1.0903409090909095
+      },
+      {
+        "start": 176,
+        "end": 180,
+        "att": 18.36,
+        "loss": 1.1977124183006538
+      },
+      {
+        "start": 181,
+        "end": 185,
+        "att": 18.92,
+        "loss": 1.2970401691331928
+      },
+      {
+        "start": 186,
+        "end": 190,
+        "att": 19.22,
+        "loss": 1.36732570239334
+      },
+      {
+        "start": 191,
+        "end": 195,
+        "att": 15.27,
+        "loss": 0.4531761624099545
+      },
+      {
+        "start": 196,
+        "end": 200,
+        "att": 13.55,
+        "loss": -0.088560885608856
+      },
+      {
+        "start": 201,
+        "end": 205,
+        "att": 13.88,
+        "loss": -0.032420749279539196
+      },
+      {
+        "start": 206,
+        "end": 210,
+        "att": 13.8,
+        "loss": -0.02101449275362266
+      },
+      {
+        "start": 211,
+        "end": 215,
+        "att": 13.07,
+        "loss": -0.21652639632746662
+      },
+      {
+        "start": 216,
+        "end": 220,
+        "att": 13.66,
+        "loss": -0.03221083455343998
+      },
+      {
+        "start": 221,
+        "end": 225,
+        "att": 13.87,
+        "loss": -0.11391492429704386
+      },
+      {
+        "start": 226,
+        "end": 230,
+        "att": 13.32,
+        "loss": -0.26276276276276267
+      },
+      {
+        "start": 231,
+        "end": 235,
+        "att": 13.84,
+        "loss": -0.21026011560693614
+      },
+      {
+        "start": 236,
+        "end": 240,
+        "att": 13.88,
+        "loss": -0.07348703170028781
+      },
+      {
+        "start": 241,
+        "end": 245,
+        "att": 13.67,
+        "loss": -0.13313825896122955
+      },
+      {
+        "start": 246,
+        "end": 250,
+        "att": 13.88,
+        "loss": -0.19020172910662825
+      },
+      {
+        "start": 251,
+        "end": 255,
+        "att": 13.08,
+        "loss": -0.3019877675840976
+      },
+      {
+        "start": 256,
+        "end": 260,
+        "att": 12.98,
+        "loss": -0.3736517719568566
+      },
+      {
+        "start": 261,
+        "end": 265,
+        "att": 13.49,
+        "loss": -0.19495922905856222
+      },
+      {
+        "start": 266,
+        "end": 270,
+        "att": 13.43,
+        "loss": -0.20178704393149616
+      },
+      {
+        "start": 271,
+        "end": 275,
+        "att": 14.53,
+        "loss": 0.16035788024776287
+      },
+      {
+        "start": 276,
+        "end": 280,
+        "att": 14.81,
+        "loss": 0.135719108710331
+      },
+      {
+        "start": 281,
+        "end": 285,
+        "att": 15.11,
+        "loss": 0.29913964262078097
+      },
+      {
+        "start": 286,
+        "end": 290,
+        "att": 15.52,
+        "loss": 0.43041237113402075
+      },
+      {
+        "start": 291,
+        "end": 295,
+        "att": 16.25,
+        "loss": 0.6184615384615383
+      },
+      {
+        "start": 296,
+        "end": 300,
+        "att": 17.25,
+        "loss": 0.8318840579710141
+      },
+      {
+        "start": 301,
+        "end": 305,
+        "att": 16.84,
+        "loss": 0.7535629453681714
+      },
+      {
+        "start": 306,
+        "end": 310,
+        "att": 14.91,
+        "loss": 0.250167672702884
+      },
+      {
+        "start": 311,
+        "end": 315,
+        "att": 15.15,
+        "loss": 0.33795379537953807
+      },
+      {
+        "start": 316,
+        "end": 320,
+        "att": 13.96,
+        "loss": -0.1174785100286535
+      },
+      {
+        "start": 321,
+        "end": 325,
+        "att": 14.41,
+        "loss": -0.05204718945176934
+      },
+      {
+        "start": 326,
+        "end": 330,
+        "att": 14.51,
+        "loss": 0.08407994486560988
+      },
+      {
+        "start": 331,
+        "end": 335,
+        "att": 13.99,
+        "loss": -0.1901358112937812
+      },
+      {
+        "start": 336,
+        "end": 340,
+        "att": 14.37,
+        "loss": -0.08072372999304189
+      },
+      {
+        "start": 341,
+        "end": 345,
+        "att": 14.64,
+        "loss": 0.021857923497267673
+      },
+      {
+        "start": 346,
+        "end": 350,
+        "att": 15.49,
+        "loss": 0.29051000645577807
+      },
+      {
+        "start": 351,
+        "end": 355,
+        "att": 15.13,
+        "loss": 0.23463317911434245
+      },
+      {
+        "start": 356,
+        "end": 360,
+        "att": 14.52,
+        "loss": 0.14738292011019227
+      }
+    ],
+    "windows": {
+      "41-100": {
+        "att": 13.564166666666667,
+        "loss": 0.2656366806002669
+      },
+      "141-200": {
+        "att": 16.531666666666666,
+        "loss": 9.399215369272621
+      },
+      "216-240": {
+        "att": 13.714,
+        "loss": -0.6926356689204705
+      },
+      "261-275": {
+        "att": 13.816666666666666,
+        "loss": -0.2363883927422955
+      },
+      "276-320": {
+        "att": 15.533333333333333,
+        "loss": 3.539822622319625
+      },
+      "321-330": {
+        "att": 14.46,
+        "loss": 0.03203275541384054
+      },
+      "331-360": {
+        "att": 14.69,
+        "loss": 0.42352448789075736
+      },
+      "261-360": {
+        "att": 14.9155,
+        "loss": 3.7589914728819274
+      }
+    },
+    "ports": {
+      "Busan": {
+        "Origin Waiting TEU": 404.0,
+        "Transshipment Waiting TEU": 68.0,
+        "Total Waiting TEU": 472.0,
+        "Vessels Waiting": 0.0
+      },
+      "Cartagena": {
+        "Origin Waiting TEU": 119.0,
+        "Transshipment Waiting TEU": 0.0,
+        "Total Waiting TEU": 119.0,
+        "Vessels Waiting": 0.0
+      },
+      "Colombo": {
+        "Origin Waiting TEU": 435.0,
+        "Transshipment Waiting TEU": 134.0,
+        "Total Waiting TEU": 569.0,
+        "Vessels Waiting": 0.0
+      },
+      "Hamburg": {
+        "Origin Waiting TEU": 271.0,
+        "Transshipment Waiting TEU": 0.0,
+        "Total Waiting TEU": 271.0,
+        "Vessels Waiting": 0.0
+      },
+      "Ho Chi Minh City": {
+        "Origin Waiting TEU": 57.0,
+        "Transshipment Waiting TEU": 0.0,
+        "Total Waiting TEU": 57.0,
+        "Vessels Waiting": 0.02
+      },
+      "Jakarta": {
+        "Origin Waiting TEU": 44.0,
+        "Transshipment Waiting TEU": 0.0,
+        "Total Waiting TEU": 44.0,
+        "Vessels Waiting": 0.0
+      },
+      "Jebel Ali": {
+        "Origin Waiting TEU": 389.0,
+        "Transshipment Waiting TEU": 0.0,
+        "Total Waiting TEU": 389.0,
+        "Vessels Waiting": 0.0
+      },
+      "Kaohsiung": {
+        "Origin Waiting TEU": 181.0,
+        "Transshipment Waiting TEU": 2.0,
+        "Total Waiting TEU": 183.0,
+        "Vessels Waiting": 0.0
+      },
+      "Laem Chabang": {
+        "Origin Waiting TEU": 58.0,
+        "Transshipment Waiting TEU": 0.0,
+        "Total Waiting TEU": 58.0,
+        "Vessels Waiting": 0.01
+      },
+      "Los Angeles": {
+        "Origin Waiting TEU": 294.0,
+        "Transshipment Waiting TEU": 18.0,
+        "Total Waiting TEU": 312.0,
+        "Vessels Waiting": 0.0
+      },
+      "New Jersey": {
+        "Origin Waiting TEU": 292.0,
+        "Transshipment Waiting TEU": 105.0,
+        "Total Waiting TEU": 397.0,
+        "Vessels Waiting": 0.0
+      },
+      "Piraeus": {
+        "Origin Waiting TEU": 234.0,
+        "Transshipment Waiting TEU": 281.0,
+        "Total Waiting TEU": 516.0,
+        "Vessels Waiting": 0.12
+      },
+      "Qingdao": {
+        "Origin Waiting TEU": 214.0,
+        "Transshipment Waiting TEU": 1.0,
+        "Total Waiting TEU": 215.0,
+        "Vessels Waiting": 0.0
+      },
+      "Rotterdam": {
+        "Origin Waiting TEU": 374.0,
+        "Transshipment Waiting TEU": 2.0,
+        "Total Waiting TEU": 376.0,
+        "Vessels Waiting": 0.0
+      },
+      "Shanghai": {
+        "Origin Waiting TEU": 553.0,
+        "Transshipment Waiting TEU": 863.0,
+        "Total Waiting TEU": 1416.0,
+        "Vessels Waiting": 0.0
+      },
+      "Shenzhen": {
+        "Origin Waiting TEU": 525.0,
+        "Transshipment Waiting TEU": 420.0,
+        "Total Waiting TEU": 946.0,
+        "Vessels Waiting": 0.0
+      },
+      "Singapore": {
+        "Origin Waiting TEU": 453.0,
+        "Transshipment Waiting TEU": 675.0,
+        "Total Waiting TEU": 1128.0,
+        "Vessels Waiting": 0.0
+      },
+      "Tanger Med": {
+        "Origin Waiting TEU": 205.0,
+        "Transshipment Waiting TEU": 168.0,
+        "Total Waiting TEU": 373.0,
+        "Vessels Waiting": 0.0
+      },
+      "Tianjin": {
+        "Origin Waiting TEU": 153.0,
+        "Transshipment Waiting TEU": 0.0,
+        "Total Waiting TEU": 153.0,
+        "Vessels Waiting": 0.02
+      },
+      "Xiamen": {
+        "Origin Waiting TEU": 235.0,
+        "Transshipment Waiting TEU": 0.0,
+        "Total Waiting TEU": 235.0,
+        "Vessels Waiting": 0.02
+      },
+      "TOTAL": {
+        "Origin Waiting TEU": 5491.0,
+        "Transshipment Waiting TEU": 2737.0,
+        "Total Waiting TEU": 8227.0,
+        "Vessels Waiting": 0.19
+      }
+    },
+    "routes": {
+      "S1": {
+        "Avg Capacity TEU": 134292.0,
+        "Avg Carried TEU": 7735.0,
+        "Utilization": 5.76
+      },
+      "S2": {
+        "Avg Capacity TEU": 12844.0,
+        "Avg Carried TEU": 993.0,
+        "Utilization": 7.73
+      },
+      "S3": {
+        "Avg Capacity TEU": 4873.0,
+        "Avg Carried TEU": 175.0,
+        "Utilization": 3.59
+      },
+      "S4": {
+        "Avg Capacity TEU": 50921.0,
+        "Avg Carried TEU": 1346.0,
+        "Utilization": 2.64
+      },
+      "S5": {
+        "Avg Capacity TEU": 115098.0,
+        "Avg Carried TEU": 2510.0,
+        "Utilization": 2.18
+      },
+      "S6": {
+        "Avg Capacity TEU": 38055.0,
+        "Avg Carried TEU": 1189.0,
+        "Utilization": 3.13
+      },
+      "S7": {
+        "Avg Capacity TEU": 38300.0,
+        "Avg Carried TEU": 1372.0,
+        "Utilization": 3.58
+      },
+      "S8": {
+        "Avg Capacity TEU": 1535.0,
+        "Avg Carried TEU": 65.0,
+        "Utilization": 4.23
+      },
+      "S9": {
+        "Avg Capacity TEU": 63035.0,
+        "Avg Carried TEU": 849.0,
+        "Utilization": 1.35
+      },
+      "TOTAL": {
+        "Avg Capacity TEU": 458952.0,
+        "Avg Carried TEU": 16235.0,
+        "Utilization": 3.54
+      }
+    },
+    "vessels": {
+      "Average vessels sailing": {
+        "Average Count": 38.82
+      },
+      "Average vessels waiting for berth at port": {
+        "Average Count": 0.19
+      },
+      "Average vessels being served at berth": {
+        "Average Count": 1.98
+      },
+      "TOTAL average active/port vessels": {
+        "Average Count": 41.0
+      }
+    },
+    "od": {
+      "Average_Origin_Waiting_TEU_By_OD.csv": {
+        "Busan -> Cartagena": 3.0,
+        "Busan -> Colombo": 15.0,
+        "Busan -> Hamburg": 14.0,
+        "Busan -> Ho Chi Minh City": 3.0,
+        "Busan -> Jakarta": 4.0,
+        "Busan -> Jebel Ali": 27.0,
+        "Busan -> Kaohsiung": 74.0,
+        "Busan -> Laem Chabang": 3.0,
+        "Busan -> Los Angeles": 58.0,
+        "Busan -> New Jersey": 22.0,
+        "Busan -> Piraeus": 14.0,
+        "Busan -> Qingdao": 21.0,
+        "Busan -> Rotterdam": 20.0,
+        "Busan -> Shanghai": 49.0,
+        "Busan -> Shenzhen": 25.0,
+        "Busan -> Singapore": 18.0,
+        "Busan -> Tanger Med": 8.0,
+        "Busan -> Tianjin": 12.0,
+        "Busan -> Xiamen": 14.0,
+        "Cartagena -> Busan": 2.0,
+        "Cartagena -> Colombo": 5.0,
+        "Cartagena -> Hamburg": 10.0,
+        "Cartagena -> Ho Chi Minh City": 1.0,
+        "Cartagena -> Jakarta": 1.0,
+        "Cartagena -> Jebel Ali": 5.0,
+        "Cartagena -> Kaohsiung": 1.0,
+        "Cartagena -> Laem Chabang": 1.0,
+        "Cartagena -> Los Angeles": 4.0,
+        "Cartagena -> New Jersey": 28.0,
+        "Cartagena -> Piraeus": 8.0,
+        "Cartagena -> Qingdao": 3.0,
+        "Cartagena -> Rotterdam": 16.0,
+        "Cartagena -> Shanghai": 8.0,
+        "Cartagena -> Shenzhen": 7.0,
+        "Cartagena -> Singapore": 5.0,
+        "Cartagena -> Tanger Med": 10.0,
+        "Cartagena -> Tianjin": 1.0,
+        "Cartagena -> Xiamen": 2.0,
+        "Colombo -> Busan": 16.0,
+        "Colombo -> Cartagena": 14.0,
+        "Colombo -> Hamburg": 21.0,
+        "Colombo -> Ho Chi Minh City": 8.0,
+        "Colombo -> Jakarta": 10.0,
+        "Colombo -> Jebel Ali": 74.0,
+        "Colombo -> Kaohsiung": 10.0,
+        "Colombo -> Laem Chabang": 8.0,
+        "Colombo -> Los Angeles": 8.0,
+        "Colombo -> New Jersey": 42.0,
+        "Colombo -> Piraeus": 22.0,
+        "Colombo -> Qingdao": 12.0,
+        "Colombo -> Rotterdam": 33.0,
+        "Colombo -> Shanghai": 41.0,
+        "Colombo -> Shenzhen": 42.0,
+        "Colombo -> Singapore": 38.0,
+        "Colombo -> Tanger Med": 19.0,
+        "Colombo -> Tianjin": 4.0,
+        "Colombo -> Xiamen": 12.0,
+        "Hamburg -> Busan": 8.0,
+        "Hamburg -> Cartagena": 10.0,
+        "Hamburg -> Colombo": 22.0,
+        "Hamburg -> Ho Chi Minh City": 2.0,
+        "Hamburg -> Jakarta": 3.0,
+        "Hamburg -> Jebel Ali": 34.0,
+        "Hamburg -> Kaohsiung": 5.0,
+        "Hamburg -> Laem Chabang": 2.0,
+        "Hamburg -> Los Angeles": 6.0,
+        "Hamburg -> New Jersey": 25.0,
+        "Hamburg -> Piraeus": 20.0,
+        "Hamburg -> Qingdao": 7.0,
+        "Hamburg -> Rotterdam": 29.0,
+        "Hamburg -> Shanghai": 26.0,
+        "Hamburg -> Shenzhen": 26.0,
+        "Hamburg -> Singapore": 13.0,
+        "Hamburg -> Tanger Med": 24.0,
+        "Hamburg -> Tianjin": 3.0,
+        "Hamburg -> Xiamen": 7.0,
+        "Ho Chi Minh City -> Busan": 1.0,
+        "Ho Chi Minh City -> Cartagena": 1.0,
+        "Ho Chi Minh City -> Colombo": 4.0,
+        "Ho Chi Minh City -> Hamburg": 2.0,
+        "Ho Chi Minh City -> Jakarta": 3.0,
+        "Ho Chi Minh City -> Jebel Ali": 6.0,
+        "Ho Chi Minh City -> Kaohsiung": 1.0,
+        "Ho Chi Minh City -> Laem Chabang": 3.0,
+        "Ho Chi Minh City -> Los Angeles": 3.0,
+        "Ho Chi Minh City -> New Jersey": 2.0,
+        "Ho Chi Minh City -> Piraeus": 2.0,
+        "Ho Chi Minh City -> Qingdao": 1.0,
+        "Ho Chi Minh City -> Rotterdam": 3.0,
+        "Ho Chi Minh City -> Shanghai": 7.0,
+        "Ho Chi Minh City -> Shenzhen": 6.0,
+        "Ho Chi Minh City -> Singapore": 9.0,
+        "Ho Chi Minh City -> Tanger Med": 2.0,
+        "Ho Chi Minh City -> Tianjin": 1.0,
+        "Ho Chi Minh City -> Xiamen": 1.0,
+        "Jakarta -> Busan": 1.0,
+        "Jakarta -> Cartagena": 1.0,
+        "Jakarta -> Colombo": 3.0,
+        "Jakarta -> Hamburg": 2.0,
+        "Jakarta -> Ho Chi Minh City": 1.0,
+        "Jakarta -> Jebel Ali": 5.0,
+        "Jakarta -> Kaohsiung": 1.0,
+        "Jakarta -> Laem Chabang": 2.0,
+        "Jakarta -> Los Angeles": 3.0,
+        "Jakarta -> New Jersey": 2.0,
+        "Jakarta -> Piraeus": 3.0,
+        "Jakarta -> Qingdao": 1.0,
+        "Jakarta -> Rotterdam": 3.0,
+        "Jakarta -> Shanghai": 5.0,
+        "Jakarta -> Shenzhen": 5.0,
+        "Jakarta -> Singapore": 5.0,
+        "Jakarta -> Tanger Med": 1.0,
+        "Jakarta -> Tianjin": 1.0,
+        "Jakarta -> Xiamen": 1.0,
+        "Jebel Ali -> Busan": 16.0,
+        "Jebel Ali -> Cartagena": 5.0,
+        "Jebel Ali -> Colombo": 69.0,
+        "Jebel Ali -> Hamburg": 29.0,
+        "Jebel Ali -> Ho Chi Minh City": 7.0,
+        "Jebel Ali -> Jakarta": 9.0,
+        "Jebel Ali -> Kaohsiung": 10.0,
+        "Jebel Ali -> Laem Chabang": 6.0,
+        "Jebel Ali -> Los Angeles": 15.0,
+        "Jebel Ali -> New Jersey": 14.0,
+        "Jebel Ali -> Piraeus": 23.0,
+        "Jebel Ali -> Qingdao": 11.0,
+        "Jebel Ali -> Rotterdam": 40.0,
+        "Jebel Ali -> Shanghai": 28.0,
+        "Jebel Ali -> Shenzhen": 29.0,
+        "Jebel Ali -> Singapore": 32.0,
+        "Jebel Ali -> Tanger Med": 34.0,
+        "Jebel Ali -> Tianjin": 3.0,
+        "Jebel Ali -> Xiamen": 11.0,
+        "Kaohsiung -> Busan": 26.0,
+        "Kaohsiung -> Cartagena": 2.0,
+        "Kaohsiung -> Colombo": 5.0,
+        "Kaohsiung -> Hamburg": 6.0,
+        "Kaohsiung -> Ho Chi Minh City": 2.0,
+        "Kaohsiung -> Jakarta": 2.0,
+        "Kaohsiung -> Jebel Ali": 7.0,
+        "Kaohsiung -> Laem Chabang": 2.0,
+        "Kaohsiung -> Los Angeles": 49.0,
+        "Kaohsiung -> New Jersey": 8.0,
+        "Kaohsiung -> Piraeus": 5.0,
+        "Kaohsiung -> Qingdao": 10.0,
+        "Kaohsiung -> Rotterdam": 8.0,
+        "Kaohsiung -> Shanghai": 18.0,
+        "Kaohsiung -> Shenzhen": 8.0,
+        "Kaohsiung -> Singapore": 7.0,
+        "Kaohsiung -> Tanger Med": 4.0,
+        "Kaohsiung -> Tianjin": 9.0,
+        "Kaohsiung -> Xiamen": 4.0,
+        "Laem Chabang -> Busan": 1.0,
+        "Laem Chabang -> Cartagena": 1.0,
+        "Laem Chabang -> Colombo": 3.0,
+        "Laem Chabang -> Hamburg": 2.0,
+        "Laem Chabang -> Ho Chi Minh City": 1.0,
+        "Laem Chabang -> Jakarta": 4.0,
+        "Laem Chabang -> Jebel Ali": 6.0,
+        "Laem Chabang -> Kaohsiung": 1.0,
+        "Laem Chabang -> Los Angeles": 3.0,
+        "Laem Chabang -> New Jersey": 2.0,
+        "Laem Chabang -> Piraeus": 3.0,
+        "Laem Chabang -> Qingdao": 1.0,
+        "Laem Chabang -> Rotterdam": 3.0,
+        "Laem Chabang -> Shanghai": 6.0,
+        "Laem Chabang -> Shenzhen": 7.0,
+        "Laem Chabang -> Singapore": 10.0,
+        "Laem Chabang -> Tanger Med": 2.0,
+        "Laem Chabang -> Tianjin": 1.0,
+        "Laem Chabang -> Xiamen": 1.0,
+        "Los Angeles -> Busan": 28.0,
+        "Los Angeles -> Cartagena": 8.0,
+        "Los Angeles -> Colombo": 10.0,
+        "Los Angeles -> Hamburg": 7.0,
+        "Los Angeles -> Ho Chi Minh City": 3.0,
+        "Los Angeles -> Jakarta": 4.0,
+        "Los Angeles -> Jebel Ali": 15.0,
+        "Los Angeles -> Kaohsiung": 16.0,
+        "Los Angeles -> Laem Chabang": 3.0,
+        "Los Angeles -> New Jersey": 29.0,
+        "Los Angeles -> Piraeus": 7.0,
+        "Los Angeles -> Qingdao": 22.0,
+        "Los Angeles -> Rotterdam": 11.0,
+        "Los Angeles -> Shanghai": 58.0,
+        "Los Angeles -> Shenzhen": 31.0,
+        "Los Angeles -> Singapore": 12.0,
+        "Los Angeles -> Tanger Med": 4.0,
+        "Los Angeles -> Tianjin": 9.0,
+        "Los Angeles -> Xiamen": 17.0,
+        "New Jersey -> Busan": 10.0,
+        "New Jersey -> Cartagena": 36.0,
+        "New Jersey -> Colombo": 21.0,
+        "New Jersey -> Hamburg": 25.0,
+        "New Jersey -> Ho Chi Minh City": 2.0,
+        "New Jersey -> Jakarta": 3.0,
+        "New Jersey -> Jebel Ali": 11.0,
+        "New Jersey -> Kaohsiung": 8.0,
+        "New Jersey -> Laem Chabang": 2.0,
+        "New Jersey -> Los Angeles": 30.0,
+        "New Jersey -> Piraeus": 16.0,
+        "New Jersey -> Qingdao": 9.0,
+        "New Jersey -> Rotterdam": 31.0,
+        "New Jersey -> Shanghai": 31.0,
+        "New Jersey -> Shenzhen": 26.0,
+        "New Jersey -> Singapore": 10.0,
+        "New Jersey -> Tanger Med": 11.0,
+        "New Jersey -> Tianjin": 3.0,
+        "New Jersey -> Xiamen": 8.0,
+        "Piraeus -> Busan": 8.0,
+        "Piraeus -> Cartagena": 10.0,
+        "Piraeus -> Colombo": 19.0,
+        "Piraeus -> Hamburg": 12.0,
+        "Piraeus -> Ho Chi Minh City": 2.0,
+        "Piraeus -> Jakarta": 2.0,
+        "Piraeus -> Jebel Ali": 30.0,
+        "Piraeus -> Kaohsiung": 4.0,
+        "Piraeus -> Laem Chabang": 2.0,
+        "Piraeus -> Los Angeles": 5.0,
+        "Piraeus -> New Jersey": 18.0,
+        "Piraeus -> Qingdao": 6.0,
+        "Piraeus -> Rotterdam": 29.0,
+        "Piraeus -> Shanghai": 22.0,
+        "Piraeus -> Shenzhen": 20.0,
+        "Piraeus -> Singapore": 11.0,
+        "Piraeus -> Tanger Med": 26.0,
+        "Piraeus -> Tianjin": 2.0,
+        "Piraeus -> Xiamen": 6.0,
+        "Qingdao -> Busan": 11.0,
+        "Qingdao -> Cartagena": 3.0,
+        "Qingdao -> Colombo": 10.0,
+        "Qingdao -> Hamburg": 9.0,
+        "Qingdao -> Ho Chi Minh City": 2.0,
+        "Qingdao -> Jakarta": 3.0,
+        "Qingdao -> Jebel Ali": 15.0,
+        "Qingdao -> Kaohsiung": 11.0,
+        "Qingdao -> Laem Chabang": 2.0,
+        "Qingdao -> Los Angeles": 52.0,
+        "Qingdao -> New Jersey": 13.0,
+        "Qingdao -> Piraeus": 10.0,
+        "Qingdao -> Rotterdam": 11.0,
+        "Qingdao -> Shanghai": 28.0,
+        "Qingdao -> Shenzhen": 10.0,
+        "Qingdao -> Singapore": 12.0,
+        "Qingdao -> Tanger Med": 6.0,
+        "Qingdao -> Tianjin": 4.0,
+        "Qingdao -> Xiamen": 0.0,
+        "Rotterdam -> Busan": 11.0,
+        "Rotterdam -> Cartagena": 15.0,
+        "Rotterdam -> Colombo": 35.0,
+        "Rotterdam -> Hamburg": 17.0,
+        "Rotterdam -> Ho Chi Minh City": 4.0,
+        "Rotterdam -> Jakarta": 5.0,
+        "Rotterdam -> Jebel Ali": 50.0,
+        "Rotterdam -> Kaohsiung": 8.0,
+        "Rotterdam -> Laem Chabang": 4.0,
+        "Rotterdam -> Los Angeles": 10.0,
+        "Rotterdam -> New Jersey": 38.0,
+        "Rotterdam -> Piraeus": 20.0,
+        "Rotterdam -> Qingdao": 11.0,
+        "Rotterdam -> Shanghai": 39.0,
+        "Rotterdam -> Shenzhen": 35.0,
+        "Rotterdam -> Singapore": 17.0,
+        "Rotterdam -> Tanger Med": 39.0,
+        "Rotterdam -> Tianjin": 4.0,
+        "Rotterdam -> Xiamen": 11.0,
+        "Shanghai -> Busan": 30.0,
+        "Shanghai -> Cartagena": 16.0,
+        "Shanghai -> Colombo": 31.0,
+        "Shanghai -> Hamburg": 35.0,
+        "Shanghai -> Ho Chi Minh City": 9.0,
+        "Shanghai -> Jakarta": 11.0,
+        "Shanghai -> Jebel Ali": 38.0,
+        "Shanghai -> Kaohsiung": 20.0,
+        "Shanghai -> Laem Chabang": 9.0,
+        "Shanghai -> Los Angeles": 75.0,
+        "Shanghai -> New Jersey": 73.0,
+        "Shanghai -> Piraeus": 28.0,
+        "Shanghai -> Qingdao": 27.0,
+        "Shanghai -> Rotterdam": 41.0,
+        "Shanghai -> Shenzhen": 24.0,
+        "Shanghai -> Singapore": 41.0,
+        "Shanghai -> Tanger Med": 18.0,
+        "Shanghai -> Tianjin": 17.0,
+        "Shanghai -> Xiamen": 11.0,
+        "Shenzhen -> Busan": 34.0,
+        "Shenzhen -> Cartagena": 15.0,
+        "Shenzhen -> Colombo": 35.0,
+        "Shenzhen -> Hamburg": 38.0,
+        "Shenzhen -> Ho Chi Minh City": 9.0,
+        "Shenzhen -> Jakarta": 13.0,
+        "Shenzhen -> Jebel Ali": 55.0,
+        "Shenzhen -> Kaohsiung": 22.0,
+        "Shenzhen -> Laem Chabang": 10.0,
+        "Shenzhen -> Los Angeles": 31.0,
+        "Shenzhen -> New Jersey": 81.0,
+        "Shenzhen -> Piraeus": 33.0,
+        "Shenzhen -> Qingdao": 8.0,
+        "Shenzhen -> Rotterdam": 49.0,
+        "Shenzhen -> Shanghai": 19.0,
+        "Shenzhen -> Singapore": 46.0,
+        "Shenzhen -> Tanger Med": 18.0,
+        "Shenzhen -> Tianjin": 7.0,
+        "Shenzhen -> Xiamen": 3.0,
+        "Singapore -> Busan": 17.0,
+        "Singapore -> Cartagena": 13.0,
+        "Singapore -> Colombo": 37.0,
+        "Singapore -> Hamburg": 19.0,
+        "Singapore -> Ho Chi Minh City": 5.0,
+        "Singapore -> Jakarta": 7.0,
+        "Singapore -> Jebel Ali": 59.0,
+        "Singapore -> Kaohsiung": 12.0,
+        "Singapore -> Laem Chabang": 5.0,
+        "Singapore -> Los Angeles": 32.0,
+        "Singapore -> New Jersey": 38.0,
+        "Singapore -> Piraeus": 18.0,
+        "Singapore -> Qingdao": 16.0,
+        "Singapore -> Rotterdam": 28.0,
+        "Singapore -> Shanghai": 56.0,
+        "Singapore -> Shenzhen": 56.0,
+        "Singapore -> Tanger Med": 15.0,
+        "Singapore -> Tianjin": 4.0,
+        "Singapore -> Xiamen": 16.0,
+        "Tanger Med -> Busan": 6.0,
+        "Tanger Med -> Cartagena": 10.0,
+        "Tanger Med -> Colombo": 20.0,
+        "Tanger Med -> Hamburg": 15.0,
+        "Tanger Med -> Ho Chi Minh City": 2.0,
+        "Tanger Med -> Jakarta": 4.0,
+        "Tanger Med -> Jebel Ali": 28.0,
+        "Tanger Med -> Kaohsiung": 4.0,
+        "Tanger Med -> Laem Chabang": 2.0,
+        "Tanger Med -> Los Angeles": 4.0,
+        "Tanger Med -> New Jersey": 11.0,
+        "Tanger Med -> Piraeus": 16.0,
+        "Tanger Med -> Qingdao": 5.0,
+        "Tanger Med -> Rotterdam": 21.0,
+        "Tanger Med -> Shanghai": 19.0,
+        "Tanger Med -> Shenzhen": 18.0,
+        "Tanger Med -> Singapore": 12.0,
+        "Tanger Med -> Tianjin": 2.0,
+        "Tanger Med -> Xiamen": 5.0,
+        "Tianjin -> Busan": 9.0,
+        "Tianjin -> Cartagena": 2.0,
+        "Tianjin -> Colombo": 8.0,
+        "Tianjin -> Hamburg": 8.0,
+        "Tianjin -> Ho Chi Minh City": 1.0,
+        "Tianjin -> Jakarta": 2.0,
+        "Tianjin -> Jebel Ali": 14.0,
+        "Tianjin -> Kaohsiung": 6.0,
+        "Tianjin -> Laem Chabang": 2.0,
+        "Tianjin -> Los Angeles": 20.0,
+        "Tianjin -> New Jersey": 10.0,
+        "Tianjin -> Piraeus": 7.0,
+        "Tianjin -> Qingdao": 10.0,
+        "Tianjin -> Rotterdam": 12.0,
+        "Tianjin -> Shanghai": 22.0,
+        "Tianjin -> Shenzhen": 7.0,
+        "Tianjin -> Singapore": 11.0,
+        "Tianjin -> Tanger Med": 4.0,
+        "Tianjin -> Xiamen": 0.0,
+        "Xiamen -> Busan": 19.0,
+        "Xiamen -> Cartagena": 3.0,
+        "Xiamen -> Colombo": 13.0,
+        "Xiamen -> Hamburg": 13.0,
+        "Xiamen -> Ho Chi Minh City": 2.0,
+        "Xiamen -> Jakarta": 3.0,
+        "Xiamen -> Jebel Ali": 21.0,
+        "Xiamen -> Kaohsiung": 13.0,
+        "Xiamen -> Laem Chabang": 3.0,
+        "Xiamen -> Los Angeles": 16.0,
+        "Xiamen -> New Jersey": 16.0,
+        "Xiamen -> Piraeus": 11.0,
+        "Xiamen -> Qingdao": 5.0,
+        "Xiamen -> Rotterdam": 17.0,
+        "Xiamen -> Shanghai": 13.0,
+        "Xiamen -> Shenzhen": 46.0,
+        "Xiamen -> Singapore": 16.0,
+        "Xiamen -> Tanger Med": 7.0,
+        "Xiamen -> Tianjin": 0.0
+      },
+      "Average_In_Transit_TEU_By_OD.csv": {
+        "Busan -> Cartagena": 33.0,
+        "Busan -> Colombo": 64.0,
+        "Busan -> Hamburg": 125.0,
+        "Busan -> Ho Chi Minh City": 11.0,
+        "Busan -> Jakarta": 15.0,
+        "Busan -> Jebel Ali": 172.0,
+        "Busan -> Kaohsiung": 128.0,
+        "Busan -> Laem Chabang": 12.0,
+        "Busan -> Los Angeles": 178.0,
+        "Busan -> New Jersey": 230.0,
+        "Busan -> Piraeus": 89.0,
+        "Busan -> Qingdao": 12.0,
+        "Busan -> Rotterdam": 160.0,
+        "Busan -> Shanghai": 51.0,
+        "Busan -> Shenzhen": 39.0,
+        "Busan -> Singapore": 61.0,
+        "Busan -> Tanger Med": 60.0,
+        "Busan -> Tianjin": 5.0,
+        "Busan -> Xiamen": 20.0,
+        "Cartagena -> Busan": 24.0,
+        "Cartagena -> Colombo": 41.0,
+        "Cartagena -> Hamburg": 39.0,
+        "Cartagena -> Ho Chi Minh City": 9.0,
+        "Cartagena -> Jakarta": 12.0,
+        "Cartagena -> Jebel Ali": 48.0,
+        "Cartagena -> Kaohsiung": 15.0,
+        "Cartagena -> Laem Chabang": 10.0,
+        "Cartagena -> Los Angeles": 62.0,
+        "Cartagena -> New Jersey": 33.0,
+        "Cartagena -> Piraeus": 41.0,
+        "Cartagena -> Qingdao": 33.0,
+        "Cartagena -> Rotterdam": 54.0,
+        "Cartagena -> Shanghai": 81.0,
+        "Cartagena -> Shenzhen": 73.0,
+        "Cartagena -> Singapore": 39.0,
+        "Cartagena -> Tanger Med": 32.0,
+        "Cartagena -> Tianjin": 17.0,
+        "Cartagena -> Xiamen": 19.0,
+        "Colombo -> Busan": 63.0,
+        "Colombo -> Cartagena": 42.0,
+        "Colombo -> Hamburg": 86.0,
+        "Colombo -> Ho Chi Minh City": 12.0,
+        "Colombo -> Jakarta": 13.0,
+        "Colombo -> Jebel Ali": 63.0,
+        "Colombo -> Kaohsiung": 36.0,
+        "Colombo -> Laem Chabang": 15.0,
+        "Colombo -> Los Angeles": 55.0,
+        "Colombo -> New Jersey": 94.0,
+        "Colombo -> Piraeus": 45.0,
+        "Colombo -> Qingdao": 55.0,
+        "Colombo -> Rotterdam": 123.0,
+        "Colombo -> Shanghai": 81.0,
+        "Colombo -> Shenzhen": 96.0,
+        "Colombo -> Singapore": 31.0,
+        "Colombo -> Tanger Med": 60.0,
+        "Colombo -> Tianjin": 16.0,
+        "Colombo -> Xiamen": 39.0,
+        "Hamburg -> Busan": 59.0,
+        "Hamburg -> Cartagena": 37.0,
+        "Hamburg -> Colombo": 88.0,
+        "Hamburg -> Ho Chi Minh City": 13.0,
+        "Hamburg -> Jakarta": 16.0,
+        "Hamburg -> Jebel Ali": 169.0,
+        "Hamburg -> Kaohsiung": 37.0,
+        "Hamburg -> Laem Chabang": 13.0,
+        "Hamburg -> Los Angeles": 70.0,
+        "Hamburg -> New Jersey": 68.0,
+        "Hamburg -> Piraeus": 29.0,
+        "Hamburg -> Qingdao": 58.0,
+        "Hamburg -> Rotterdam": 7.0,
+        "Hamburg -> Shanghai": 152.0,
+        "Hamburg -> Shenzhen": 161.0,
+        "Hamburg -> Singapore": 56.0,
+        "Hamburg -> Tanger Med": 22.0,
+        "Hamburg -> Tianjin": 26.0,
+        "Hamburg -> Xiamen": 50.0,
+        "Ho Chi Minh City -> Busan": 14.0,
+        "Ho Chi Minh City -> Cartagena": 14.0,
+        "Ho Chi Minh City -> Colombo": 23.0,
+        "Ho Chi Minh City -> Hamburg": 32.0,
+        "Ho Chi Minh City -> Jakarta": 10.0,
+        "Ho Chi Minh City -> Jebel Ali": 47.0,
+        "Ho Chi Minh City -> Kaohsiung": 9.0,
+        "Ho Chi Minh City -> Laem Chabang": 2.0,
+        "Ho Chi Minh City -> Los Angeles": 49.0,
+        "Ho Chi Minh City -> New Jersey": 33.0,
+        "Ho Chi Minh City -> Piraeus": 18.0,
+        "Ho Chi Minh City -> Qingdao": 16.0,
+        "Ho Chi Minh City -> Rotterdam": 48.0,
+        "Ho Chi Minh City -> Shanghai": 41.0,
+        "Ho Chi Minh City -> Shenzhen": 43.0,
+        "Ho Chi Minh City -> Singapore": 14.0,
+        "Ho Chi Minh City -> Tanger Med": 20.0,
+        "Ho Chi Minh City -> Tianjin": 8.0,
+        "Ho Chi Minh City -> Xiamen": 12.0,
+        "Jakarta -> Busan": 18.0,
+        "Jakarta -> Cartagena": 19.0,
+        "Jakarta -> Colombo": 28.0,
+        "Jakarta -> Hamburg": 37.0,
+        "Jakarta -> Ho Chi Minh City": 6.0,
+        "Jakarta -> Jebel Ali": 58.0,
+        "Jakarta -> Kaohsiung": 10.0,
+        "Jakarta -> Laem Chabang": 7.0,
+        "Jakarta -> Los Angeles": 66.0,
+        "Jakarta -> New Jersey": 47.0,
+        "Jakarta -> Piraeus": 34.0,
+        "Jakarta -> Qingdao": 17.0,
+        "Jakarta -> Rotterdam": 58.0,
+        "Jakarta -> Shanghai": 47.0,
+        "Jakarta -> Shenzhen": 55.0,
+        "Jakarta -> Singapore": 5.0,
+        "Jakarta -> Tanger Med": 23.0,
+        "Jakarta -> Tianjin": 10.0,
+        "Jakarta -> Xiamen": 14.0,
+        "Jebel Ali -> Busan": 83.0,
+        "Jebel Ali -> Cartagena": 28.0,
+        "Jebel Ali -> Colombo": 62.0,
+        "Jebel Ali -> Hamburg": 108.0,
+        "Jebel Ali -> Ho Chi Minh City": 16.0,
+        "Jebel Ali -> Jakarta": 21.0,
+        "Jebel Ali -> Kaohsiung": 51.0,
+        "Jebel Ali -> Laem Chabang": 17.0,
+        "Jebel Ali -> Los Angeles": 117.0,
+        "Jebel Ali -> New Jersey": 76.0,
+        "Jebel Ali -> Piraeus": 37.0,
+        "Jebel Ali -> Qingdao": 62.0,
+        "Jebel Ali -> Rotterdam": 160.0,
+        "Jebel Ali -> Shanghai": 101.0,
+        "Jebel Ali -> Shenzhen": 111.0,
+        "Jebel Ali -> Singapore": 54.0,
+        "Jebel Ali -> Tanger Med": 113.0,
+        "Jebel Ali -> Tianjin": 18.0,
+        "Jebel Ali -> Xiamen": 53.0,
+        "Kaohsiung -> Busan": 15.0,
+        "Kaohsiung -> Cartagena": 23.0,
+        "Kaohsiung -> Colombo": 24.0,
+        "Kaohsiung -> Hamburg": 61.0,
+        "Kaohsiung -> Ho Chi Minh City": 9.0,
+        "Kaohsiung -> Jakarta": 10.0,
+        "Kaohsiung -> Jebel Ali": 51.0,
+        "Kaohsiung -> Laem Chabang": 10.0,
+        "Kaohsiung -> Los Angeles": 134.0,
+        "Kaohsiung -> New Jersey": 82.0,
+        "Kaohsiung -> Piraeus": 36.0,
+        "Kaohsiung -> Qingdao": 11.0,
+        "Kaohsiung -> Rotterdam": 68.0,
+        "Kaohsiung -> Shanghai": 28.0,
+        "Kaohsiung -> Shenzhen": 17.0,
+        "Kaohsiung -> Singapore": 25.0,
+        "Kaohsiung -> Tanger Med": 30.0,
+        "Kaohsiung -> Tianjin": 8.0,
+        "Kaohsiung -> Xiamen": 8.0,
+        "Laem Chabang -> Busan": 14.0,
+        "Laem Chabang -> Cartagena": 15.0,
+        "Laem Chabang -> Colombo": 20.0,
+        "Laem Chabang -> Hamburg": 30.0,
+        "Laem Chabang -> Ho Chi Minh City": 2.0,
+        "Laem Chabang -> Jakarta": 9.0,
+        "Laem Chabang -> Jebel Ali": 48.0,
+        "Laem Chabang -> Kaohsiung": 8.0,
+        "Laem Chabang -> Los Angeles": 56.0,
+        "Laem Chabang -> New Jersey": 35.0,
+        "Laem Chabang -> Piraeus": 25.0,
+        "Laem Chabang -> Qingdao": 15.0,
+        "Laem Chabang -> Rotterdam": 44.0,
+        "Laem Chabang -> Shanghai": 37.0,
+        "Laem Chabang -> Shenzhen": 42.0,
+        "Laem Chabang -> Singapore": 10.0,
+        "Laem Chabang -> Tanger Med": 20.0,
+        "Laem Chabang -> Tianjin": 9.0,
+        "Laem Chabang -> Xiamen": 11.0,
+        "Los Angeles -> Busan": 87.0,
+        "Los Angeles -> Cartagena": 88.0,
+        "Los Angeles -> Colombo": 55.0,
+        "Los Angeles -> Hamburg": 64.0,
+        "Los Angeles -> Ho Chi Minh City": 16.0,
+        "Los Angeles -> Jakarta": 20.0,
+        "Los Angeles -> Jebel Ali": 106.0,
+        "Los Angeles -> Kaohsiung": 53.0,
+        "Los Angeles -> Laem Chabang": 17.0,
+        "Los Angeles -> New Jersey": 312.0,
+        "Los Angeles -> Piraeus": 50.0,
+        "Los Angeles -> Qingdao": 79.0,
+        "Los Angeles -> Rotterdam": 95.0,
+        "Los Angeles -> Shanghai": 152.0,
+        "Los Angeles -> Shenzhen": 129.0,
+        "Los Angeles -> Singapore": 54.0,
+        "Los Angeles -> Tanger Med": 38.0,
+        "Los Angeles -> Tianjin": 31.0,
+        "Los Angeles -> Xiamen": 63.0,
+        "New Jersey -> Busan": 71.0,
+        "New Jersey -> Cartagena": 42.0,
+        "New Jersey -> Colombo": 87.0,
+        "New Jersey -> Hamburg": 68.0,
+        "New Jersey -> Ho Chi Minh City": 12.0,
+        "New Jersey -> Jakarta": 13.0,
+        "New Jersey -> Jebel Ali": 87.0,
+        "New Jersey -> Kaohsiung": 50.0,
+        "New Jersey -> Laem Chabang": 11.0,
+        "New Jersey -> Los Angeles": 282.0,
+        "New Jersey -> Piraeus": 59.0,
+        "New Jersey -> Qingdao": 71.0,
+        "New Jersey -> Rotterdam": 77.0,
+        "New Jersey -> Shanghai": 171.0,
+        "New Jersey -> Shenzhen": 163.0,
+        "New Jersey -> Singapore": 46.0,
+        "New Jersey -> Tanger Med": 21.0,
+        "New Jersey -> Tianjin": 26.0,
+        "New Jersey -> Xiamen": 55.0,
+        "Piraeus -> Busan": 43.0,
+        "Piraeus -> Cartagena": 38.0,
+        "Piraeus -> Colombo": 42.0,
+        "Piraeus -> Hamburg": 18.0,
+        "Piraeus -> Ho Chi Minh City": 8.0,
+        "Piraeus -> Jakarta": 8.0,
+        "Piraeus -> Jebel Ali": 48.0,
+        "Piraeus -> Kaohsiung": 25.0,
+        "Piraeus -> Laem Chabang": 7.0,
+        "Piraeus -> Los Angeles": 47.0,
+        "Piraeus -> New Jersey": 55.0,
+        "Piraeus -> Qingdao": 40.0,
+        "Piraeus -> Rotterdam": 38.0,
+        "Piraeus -> Shanghai": 91.0,
+        "Piraeus -> Shenzhen": 89.0,
+        "Piraeus -> Singapore": 31.0,
+        "Piraeus -> Tanger Med": 20.0,
+        "Piraeus -> Tianjin": 15.0,
+        "Piraeus -> Xiamen": 30.0,
+        "Qingdao -> Busan": 5.0,
+        "Qingdao -> Cartagena": 30.0,
+        "Qingdao -> Colombo": 39.0,
+        "Qingdao -> Hamburg": 69.0,
+        "Qingdao -> Ho Chi Minh City": 8.0,
+        "Qingdao -> Jakarta": 11.0,
+        "Qingdao -> Jebel Ali": 89.0,
+        "Qingdao -> Kaohsiung": 12.0,
+        "Qingdao -> Laem Chabang": 8.0,
+        "Qingdao -> Los Angeles": 187.0,
+        "Qingdao -> New Jersey": 130.0,
+        "Qingdao -> Piraeus": 60.0,
+        "Qingdao -> Rotterdam": 84.0,
+        "Qingdao -> Shanghai": 8.0,
+        "Qingdao -> Shenzhen": 8.0,
+        "Qingdao -> Singapore": 36.0,
+        "Qingdao -> Tanger Med": 44.0,
+        "Qingdao -> Tianjin": 8.0,
+        "Qingdao -> Xiamen": 0.0,
+        "Rotterdam -> Busan": 90.0,
+        "Rotterdam -> Cartagena": 55.0,
+        "Rotterdam -> Colombo": 128.0,
+        "Rotterdam -> Hamburg": 4.0,
+        "Rotterdam -> Ho Chi Minh City": 19.0,
+        "Rotterdam -> Jakarta": 25.0,
+        "Rotterdam -> Jebel Ali": 241.0,
+        "Rotterdam -> Kaohsiung": 59.0,
+        "Rotterdam -> Laem Chabang": 22.0,
+        "Rotterdam -> Los Angeles": 107.0,
+        "Rotterdam -> New Jersey": 100.0,
+        "Rotterdam -> Piraeus": 25.0,
+        "Rotterdam -> Qingdao": 93.0,
+        "Rotterdam -> Shanghai": 217.0,
+        "Rotterdam -> Shenzhen": 219.0,
+        "Rotterdam -> Singapore": 76.0,
+        "Rotterdam -> Tanger Med": 28.0,
+        "Rotterdam -> Tianjin": 33.0,
+        "Rotterdam -> Xiamen": 68.0,
+        "Shanghai -> Busan": 40.0,
+        "Shanghai -> Cartagena": 72.0,
+        "Shanghai -> Colombo": 61.0,
+        "Shanghai -> Hamburg": 207.0,
+        "Shanghai -> Ho Chi Minh City": 18.0,
+        "Shanghai -> Jakarta": 21.0,
+        "Shanghai -> Jebel Ali": 150.0,
+        "Shanghai -> Kaohsiung": 17.0,
+        "Shanghai -> Laem Chabang": 20.0,
+        "Shanghai -> Los Angeles": 259.0,
+        "Shanghai -> New Jersey": 280.0,
+        "Shanghai -> Piraeus": 117.0,
+        "Shanghai -> Qingdao": 51.0,
+        "Shanghai -> Rotterdam": 241.0,
+        "Shanghai -> Shenzhen": 14.0,
+        "Shanghai -> Singapore": 53.0,
+        "Shanghai -> Tanger Med": 97.0,
+        "Shanghai -> Tianjin": 31.0,
+        "Shanghai -> Xiamen": 4.0,
+        "Shenzhen -> Busan": 29.0,
+        "Shenzhen -> Cartagena": 60.0,
+        "Shenzhen -> Colombo": 54.0,
+        "Shenzhen -> Hamburg": 208.0,
+        "Shenzhen -> Ho Chi Minh City": 15.0,
+        "Shenzhen -> Jakarta": 18.0,
+        "Shenzhen -> Jebel Ali": 192.0,
+        "Shenzhen -> Kaohsiung": 7.0,
+        "Shenzhen -> Laem Chabang": 18.0,
+        "Shenzhen -> Los Angeles": 152.0,
+        "Shenzhen -> New Jersey": 277.0,
+        "Shenzhen -> Piraeus": 119.0,
+        "Shenzhen -> Qingdao": 11.0,
+        "Shenzhen -> Rotterdam": 272.0,
+        "Shenzhen -> Shanghai": 36.0,
+        "Shenzhen -> Singapore": 38.0,
+        "Shenzhen -> Tanger Med": 79.0,
+        "Shenzhen -> Tianjin": 8.0,
+        "Shenzhen -> Xiamen": 6.0,
+        "Singapore -> Busan": 57.0,
+        "Singapore -> Cartagena": 45.0,
+        "Singapore -> Colombo": 28.0,
+        "Singapore -> Hamburg": 95.0,
+        "Singapore -> Ho Chi Minh City": 4.0,
+        "Singapore -> Jakarta": 8.0,
+        "Singapore -> Jebel Ali": 96.0,
+        "Singapore -> Kaohsiung": 32.0,
+        "Singapore -> Laem Chabang": 7.0,
+        "Singapore -> Los Angeles": 195.0,
+        "Singapore -> New Jersey": 96.0,
+        "Singapore -> Piraeus": 54.0,
+        "Singapore -> Qingdao": 59.0,
+        "Singapore -> Rotterdam": 134.0,
+        "Singapore -> Shanghai": 67.0,
+        "Singapore -> Shenzhen": 91.0,
+        "Singapore -> Tanger Med": 62.0,
+        "Singapore -> Tianjin": 16.0,
+        "Singapore -> Xiamen": 40.0,
+        "Tanger Med -> Busan": 44.0,
+        "Tanger Med -> Cartagena": 30.0,
+        "Tanger Med -> Colombo": 62.0,
+        "Tanger Med -> Hamburg": 13.0,
+        "Tanger Med -> Ho Chi Minh City": 13.0,
+        "Tanger Med -> Jakarta": 16.0,
+        "Tanger Med -> Jebel Ali": 119.0,
+        "Tanger Med -> Kaohsiung": 23.0,
+        "Tanger Med -> Laem Chabang": 12.0,
+        "Tanger Med -> Los Angeles": 40.0,
+        "Tanger Med -> New Jersey": 21.0,
+        "Tanger Med -> Piraeus": 11.0,
+        "Tanger Med -> Qingdao": 42.0,
+        "Tanger Med -> Rotterdam": 15.0,
+        "Tanger Med -> Shanghai": 99.0,
+        "Tanger Med -> Shenzhen": 99.0,
+        "Tanger Med -> Singapore": 47.0,
+        "Tanger Med -> Tianjin": 17.0,
+        "Tanger Med -> Xiamen": 32.0,
+        "Tianjin -> Busan": 6.0,
+        "Tianjin -> Cartagena": 23.0,
+        "Tianjin -> Colombo": 32.0,
+        "Tianjin -> Hamburg": 64.0,
+        "Tianjin -> Ho Chi Minh City": 5.0,
+        "Tianjin -> Jakarta": 8.0,
+        "Tianjin -> Jebel Ali": 84.0,
+        "Tianjin -> Kaohsiung": 7.0,
+        "Tianjin -> Laem Chabang": 6.0,
+        "Tianjin -> Los Angeles": 75.0,
+        "Tianjin -> New Jersey": 99.0,
+        "Tianjin -> Piraeus": 40.0,
+        "Tianjin -> Qingdao": 2.0,
+        "Tianjin -> Rotterdam": 94.0,
+        "Tianjin -> Shanghai": 10.0,
+        "Tianjin -> Shenzhen": 7.0,
+        "Tianjin -> Singapore": 33.0,
+        "Tianjin -> Tanger Med": 32.0,
+        "Tianjin -> Xiamen": 0.0,
+        "Xiamen -> Busan": 21.0,
+        "Xiamen -> Cartagena": 30.0,
+        "Xiamen -> Colombo": 42.0,
+        "Xiamen -> Hamburg": 103.0,
+        "Xiamen -> Ho Chi Minh City": 7.0,
+        "Xiamen -> Jakarta": 9.0,
+        "Xiamen -> Jebel Ali": 119.0,
+        "Xiamen -> Kaohsiung": 6.0,
+        "Xiamen -> Laem Chabang": 9.0,
+        "Xiamen -> Los Angeles": 84.0,
+        "Xiamen -> New Jersey": 155.0,
+        "Xiamen -> Piraeus": 61.0,
+        "Xiamen -> Qingdao": 7.0,
+        "Xiamen -> Rotterdam": 126.0,
+        "Xiamen -> Shanghai": 25.0,
+        "Xiamen -> Shenzhen": 12.0,
+        "Xiamen -> Singapore": 38.0,
+        "Xiamen -> Tanger Med": 44.0,
+        "Xiamen -> Tianjin": 1.0
+      },
+      "Cumulative_Completed_TEU_By_OD.csv": {
+        "Busan -> Cartagena": 273.0,
+        "Busan -> Colombo": 1424.0,
+        "Busan -> Hamburg": 1391.0,
+        "Busan -> Ho Chi Minh City": 222.0,
+        "Busan -> Jakarta": 321.0,
+        "Busan -> Jebel Ali": 2468.0,
+        "Busan -> Kaohsiung": 6847.0,
+        "Busan -> Laem Chabang": 252.0,
+        "Busan -> Los Angeles": 5662.0,
+        "Busan -> New Jersey": 2032.0,
+        "Busan -> Piraeus": 1237.0,
+        "Busan -> Qingdao": 1900.0,
+        "Busan -> Rotterdam": 1779.0,
+        "Busan -> Shanghai": 4471.0,
+        "Busan -> Shenzhen": 2359.0,
+        "Busan -> Singapore": 1671.0,
+        "Busan -> Tanger Med": 738.0,
+        "Busan -> Tianjin": 1136.0,
+        "Busan -> Xiamen": 1303.0,
+        "Cartagena -> Busan": 194.0,
+        "Cartagena -> Colombo": 534.0,
+        "Cartagena -> Hamburg": 1045.0,
+        "Cartagena -> Ho Chi Minh City": 99.0,
+        "Cartagena -> Jakarta": 137.0,
+        "Cartagena -> Jebel Ali": 527.0,
+        "Cartagena -> Kaohsiung": 123.0,
+        "Cartagena -> Laem Chabang": 98.0,
+        "Cartagena -> Los Angeles": 424.0,
+        "Cartagena -> New Jersey": 2912.0,
+        "Cartagena -> Piraeus": 775.0,
+        "Cartagena -> Qingdao": 253.0,
+        "Cartagena -> Rotterdam": 1487.0,
+        "Cartagena -> Shanghai": 833.0,
+        "Cartagena -> Shenzhen": 710.0,
+        "Cartagena -> Singapore": 465.0,
+        "Cartagena -> Tanger Med": 1063.0,
+        "Cartagena -> Tianjin": 139.0,
+        "Cartagena -> Xiamen": 166.0,
+        "Colombo -> Busan": 1333.0,
+        "Colombo -> Cartagena": 540.0,
+        "Colombo -> Hamburg": 1826.0,
+        "Colombo -> Ho Chi Minh City": 607.0,
+        "Colombo -> Jakarta": 803.0,
+        "Colombo -> Jebel Ali": 5422.0,
+        "Colombo -> Kaohsiung": 879.0,
+        "Colombo -> Laem Chabang": 669.0,
+        "Colombo -> Los Angeles": 687.0,
+        "Colombo -> New Jersey": 1599.0,
+        "Colombo -> Piraeus": 1634.0,
+        "Colombo -> Qingdao": 1057.0,
+        "Colombo -> Rotterdam": 2704.0,
+        "Colombo -> Shanghai": 3606.0,
+        "Colombo -> Shenzhen": 3465.0,
+        "Colombo -> Singapore": 3100.0,
+        "Colombo -> Tanger Med": 1543.0,
+        "Colombo -> Tianjin": 326.0,
+        "Colombo -> Xiamen": 1048.0,
+        "Hamburg -> Busan": 654.0,
+        "Hamburg -> Cartagena": 964.0,
+        "Hamburg -> Colombo": 1880.0,
+        "Hamburg -> Ho Chi Minh City": 200.0,
+        "Hamburg -> Jakarta": 268.0,
+        "Hamburg -> Jebel Ali": 2892.0,
+        "Hamburg -> Kaohsiung": 440.0,
+        "Hamburg -> Laem Chabang": 202.0,
+        "Hamburg -> Los Angeles": 587.0,
+        "Hamburg -> New Jersey": 2420.0,
+        "Hamburg -> Piraeus": 1585.0,
+        "Hamburg -> Qingdao": 614.0,
+        "Hamburg -> Rotterdam": 2848.0,
+        "Hamburg -> Shanghai": 2274.0,
+        "Hamburg -> Shenzhen": 2179.0,
+        "Hamburg -> Singapore": 1009.0,
+        "Hamburg -> Tanger Med": 2500.0,
+        "Hamburg -> Tianjin": 280.0,
+        "Hamburg -> Xiamen": 610.0,
+        "Ho Chi Minh City -> Busan": 238.0,
+        "Ho Chi Minh City -> Cartagena": 129.0,
+        "Ho Chi Minh City -> Colombo": 738.0,
+        "Ho Chi Minh City -> Hamburg": 409.0,
+        "Ho Chi Minh City -> Jakarta": 658.0,
+        "Ho Chi Minh City -> Jebel Ali": 1119.0,
+        "Ho Chi Minh City -> Kaohsiung": 172.0,
+        "Ho Chi Minh City -> Laem Chabang": 544.0,
+        "Ho Chi Minh City -> Los Angeles": 555.0,
+        "Ho Chi Minh City -> New Jersey": 345.0,
+        "Ho Chi Minh City -> Piraeus": 318.0,
+        "Ho Chi Minh City -> Qingdao": 263.0,
+        "Ho Chi Minh City -> Rotterdam": 627.0,
+        "Ho Chi Minh City -> Shanghai": 1249.0,
+        "Ho Chi Minh City -> Shenzhen": 1150.0,
+        "Ho Chi Minh City -> Singapore": 1815.0,
+        "Ho Chi Minh City -> Tanger Med": 306.0,
+        "Ho Chi Minh City -> Tianjin": 127.0,
+        "Ho Chi Minh City -> Xiamen": 252.0,
+        "Jakarta -> Busan": 341.0,
+        "Jakarta -> Cartagena": 181.0,
+        "Jakarta -> Colombo": 1069.0,
+        "Jakarta -> Hamburg": 513.0,
+        "Jakarta -> Ho Chi Minh City": 443.0,
+        "Jakarta -> Jebel Ali": 1520.0,
+        "Jakarta -> Kaohsiung": 219.0,
+        "Jakarta -> Laem Chabang": 470.0,
+        "Jakarta -> Los Angeles": 789.0,
+        "Jakarta -> New Jersey": 513.0,
+        "Jakarta -> Piraeus": 654.0,
+        "Jakarta -> Qingdao": 297.0,
+        "Jakarta -> Rotterdam": 832.0,
+        "Jakarta -> Shanghai": 1639.0,
+        "Jakarta -> Shenzhen": 1535.0,
+        "Jakarta -> Singapore": 1471.0,
+        "Jakarta -> Tanger Med": 362.0,
+        "Jakarta -> Tianjin": 184.0,
+        "Jakarta -> Xiamen": 307.0,
+        "Jebel Ali -> Busan": 1162.0,
+        "Jebel Ali -> Cartagena": 346.0,
+        "Jebel Ali -> Colombo": 5421.0,
+        "Jebel Ali -> Hamburg": 1991.0,
+        "Jebel Ali -> Ho Chi Minh City": 515.0,
+        "Jebel Ali -> Jakarta": 738.0,
+        "Jebel Ali -> Kaohsiung": 799.0,
+        "Jebel Ali -> Laem Chabang": 527.0,
+        "Jebel Ali -> Los Angeles": 1176.0,
+        "Jebel Ali -> New Jersey": 995.0,
+        "Jebel Ali -> Piraeus": 1657.0,
+        "Jebel Ali -> Qingdao": 820.0,
+        "Jebel Ali -> Rotterdam": 3084.0,
+        "Jebel Ali -> Shanghai": 2154.0,
+        "Jebel Ali -> Shenzhen": 2090.0,
+        "Jebel Ali -> Singapore": 2561.0,
+        "Jebel Ali -> Tanger Med": 2488.0,
+        "Jebel Ali -> Tianjin": 247.0,
+        "Jebel Ali -> Xiamen": 846.0,
+        "Kaohsiung -> Busan": 2446.0,
+        "Kaohsiung -> Cartagena": 166.0,
+        "Kaohsiung -> Colombo": 454.0,
+        "Kaohsiung -> Hamburg": 633.0,
+        "Kaohsiung -> Ho Chi Minh City": 163.0,
+        "Kaohsiung -> Jakarta": 203.0,
+        "Kaohsiung -> Jebel Ali": 654.0,
+        "Kaohsiung -> Laem Chabang": 180.0,
+        "Kaohsiung -> Los Angeles": 3657.0,
+        "Kaohsiung -> New Jersey": 700.0,
+        "Kaohsiung -> Piraeus": 460.0,
+        "Kaohsiung -> Qingdao": 905.0,
+        "Kaohsiung -> Rotterdam": 706.0,
+        "Kaohsiung -> Shanghai": 1683.0,
+        "Kaohsiung -> Shenzhen": 776.0,
+        "Kaohsiung -> Singapore": 575.0,
+        "Kaohsiung -> Tanger Med": 343.0,
+        "Kaohsiung -> Tianjin": 802.0,
+        "Kaohsiung -> Xiamen": 396.0,
+        "Laem Chabang -> Busan": 254.0,
+        "Laem Chabang -> Cartagena": 138.0,
+        "Laem Chabang -> Colombo": 735.0,
+        "Laem Chabang -> Hamburg": 407.0,
+        "Laem Chabang -> Ho Chi Minh City": 223.0,
+        "Laem Chabang -> Jakarta": 747.0,
+        "Laem Chabang -> Jebel Ali": 1207.0,
+        "Laem Chabang -> Kaohsiung": 177.0,
+        "Laem Chabang -> Los Angeles": 640.0,
+        "Laem Chabang -> New Jersey": 363.0,
+        "Laem Chabang -> Piraeus": 462.0,
+        "Laem Chabang -> Qingdao": 250.0,
+        "Laem Chabang -> Rotterdam": 585.0,
+        "Laem Chabang -> Shanghai": 1235.0,
+        "Laem Chabang -> Shenzhen": 1177.0,
+        "Laem Chabang -> Singapore": 1809.0,
+        "Laem Chabang -> Tanger Med": 304.0,
+        "Laem Chabang -> Tianjin": 164.0,
+        "Laem Chabang -> Xiamen": 240.0,
+        "Los Angeles -> Busan": 2789.0,
+        "Los Angeles -> Cartagena": 584.0,
+        "Los Angeles -> Colombo": 770.0,
+        "Los Angeles -> Hamburg": 533.0,
+        "Los Angeles -> Ho Chi Minh City": 232.0,
+        "Los Angeles -> Jakarta": 291.0,
+        "Los Angeles -> Jebel Ali": 1120.0,
+        "Los Angeles -> Kaohsiung": 1256.0,
+        "Los Angeles -> Laem Chabang": 235.0,
+        "Los Angeles -> New Jersey": 2280.0,
+        "Los Angeles -> Piraeus": 521.0,
+        "Los Angeles -> Qingdao": 2120.0,
+        "Los Angeles -> Rotterdam": 807.0,
+        "Los Angeles -> Shanghai": 4453.0,
+        "Los Angeles -> Shenzhen": 2504.0,
+        "Los Angeles -> Singapore": 889.0,
+        "Los Angeles -> Tanger Med": 357.0,
+        "Los Angeles -> Tianjin": 877.0,
+        "Los Angeles -> Xiamen": 1264.0,
+        "New Jersey -> Busan": 701.0,
+        "New Jersey -> Cartagena": 3631.0,
+        "New Jersey -> Colombo": 1596.0,
+        "New Jersey -> Hamburg": 2521.0,
+        "New Jersey -> Ho Chi Minh City": 155.0,
+        "New Jersey -> Jakarta": 184.0,
+        "New Jersey -> Jebel Ali": 1109.0,
+        "New Jersey -> Kaohsiung": 531.0,
+        "New Jersey -> Laem Chabang": 134.0,
+        "New Jersey -> Los Angeles": 2133.0,
+        "New Jersey -> Piraeus": 1450.0,
+        "New Jersey -> Qingdao": 670.0,
+        "New Jersey -> Rotterdam": 3044.0,
+        "New Jersey -> Shanghai": 2216.0,
+        "New Jersey -> Shenzhen": 1989.0,
+        "New Jersey -> Singapore": 737.0,
+        "New Jersey -> Tanger Med": 1080.0,
+        "New Jersey -> Tianjin": 254.0,
+        "New Jersey -> Xiamen": 599.0,
+        "Piraeus -> Busan": 593.0,
+        "Piraeus -> Cartagena": 768.0,
+        "Piraeus -> Colombo": 1560.0,
+        "Piraeus -> Hamburg": 1014.0,
+        "Piraeus -> Ho Chi Minh City": 184.0,
+        "Piraeus -> Jakarta": 206.0,
+        "Piraeus -> Jebel Ali": 2244.0,
+        "Piraeus -> Kaohsiung": 380.0,
+        "Piraeus -> Laem Chabang": 153.0,
+        "Piraeus -> Los Angeles": 458.0,
+        "Piraeus -> New Jersey": 1416.0,
+        "Piraeus -> Qingdao": 523.0,
+        "Piraeus -> Rotterdam": 2346.0,
+        "Piraeus -> Shanghai": 1903.0,
+        "Piraeus -> Shenzhen": 1647.0,
+        "Piraeus -> Singapore": 855.0,
+        "Piraeus -> Tanger Med": 2204.0,
+        "Piraeus -> Tianjin": 206.0,
+        "Piraeus -> Xiamen": 487.0,
+        "Qingdao -> Busan": 1148.0,
+        "Qingdao -> Cartagena": 258.0,
+        "Qingdao -> Colombo": 1008.0,
+        "Qingdao -> Hamburg": 828.0,
+        "Qingdao -> Ho Chi Minh City": 200.0,
+        "Qingdao -> Jakarta": 299.0,
+        "Qingdao -> Jebel Ali": 1411.0,
+        "Qingdao -> Kaohsiung": 1067.0,
+        "Qingdao -> Laem Chabang": 198.0,
+        "Qingdao -> Los Angeles": 5234.0,
+        "Qingdao -> New Jersey": 1208.0,
+        "Qingdao -> Piraeus": 914.0,
+        "Qingdao -> Rotterdam": 1016.0,
+        "Qingdao -> Shanghai": 2612.0,
+        "Qingdao -> Shenzhen": 925.0,
+        "Qingdao -> Singapore": 1187.0,
+        "Qingdao -> Tanger Med": 582.0,
+        "Qingdao -> Tianjin": 451.0,
+        "Qingdao -> Xiamen": 45.0,
+        "Rotterdam -> Busan": 991.0,
+        "Rotterdam -> Cartagena": 1474.0,
+        "Rotterdam -> Colombo": 2854.0,
+        "Rotterdam -> Hamburg": 1747.0,
+        "Rotterdam -> Ho Chi Minh City": 307.0,
+        "Rotterdam -> Jakarta": 429.0,
+        "Rotterdam -> Jebel Ali": 4276.0,
+        "Rotterdam -> Kaohsiung": 708.0,
+        "Rotterdam -> Laem Chabang": 331.0,
+        "Rotterdam -> Los Angeles": 879.0,
+        "Rotterdam -> New Jersey": 3836.0,
+        "Rotterdam -> Piraeus": 1578.0,
+        "Rotterdam -> Qingdao": 978.0,
+        "Rotterdam -> Shanghai": 3297.0,
+        "Rotterdam -> Shenzhen": 3068.0,
+        "Rotterdam -> Singapore": 1421.0,
+        "Rotterdam -> Tanger Med": 3919.0,
+        "Rotterdam -> Tianjin": 362.0,
+        "Rotterdam -> Xiamen": 866.0,
+        "Shanghai -> Busan": 2805.0,
+        "Shanghai -> Cartagena": 752.0,
+        "Shanghai -> Colombo": 2566.0,
+        "Shanghai -> Hamburg": 2928.0,
+        "Shanghai -> Ho Chi Minh City": 743.0,
+        "Shanghai -> Jakarta": 934.0,
+        "Shanghai -> Jebel Ali": 3183.0,
+        "Shanghai -> Kaohsiung": 1913.0,
+        "Shanghai -> Laem Chabang": 769.0,
+        "Shanghai -> Los Angeles": 6045.0,
+        "Shanghai -> New Jersey": 3516.0,
+        "Shanghai -> Piraeus": 2300.0,
+        "Shanghai -> Qingdao": 2554.0,
+        "Shanghai -> Rotterdam": 3556.0,
+        "Shanghai -> Shenzhen": 2270.0,
+        "Shanghai -> Singapore": 3625.0,
+        "Shanghai -> Tanger Med": 1574.0,
+        "Shanghai -> Tianjin": 1689.0,
+        "Shanghai -> Xiamen": 982.0,
+        "Shenzhen -> Busan": 3215.0,
+        "Shenzhen -> Cartagena": 658.0,
+        "Shenzhen -> Colombo": 2887.0,
+        "Shenzhen -> Hamburg": 3168.0,
+        "Shenzhen -> Ho Chi Minh City": 811.0,
+        "Shenzhen -> Jakarta": 1078.0,
+        "Shenzhen -> Jebel Ali": 4559.0,
+        "Shenzhen -> Kaohsiung": 2148.0,
+        "Shenzhen -> Laem Chabang": 871.0,
+        "Shenzhen -> Los Angeles": 3078.0,
+        "Shenzhen -> New Jersey": 3754.0,
+        "Shenzhen -> Piraeus": 2579.0,
+        "Shenzhen -> Qingdao": 774.0,
+        "Shenzhen -> Rotterdam": 4265.0,
+        "Shenzhen -> Shanghai": 1769.0,
+        "Shenzhen -> Singapore": 3918.0,
+        "Shenzhen -> Tanger Med": 1405.0,
+        "Shenzhen -> Tianjin": 653.0,
+        "Shenzhen -> Xiamen": 261.0,
+        "Singapore -> Busan": 1488.0,
+        "Singapore -> Cartagena": 550.0,
+        "Singapore -> Colombo": 2920.0,
+        "Singapore -> Hamburg": 1657.0,
+        "Singapore -> Ho Chi Minh City": 896.0,
+        "Singapore -> Jakarta": 2079.0,
+        "Singapore -> Jebel Ali": 4574.0,
+        "Singapore -> Kaohsiung": 999.0,
+        "Singapore -> Laem Chabang": 959.0,
+        "Singapore -> Los Angeles": 2789.0,
+        "Singapore -> New Jersey": 1485.0,
+        "Singapore -> Piraeus": 1452.0,
+        "Singapore -> Qingdao": 1363.0,
+        "Singapore -> Rotterdam": 2418.0,
+        "Singapore -> Shanghai": 4951.0,
+        "Singapore -> Shenzhen": 4847.0,
+        "Singapore -> Tanger Med": 1280.0,
+        "Singapore -> Tianjin": 379.0,
+        "Singapore -> Xiamen": 1403.0,
+        "Tanger Med -> Busan": 530.0,
+        "Tanger Med -> Cartagena": 983.0,
+        "Tanger Med -> Colombo": 1625.0,
+        "Tanger Med -> Hamburg": 1475.0,
+        "Tanger Med -> Ho Chi Minh City": 223.0,
+        "Tanger Med -> Jakarta": 310.0,
+        "Tanger Med -> Jebel Ali": 2359.0,
+        "Tanger Med -> Kaohsiung": 306.0,
+        "Tanger Med -> Laem Chabang": 213.0,
+        "Tanger Med -> Los Angeles": 358.0,
+        "Tanger Med -> New Jersey": 1074.0,
+        "Tanger Med -> Piraeus": 1205.0,
+        "Tanger Med -> Qingdao": 480.0,
+        "Tanger Med -> Rotterdam": 2122.0,
+        "Tanger Med -> Shanghai": 1696.0,
+        "Tanger Med -> Shenzhen": 1523.0,
+        "Tanger Med -> Singapore": 1015.0,
+        "Tanger Med -> Tianjin": 205.0,
+        "Tanger Med -> Xiamen": 431.0,
+        "Tianjin -> Busan": 893.0,
+        "Tianjin -> Cartagena": 197.0,
+        "Tianjin -> Colombo": 769.0,
+        "Tianjin -> Hamburg": 736.0,
+        "Tianjin -> Ho Chi Minh City": 135.0,
+        "Tianjin -> Jakarta": 202.0,
+        "Tianjin -> Jebel Ali": 1308.0,
+        "Tianjin -> Kaohsiung": 563.0,
+        "Tianjin -> Laem Chabang": 158.0,
+        "Tianjin -> Los Angeles": 2005.0,
+        "Tianjin -> New Jersey": 889.0,
+        "Tianjin -> Piraeus": 610.0,
+        "Tianjin -> Qingdao": 993.0,
+        "Tianjin -> Rotterdam": 1119.0,
+        "Tianjin -> Shanghai": 2094.0,
+        "Tianjin -> Shenzhen": 640.0,
+        "Tianjin -> Singapore": 1075.0,
+        "Tianjin -> Tanger Med": 411.0,
+        "Tianjin -> Xiamen": 43.0,
+        "Xiamen -> Busan": 1874.0,
+        "Xiamen -> Cartagena": 261.0,
+        "Xiamen -> Colombo": 1279.0,
+        "Xiamen -> Hamburg": 1292.0,
+        "Xiamen -> Ho Chi Minh City": 227.0,
+        "Xiamen -> Jakarta": 282.0,
+        "Xiamen -> Jebel Ali": 2097.0,
+        "Xiamen -> Kaohsiung": 1237.0,
+        "Xiamen -> Laem Chabang": 258.0,
+        "Xiamen -> Los Angeles": 1639.0,
+        "Xiamen -> New Jersey": 1530.0,
+        "Xiamen -> Piraeus": 1037.0,
+        "Xiamen -> Qingdao": 448.0,
+        "Xiamen -> Rotterdam": 1626.0,
+        "Xiamen -> Shanghai": 1144.0,
+        "Xiamen -> Shenzhen": 4391.0,
+        "Xiamen -> Singapore": 1583.0,
+        "Xiamen -> Tanger Med": 630.0,
+        "Xiamen -> Tianjin": 43.0
+      }
+    },
+    "completed_teu_rounded_sum": 490283.0
+  },
+  "integrated": {
+    "mean_interval_att_days": 15.091666666666667,
+    "loss_kpi": 24.579206425978253,
+    "baseline_mean_days": 13.854111111111111,
+    "intervals": [
+      {
+        "start": 1,
+        "end": 5,
+        "att": 13.19,
+        "loss": 0.043214556482182864
+      },
+      {
+        "start": 6,
+        "end": 10,
+        "att": 13.01,
+        "loss": -0.10914681014604133
+      },
+      {
+        "start": 11,
+        "end": 15,
+        "att": 13.27,
+        "loss": 0.007535795026374914
+      },
+      {
+        "start": 16,
+        "end": 20,
+        "att": 13.26,
+        "loss": -0.12217194570135703
+      },
+      {
+        "start": 21,
+        "end": 25,
+        "att": 13.29,
+        "loss": -0.08954100827689992
+      },
+      {
+        "start": 26,
+        "end": 30,
+        "att": 13.1,
+        "loss": -0.08320610687022945
+      },
+      {
+        "start": 31,
+        "end": 35,
+        "att": 12.96,
+        "loss": -0.16589506172839497
+      },
+      {
+        "start": 36,
+        "end": 40,
+        "att": 12.92,
+        "loss": -0.20201238390092913
+      },
+      {
+        "start": 41,
+        "end": 45,
+        "att": 13.01,
+        "loss": -0.26287471176018484
+      },
+      {
+        "start": 46,
+        "end": 50,
+        "att": 13.48,
+        "loss": 0.018545994065282123
+      },
+      {
+        "start": 51,
+        "end": 55,
+        "att": 13.19,
+        "loss": -0.04018195602729313
+      },
+      {
+        "start": 56,
+        "end": 60,
+        "att": 12.99,
+        "loss": -0.06851424172440335
+      },
+      {
+        "start": 61,
+        "end": 65,
+        "att": 13.33,
+        "loss": -0.06151537884471092
+      },
+      {
+        "start": 66,
+        "end": 70,
+        "att": 13.43,
+        "loss": 0.034251675353685895
+      },
+      {
+        "start": 71,
+        "end": 75,
+        "att": 13.77,
+        "loss": 0.10820624546114765
+      },
+      {
+        "start": 76,
+        "end": 80,
+        "att": 14.18,
+        "loss": 0.23483779971791297
+      },
+      {
+        "start": 81,
+        "end": 85,
+        "att": 13.24,
+        "loss": -0.14879154078549894
+      },
+      {
+        "start": 86,
+        "end": 90,
+        "att": 13.4,
+        "loss": -0.16716417910447756
+      },
+      {
+        "start": 91,
+        "end": 95,
+        "att": 13.22,
+        "loss": -0.11497730711043763
+      },
+      {
+        "start": 96,
+        "end": 100,
+        "att": 13.6,
+        "loss": 0.013970588235294179
+      },
+      {
+        "start": 101,
+        "end": 105,
+        "att": 13.76,
+        "loss": 0.06177325581395332
+      },
+      {
+        "start": 106,
+        "end": 110,
+        "att": 13.58,
+        "loss": 0.08247422680412397
+      },
+      {
+        "start": 111,
+        "end": 115,
+        "att": 13.64,
+        "loss": -0.002932551319647647
+      },
+      {
+        "start": 116,
+        "end": 120,
+        "att": 13.79,
+        "loss": 0.14213197969543123
+      },
+      {
+        "start": 121,
+        "end": 125,
+        "att": 13.97,
+        "loss": 0.21904080171796736
+      },
+      {
+        "start": 126,
+        "end": 130,
+        "att": 13.68,
+        "loss": 0.008040935672514737
+      },
+      {
+        "start": 131,
+        "end": 135,
+        "att": 13.66,
+        "loss": -0.04612005856515333
+      },
+      {
+        "start": 136,
+        "end": 140,
+        "att": 13.91,
+        "loss": -0.0920201294033074
+      },
+      {
+        "start": 141,
+        "end": 145,
+        "att": 14.32,
+        "loss": 0.22695530726257018
+      },
+      {
+        "start": 146,
+        "end": 150,
+        "att": 14.73,
+        "loss": 0.3679565512559402
+      },
+      {
+        "start": 151,
+        "end": 155,
+        "att": 15.6,
+        "loss": 0.5807692307692308
+      },
+      {
+        "start": 156,
+        "end": 160,
+        "att": 16.7,
+        "loss": 0.8808383233532935
+      },
+      {
+        "start": 161,
+        "end": 165,
+        "att": 17.09,
+        "loss": 0.9912229373902864
+      },
+      {
+        "start": 166,
+        "end": 170,
+        "att": 17.36,
+        "loss": 1.0898617511520736
+      },
+      {
+        "start": 171,
+        "end": 175,
+        "att": 17.82,
+        "loss": 1.1386083052749718
+      },
+      {
+        "start": 176,
+        "end": 180,
+        "att": 18.65,
+        "loss": 1.2568364611260052
+      },
+      {
+        "start": 181,
+        "end": 185,
+        "att": 19.19,
+        "loss": 1.3491401771756122
+      },
+      {
+        "start": 186,
+        "end": 190,
+        "att": 19.76,
+        "loss": 1.4665991902834008
+      },
+      {
+        "start": 191,
+        "end": 195,
+        "att": 20.25,
+        "loss": 1.5713580246913583
+      },
+      {
+        "start": 196,
+        "end": 200,
+        "att": 14.87,
+        "loss": 0.3631472763954269
+      },
+      {
+        "start": 201,
+        "end": 205,
+        "att": 15.75,
+        "loss": 0.5650793650793651
+      },
+      {
+        "start": 206,
+        "end": 210,
+        "att": 14.58,
+        "loss": 0.24759945130315486
+      },
+      {
+        "start": 211,
+        "end": 215,
+        "att": 13.46,
+        "loss": -0.065378900445765
+      },
+      {
+        "start": 216,
+        "end": 220,
+        "att": 13.72,
+        "loss": -0.010204081632652073
+      },
+      {
+        "start": 221,
+        "end": 225,
+        "att": 13.5,
+        "loss": -0.25407407407407434
+      },
+      {
+        "start": 226,
+        "end": 230,
+        "att": 13.44,
+        "loss": -0.2157738095238093
+      },
+      {
+        "start": 231,
+        "end": 235,
+        "att": 14.18,
+        "loss": -0.08533145275035348
+      },
+      {
+        "start": 236,
+        "end": 240,
+        "att": 13.77,
+        "loss": -0.11401597676107489
+      },
+      {
+        "start": 241,
+        "end": 245,
+        "att": 13.77,
+        "loss": -0.09586056644880214
+      },
+      {
+        "start": 246,
+        "end": 250,
+        "att": 14.16,
+        "loss": -0.08757062146892647
+      },
+      {
+        "start": 251,
+        "end": 255,
+        "att": 13.61,
+        "loss": -0.09551800146950784
+      },
+      {
+        "start": 256,
+        "end": 260,
+        "att": 13.97,
+        "loss": 0.007158196134574579
+      },
+      {
+        "start": 261,
+        "end": 265,
+        "att": 13.4,
+        "loss": -0.2298507462686561
+      },
+      {
+        "start": 266,
+        "end": 270,
+        "att": 13.91,
+        "loss": -0.022286125089863162
+      },
+      {
+        "start": 271,
+        "end": 275,
+        "att": 15.07,
+        "loss": 0.33377571333775724
+      },
+      {
+        "start": 276,
+        "end": 280,
+        "att": 15.24,
+        "loss": 0.27296587926509186
+      },
+      {
+        "start": 281,
+        "end": 285,
+        "att": 16.3,
+        "loss": 0.6423312883435583
+      },
+      {
+        "start": 286,
+        "end": 290,
+        "att": 16.69,
+        "loss": 0.7507489514679455
+      },
+      {
+        "start": 291,
+        "end": 295,
+        "att": 17.94,
+        "loss": 1.0312151616499443
+      },
+      {
+        "start": 296,
+        "end": 300,
+        "att": 18.89,
+        "loss": 1.1937533086289043
+      },
+      {
+        "start": 301,
+        "end": 305,
+        "att": 18.61,
+        "loss": 1.157442235357335
+      },
+      {
+        "start": 306,
+        "end": 310,
+        "att": 18.46,
+        "loss": 1.163596966413868
+      },
+      {
+        "start": 311,
+        "end": 315,
+        "att": 18.7,
+        "loss": 1.2229946524064172
+      },
+      {
+        "start": 316,
+        "end": 320,
+        "att": 17.26,
+        "loss": 0.8609501738122832
+      },
+      {
+        "start": 321,
+        "end": 325,
+        "att": 15.82,
+        "loss": 0.3982300884955753
+      },
+      {
+        "start": 326,
+        "end": 330,
+        "att": 16.38,
+        "loss": 0.6452991452991452
+      },
+      {
+        "start": 331,
+        "end": 335,
+        "att": 15.9,
+        "loss": 0.43333333333333335
+      },
+      {
+        "start": 336,
+        "end": 340,
+        "att": 17.12,
+        "loss": 0.7353971962616823
+      },
+      {
+        "start": 341,
+        "end": 345,
+        "att": 17.9,
+        "loss": 0.9284916201117316
+      },
+      {
+        "start": 346,
+        "end": 350,
+        "att": 17.52,
+        "loss": 0.8361872146118721
+      },
+      {
+        "start": 351,
+        "end": 355,
+        "att": 17.77,
+        "loss": 0.9425998874507596
+      },
+      {
+        "start": 356,
+        "end": 360,
+        "att": 17.64,
+        "loss": 1.0056689342403629
+      }
+    ],
+    "windows": {
+      "41-100": {
+        "att": 13.403333333333332,
+        "loss": -0.45420701252368356
+      },
+      "141-200": {
+        "att": 17.195,
+        "loss": 11.28329353613017
+      },
+      "216-240": {
+        "att": 13.722,
+        "loss": -0.6793993947419641
+      },
+      "261-275": {
+        "att": 14.126666666666667,
+        "loss": 0.08163884197923799
+      },
+      "276-320": {
+        "att": 17.565555555555555,
+        "loss": 8.295998617345347
+      },
+      "321-330": {
+        "att": 16.1,
+        "loss": 1.0435292337947204
+      },
+      "331-360": {
+        "att": 17.308333333333334,
+        "loss": 4.881678186009742
+      },
+      "261-360": {
+        "att": 16.826,
+        "loss": 14.302844879129047
+      }
+    },
+    "ports": {
+      "Busan": {
+        "Origin Waiting TEU": 396.0,
+        "Transshipment Waiting TEU": 56.0,
+        "Total Waiting TEU": 452.0,
+        "Vessels Waiting": 0.0
+      },
+      "Cartagena": {
+        "Origin Waiting TEU": 149.0,
+        "Transshipment Waiting TEU": 0.0,
+        "Total Waiting TEU": 149.0,
+        "Vessels Waiting": 0.0
+      },
+      "Colombo": {
+        "Origin Waiting TEU": 523.0,
+        "Transshipment Waiting TEU": 154.0,
+        "Total Waiting TEU": 676.0,
+        "Vessels Waiting": 0.0
+      },
+      "Hamburg": {
+        "Origin Waiting TEU": 343.0,
+        "Transshipment Waiting TEU": 0.0,
+        "Total Waiting TEU": 343.0,
+        "Vessels Waiting": 0.0
+      },
+      "Ho Chi Minh City": {
+        "Origin Waiting TEU": 57.0,
+        "Transshipment Waiting TEU": 0.0,
+        "Total Waiting TEU": 57.0,
+        "Vessels Waiting": 0.02
+      },
+      "Jakarta": {
+        "Origin Waiting TEU": 44.0,
+        "Transshipment Waiting TEU": 0.0,
+        "Total Waiting TEU": 44.0,
+        "Vessels Waiting": 0.0
+      },
+      "Jebel Ali": {
+        "Origin Waiting TEU": 403.0,
+        "Transshipment Waiting TEU": 0.0,
+        "Total Waiting TEU": 403.0,
+        "Vessels Waiting": 0.0
+      },
+      "Kaohsiung": {
+        "Origin Waiting TEU": 179.0,
+        "Transshipment Waiting TEU": 2.0,
+        "Total Waiting TEU": 181.0,
+        "Vessels Waiting": 0.0
+      },
+      "Laem Chabang": {
+        "Origin Waiting TEU": 58.0,
+        "Transshipment Waiting TEU": 0.0,
+        "Total Waiting TEU": 58.0,
+        "Vessels Waiting": 0.01
+      },
+      "Los Angeles": {
+        "Origin Waiting TEU": 280.0,
+        "Transshipment Waiting TEU": 14.0,
+        "Total Waiting TEU": 295.0,
+        "Vessels Waiting": 0.0
+      },
+      "New Jersey": {
+        "Origin Waiting TEU": 350.0,
+        "Transshipment Waiting TEU": 141.0,
+        "Total Waiting TEU": 491.0,
+        "Vessels Waiting": 0.0
+      },
+      "Piraeus": {
+        "Origin Waiting TEU": 301.0,
+        "Transshipment Waiting TEU": 277.0,
+        "Total Waiting TEU": 578.0,
+        "Vessels Waiting": 0.16
+      },
+      "Qingdao": {
+        "Origin Waiting TEU": 207.0,
+        "Transshipment Waiting TEU": 1.0,
+        "Total Waiting TEU": 208.0,
+        "Vessels Waiting": 0.0
+      },
+      "Rotterdam": {
+        "Origin Waiting TEU": 482.0,
+        "Transshipment Waiting TEU": 0.0,
+        "Total Waiting TEU": 482.0,
+        "Vessels Waiting": 0.0
+      },
+      "Shanghai": {
+        "Origin Waiting TEU": 633.0,
+        "Transshipment Waiting TEU": 1038.0,
+        "Total Waiting TEU": 1671.0,
+        "Vessels Waiting": 0.0
+      },
+      "Shenzhen": {
+        "Origin Waiting TEU": 637.0,
+        "Transshipment Waiting TEU": 488.0,
+        "Total Waiting TEU": 1125.0,
+        "Vessels Waiting": 0.0
+      },
+      "Singapore": {
+        "Origin Waiting TEU": 560.0,
+        "Transshipment Waiting TEU": 773.0,
+        "Total Waiting TEU": 1333.0,
+        "Vessels Waiting": 0.0
+      },
+      "Tanger Med": {
+        "Origin Waiting TEU": 257.0,
+        "Transshipment Waiting TEU": 172.0,
+        "Total Waiting TEU": 428.0,
+        "Vessels Waiting": 0.0
+      },
+      "Tianjin": {
+        "Origin Waiting TEU": 149.0,
+        "Transshipment Waiting TEU": 0.0,
+        "Total Waiting TEU": 149.0,
+        "Vessels Waiting": 0.02
+      },
+      "Xiamen": {
+        "Origin Waiting TEU": 234.0,
+        "Transshipment Waiting TEU": 0.0,
+        "Total Waiting TEU": 234.0,
+        "Vessels Waiting": 0.02
+      },
+      "TOTAL": {
+        "Origin Waiting TEU": 6244.0,
+        "Transshipment Waiting TEU": 3115.0,
+        "Total Waiting TEU": 9359.0,
+        "Vessels Waiting": 0.24
+      }
+    },
+    "routes": {
+      "S1": {
+        "Avg Capacity TEU": 133649.0,
+        "Avg Carried TEU": 7632.0,
+        "Utilization": 5.71
+      },
+      "S2": {
+        "Avg Capacity TEU": 12866.0,
+        "Avg Carried TEU": 993.0,
+        "Utilization": 7.72
+      },
+      "S3": {
+        "Avg Capacity TEU": 4870.0,
+        "Avg Carried TEU": 174.0,
+        "Utilization": 3.58
+      },
+      "S4": {
+        "Avg Capacity TEU": 50917.0,
+        "Avg Carried TEU": 1357.0,
+        "Utilization": 2.67
+      },
+      "S5": {
+        "Avg Capacity TEU": 115131.0,
+        "Avg Carried TEU": 2538.0,
+        "Utilization": 2.2
+      },
+      "S6": {
+        "Avg Capacity TEU": 38054.0,
+        "Avg Carried TEU": 1173.0,
+        "Utilization": 3.08
+      },
+      "S7": {
+        "Avg Capacity TEU": 38287.0,
+        "Avg Carried TEU": 1355.0,
+        "Utilization": 3.54
+      },
+      "S8": {
+        "Avg Capacity TEU": 1535.0,
+        "Avg Carried TEU": 65.0,
+        "Utilization": 4.23
+      },
+      "S9": {
+        "Avg Capacity TEU": 63021.0,
+        "Avg Carried TEU": 851.0,
+        "Utilization": 1.35
+      },
+      "TOTAL": {
+        "Avg Capacity TEU": 458330.0,
+        "Avg Carried TEU": 16139.0,
+        "Utilization": 3.52
+      }
+    },
+    "vessels": {
+      "Average vessels sailing": {
+        "Average Count": 38.79
+      },
+      "Average vessels waiting for berth at port": {
+        "Average Count": 0.24
+      },
+      "Average vessels being served at berth": {
+        "Average Count": 1.97
+      },
+      "TOTAL average active/port vessels": {
+        "Average Count": 41.0
+      }
+    },
+    "od": {
+      "Average_Origin_Waiting_TEU_By_OD.csv": {
+        "Busan -> Cartagena": 3.0,
+        "Busan -> Colombo": 15.0,
+        "Busan -> Hamburg": 14.0,
+        "Busan -> Ho Chi Minh City": 3.0,
+        "Busan -> Jakarta": 3.0,
+        "Busan -> Jebel Ali": 27.0,
+        "Busan -> Kaohsiung": 73.0,
+        "Busan -> Laem Chabang": 3.0,
+        "Busan -> Los Angeles": 51.0,
+        "Busan -> New Jersey": 22.0,
+        "Busan -> Piraeus": 14.0,
+        "Busan -> Qingdao": 20.0,
+        "Busan -> Rotterdam": 20.0,
+        "Busan -> Shanghai": 49.0,
+        "Busan -> Shenzhen": 25.0,
+        "Busan -> Singapore": 18.0,
+        "Busan -> Tanger Med": 8.0,
+        "Busan -> Tianjin": 12.0,
+        "Busan -> Xiamen": 14.0,
+        "Cartagena -> Busan": 2.0,
+        "Cartagena -> Colombo": 7.0,
+        "Cartagena -> Hamburg": 13.0,
+        "Cartagena -> Ho Chi Minh City": 1.0,
+        "Cartagena -> Jakarta": 1.0,
+        "Cartagena -> Jebel Ali": 6.0,
+        "Cartagena -> Kaohsiung": 2.0,
+        "Cartagena -> Laem Chabang": 1.0,
+        "Cartagena -> Los Angeles": 5.0,
+        "Cartagena -> New Jersey": 36.0,
+        "Cartagena -> Piraeus": 10.0,
+        "Cartagena -> Qingdao": 3.0,
+        "Cartagena -> Rotterdam": 18.0,
+        "Cartagena -> Shanghai": 10.0,
+        "Cartagena -> Shenzhen": 9.0,
+        "Cartagena -> Singapore": 6.0,
+        "Cartagena -> Tanger Med": 13.0,
+        "Cartagena -> Tianjin": 2.0,
+        "Cartagena -> Xiamen": 2.0,
+        "Colombo -> Busan": 21.0,
+        "Colombo -> Cartagena": 17.0,
+        "Colombo -> Hamburg": 28.0,
+        "Colombo -> Ho Chi Minh City": 8.0,
+        "Colombo -> Jakarta": 11.0,
+        "Colombo -> Jebel Ali": 74.0,
+        "Colombo -> Kaohsiung": 13.0,
+        "Colombo -> Laem Chabang": 9.0,
+        "Colombo -> Los Angeles": 11.0,
+        "Colombo -> New Jersey": 50.0,
+        "Colombo -> Piraeus": 31.0,
+        "Colombo -> Qingdao": 16.0,
+        "Colombo -> Rotterdam": 41.0,
+        "Colombo -> Shanghai": 55.0,
+        "Colombo -> Shenzhen": 54.0,
+        "Colombo -> Singapore": 39.0,
+        "Colombo -> Tanger Med": 25.0,
+        "Colombo -> Tianjin": 5.0,
+        "Colombo -> Xiamen": 16.0,
+        "Hamburg -> Busan": 9.0,
+        "Hamburg -> Cartagena": 12.0,
+        "Hamburg -> Colombo": 28.0,
+        "Hamburg -> Ho Chi Minh City": 3.0,
+        "Hamburg -> Jakarta": 4.0,
+        "Hamburg -> Jebel Ali": 44.0,
+        "Hamburg -> Kaohsiung": 6.0,
+        "Hamburg -> Laem Chabang": 3.0,
+        "Hamburg -> Los Angeles": 8.0,
+        "Hamburg -> New Jersey": 31.0,
+        "Hamburg -> Piraeus": 25.0,
+        "Hamburg -> Qingdao": 9.0,
+        "Hamburg -> Rotterdam": 34.0,
+        "Hamburg -> Shanghai": 32.0,
+        "Hamburg -> Shenzhen": 35.0,
+        "Hamburg -> Singapore": 16.0,
+        "Hamburg -> Tanger Med": 30.0,
+        "Hamburg -> Tianjin": 4.0,
+        "Hamburg -> Xiamen": 9.0,
+        "Ho Chi Minh City -> Busan": 1.0,
+        "Ho Chi Minh City -> Cartagena": 1.0,
+        "Ho Chi Minh City -> Colombo": 4.0,
+        "Ho Chi Minh City -> Hamburg": 2.0,
+        "Ho Chi Minh City -> Jakarta": 3.0,
+        "Ho Chi Minh City -> Jebel Ali": 6.0,
+        "Ho Chi Minh City -> Kaohsiung": 1.0,
+        "Ho Chi Minh City -> Laem Chabang": 3.0,
+        "Ho Chi Minh City -> Los Angeles": 3.0,
+        "Ho Chi Minh City -> New Jersey": 2.0,
+        "Ho Chi Minh City -> Piraeus": 2.0,
+        "Ho Chi Minh City -> Qingdao": 1.0,
+        "Ho Chi Minh City -> Rotterdam": 3.0,
+        "Ho Chi Minh City -> Shanghai": 7.0,
+        "Ho Chi Minh City -> Shenzhen": 6.0,
+        "Ho Chi Minh City -> Singapore": 10.0,
+        "Ho Chi Minh City -> Tanger Med": 2.0,
+        "Ho Chi Minh City -> Tianjin": 1.0,
+        "Ho Chi Minh City -> Xiamen": 1.0,
+        "Jakarta -> Busan": 1.0,
+        "Jakarta -> Cartagena": 1.0,
+        "Jakarta -> Colombo": 3.0,
+        "Jakarta -> Hamburg": 2.0,
+        "Jakarta -> Ho Chi Minh City": 1.0,
+        "Jakarta -> Jebel Ali": 5.0,
+        "Jakarta -> Kaohsiung": 1.0,
+        "Jakarta -> Laem Chabang": 2.0,
+        "Jakarta -> Los Angeles": 3.0,
+        "Jakarta -> New Jersey": 2.0,
+        "Jakarta -> Piraeus": 3.0,
+        "Jakarta -> Qingdao": 1.0,
+        "Jakarta -> Rotterdam": 3.0,
+        "Jakarta -> Shanghai": 5.0,
+        "Jakarta -> Shenzhen": 5.0,
+        "Jakarta -> Singapore": 5.0,
+        "Jakarta -> Tanger Med": 1.0,
+        "Jakarta -> Tianjin": 1.0,
+        "Jakarta -> Xiamen": 1.0,
+        "Jebel Ali -> Busan": 15.0,
+        "Jebel Ali -> Cartagena": 4.0,
+        "Jebel Ali -> Colombo": 71.0,
+        "Jebel Ali -> Hamburg": 29.0,
+        "Jebel Ali -> Ho Chi Minh City": 7.0,
+        "Jebel Ali -> Jakarta": 10.0,
+        "Jebel Ali -> Kaohsiung": 11.0,
+        "Jebel Ali -> Laem Chabang": 7.0,
+        "Jebel Ali -> Los Angeles": 16.0,
+        "Jebel Ali -> New Jersey": 14.0,
+        "Jebel Ali -> Piraeus": 25.0,
+        "Jebel Ali -> Qingdao": 11.0,
+        "Jebel Ali -> Rotterdam": 42.0,
+        "Jebel Ali -> Shanghai": 28.0,
+        "Jebel Ali -> Shenzhen": 29.0,
+        "Jebel Ali -> Singapore": 33.0,
+        "Jebel Ali -> Tanger Med": 36.0,
+        "Jebel Ali -> Tianjin": 3.0,
+        "Jebel Ali -> Xiamen": 11.0,
+        "Kaohsiung -> Busan": 26.0,
+        "Kaohsiung -> Cartagena": 2.0,
+        "Kaohsiung -> Colombo": 5.0,
+        "Kaohsiung -> Hamburg": 6.0,
+        "Kaohsiung -> Ho Chi Minh City": 2.0,
+        "Kaohsiung -> Jakarta": 2.0,
+        "Kaohsiung -> Jebel Ali": 7.0,
+        "Kaohsiung -> Laem Chabang": 2.0,
+        "Kaohsiung -> Los Angeles": 47.0,
+        "Kaohsiung -> New Jersey": 8.0,
+        "Kaohsiung -> Piraeus": 5.0,
+        "Kaohsiung -> Qingdao": 10.0,
+        "Kaohsiung -> Rotterdam": 8.0,
+        "Kaohsiung -> Shanghai": 18.0,
+        "Kaohsiung -> Shenzhen": 8.0,
+        "Kaohsiung -> Singapore": 7.0,
+        "Kaohsiung -> Tanger Med": 4.0,
+        "Kaohsiung -> Tianjin": 9.0,
+        "Kaohsiung -> Xiamen": 4.0,
+        "Laem Chabang -> Busan": 1.0,
+        "Laem Chabang -> Cartagena": 1.0,
+        "Laem Chabang -> Colombo": 4.0,
+        "Laem Chabang -> Hamburg": 2.0,
+        "Laem Chabang -> Ho Chi Minh City": 1.0,
+        "Laem Chabang -> Jakarta": 4.0,
+        "Laem Chabang -> Jebel Ali": 6.0,
+        "Laem Chabang -> Kaohsiung": 1.0,
+        "Laem Chabang -> Los Angeles": 3.0,
+        "Laem Chabang -> New Jersey": 2.0,
+        "Laem Chabang -> Piraeus": 3.0,
+        "Laem Chabang -> Qingdao": 1.0,
+        "Laem Chabang -> Rotterdam": 3.0,
+        "Laem Chabang -> Shanghai": 6.0,
+        "Laem Chabang -> Shenzhen": 6.0,
+        "Laem Chabang -> Singapore": 10.0,
+        "Laem Chabang -> Tanger Med": 2.0,
+        "Laem Chabang -> Tianjin": 1.0,
+        "Laem Chabang -> Xiamen": 1.0,
+        "Los Angeles -> Busan": 24.0,
+        "Los Angeles -> Cartagena": 8.0,
+        "Los Angeles -> Colombo": 10.0,
+        "Los Angeles -> Hamburg": 7.0,
+        "Los Angeles -> Ho Chi Minh City": 3.0,
+        "Los Angeles -> Jakarta": 4.0,
+        "Los Angeles -> Jebel Ali": 14.0,
+        "Los Angeles -> Kaohsiung": 17.0,
+        "Los Angeles -> Laem Chabang": 3.0,
+        "Los Angeles -> New Jersey": 29.0,
+        "Los Angeles -> Piraeus": 6.0,
+        "Los Angeles -> Qingdao": 19.0,
+        "Los Angeles -> Rotterdam": 10.0,
+        "Los Angeles -> Shanghai": 57.0,
+        "Los Angeles -> Shenzhen": 30.0,
+        "Los Angeles -> Singapore": 11.0,
+        "Los Angeles -> Tanger Med": 4.0,
+        "Los Angeles -> Tianjin": 8.0,
+        "Los Angeles -> Xiamen": 15.0,
+        "New Jersey -> Busan": 11.0,
+        "New Jersey -> Cartagena": 43.0,
+        "New Jersey -> Colombo": 26.0,
+        "New Jersey -> Hamburg": 31.0,
+        "New Jersey -> Ho Chi Minh City": 2.0,
+        "New Jersey -> Jakarta": 3.0,
+        "New Jersey -> Jebel Ali": 13.0,
+        "New Jersey -> Kaohsiung": 9.0,
+        "New Jersey -> Laem Chabang": 2.0,
+        "New Jersey -> Los Angeles": 34.0,
+        "New Jersey -> Piraeus": 19.0,
+        "New Jersey -> Qingdao": 11.0,
+        "New Jersey -> Rotterdam": 38.0,
+        "New Jersey -> Shanghai": 35.0,
+        "New Jersey -> Shenzhen": 32.0,
+        "New Jersey -> Singapore": 11.0,
+        "New Jersey -> Tanger Med": 14.0,
+        "New Jersey -> Tianjin": 4.0,
+        "New Jersey -> Xiamen": 10.0,
+        "Piraeus -> Busan": 10.0,
+        "Piraeus -> Cartagena": 13.0,
+        "Piraeus -> Colombo": 25.0,
+        "Piraeus -> Hamburg": 16.0,
+        "Piraeus -> Ho Chi Minh City": 3.0,
+        "Piraeus -> Jakarta": 3.0,
+        "Piraeus -> Jebel Ali": 30.0,
+        "Piraeus -> Kaohsiung": 6.0,
+        "Piraeus -> Laem Chabang": 2.0,
+        "Piraeus -> Los Angeles": 7.0,
+        "Piraeus -> New Jersey": 24.0,
+        "Piraeus -> Qingdao": 7.0,
+        "Piraeus -> Rotterdam": 39.0,
+        "Piraeus -> Shanghai": 29.0,
+        "Piraeus -> Shenzhen": 26.0,
+        "Piraeus -> Singapore": 14.0,
+        "Piraeus -> Tanger Med": 34.0,
+        "Piraeus -> Tianjin": 3.0,
+        "Piraeus -> Xiamen": 8.0,
+        "Qingdao -> Busan": 10.0,
+        "Qingdao -> Cartagena": 3.0,
+        "Qingdao -> Colombo": 10.0,
+        "Qingdao -> Hamburg": 9.0,
+        "Qingdao -> Ho Chi Minh City": 2.0,
+        "Qingdao -> Jakarta": 3.0,
+        "Qingdao -> Jebel Ali": 15.0,
+        "Qingdao -> Kaohsiung": 11.0,
+        "Qingdao -> Laem Chabang": 2.0,
+        "Qingdao -> Los Angeles": 47.0,
+        "Qingdao -> New Jersey": 13.0,
+        "Qingdao -> Piraeus": 10.0,
+        "Qingdao -> Rotterdam": 11.0,
+        "Qingdao -> Shanghai": 28.0,
+        "Qingdao -> Shenzhen": 9.0,
+        "Qingdao -> Singapore": 13.0,
+        "Qingdao -> Tanger Med": 6.0,
+        "Qingdao -> Tianjin": 4.0,
+        "Qingdao -> Xiamen": 0.0,
+        "Rotterdam -> Busan": 16.0,
+        "Rotterdam -> Cartagena": 19.0,
+        "Rotterdam -> Colombo": 44.0,
+        "Rotterdam -> Hamburg": 22.0,
+        "Rotterdam -> Ho Chi Minh City": 5.0,
+        "Rotterdam -> Jakarta": 6.0,
+        "Rotterdam -> Jebel Ali": 66.0,
+        "Rotterdam -> Kaohsiung": 11.0,
+        "Rotterdam -> Laem Chabang": 5.0,
+        "Rotterdam -> Los Angeles": 13.0,
+        "Rotterdam -> New Jersey": 46.0,
+        "Rotterdam -> Piraeus": 26.0,
+        "Rotterdam -> Qingdao": 15.0,
+        "Rotterdam -> Shanghai": 49.0,
+        "Rotterdam -> Shenzhen": 48.0,
+        "Rotterdam -> Singapore": 23.0,
+        "Rotterdam -> Tanger Med": 49.0,
+        "Rotterdam -> Tianjin": 6.0,
+        "Rotterdam -> Xiamen": 14.0,
+        "Shanghai -> Busan": 30.0,
+        "Shanghai -> Cartagena": 18.0,
+        "Shanghai -> Colombo": 38.0,
+        "Shanghai -> Hamburg": 41.0,
+        "Shanghai -> Ho Chi Minh City": 11.0,
+        "Shanghai -> Jakarta": 14.0,
+        "Shanghai -> Jebel Ali": 50.0,
+        "Shanghai -> Kaohsiung": 20.0,
+        "Shanghai -> Laem Chabang": 11.0,
+        "Shanghai -> Los Angeles": 73.0,
+        "Shanghai -> New Jersey": 87.0,
+        "Shanghai -> Piraeus": 37.0,
+        "Shanghai -> Qingdao": 27.0,
+        "Shanghai -> Rotterdam": 51.0,
+        "Shanghai -> Shenzhen": 24.0,
+        "Shanghai -> Singapore": 52.0,
+        "Shanghai -> Tanger Med": 21.0,
+        "Shanghai -> Tianjin": 17.0,
+        "Shanghai -> Xiamen": 10.0,
+        "Shenzhen -> Busan": 34.0,
+        "Shenzhen -> Cartagena": 18.0,
+        "Shenzhen -> Colombo": 46.0,
+        "Shenzhen -> Hamburg": 46.0,
+        "Shenzhen -> Ho Chi Minh City": 13.0,
+        "Shenzhen -> Jakarta": 18.0,
+        "Shenzhen -> Jebel Ali": 72.0,
+        "Shenzhen -> Kaohsiung": 22.0,
+        "Shenzhen -> Laem Chabang": 13.0,
+        "Shenzhen -> Los Angeles": 31.0,
+        "Shenzhen -> New Jersey": 97.0,
+        "Shenzhen -> Piraeus": 45.0,
+        "Shenzhen -> Qingdao": 8.0,
+        "Shenzhen -> Rotterdam": 61.0,
+        "Shenzhen -> Shanghai": 21.0,
+        "Shenzhen -> Singapore": 61.0,
+        "Shenzhen -> Tanger Med": 21.0,
+        "Shenzhen -> Tianjin": 7.0,
+        "Shenzhen -> Xiamen": 3.0,
+        "Singapore -> Busan": 23.0,
+        "Singapore -> Cartagena": 15.0,
+        "Singapore -> Colombo": 38.0,
+        "Singapore -> Hamburg": 25.0,
+        "Singapore -> Ho Chi Minh City": 5.0,
+        "Singapore -> Jakarta": 7.0,
+        "Singapore -> Jebel Ali": 61.0,
+        "Singapore -> Kaohsiung": 16.0,
+        "Singapore -> Laem Chabang": 5.0,
+        "Singapore -> Los Angeles": 43.0,
+        "Singapore -> New Jersey": 44.0,
+        "Singapore -> Piraeus": 25.0,
+        "Singapore -> Qingdao": 21.0,
+        "Singapore -> Rotterdam": 35.0,
+        "Singapore -> Shanghai": 76.0,
+        "Singapore -> Shenzhen": 76.0,
+        "Singapore -> Tanger Med": 20.0,
+        "Singapore -> Tianjin": 6.0,
+        "Singapore -> Xiamen": 21.0,
+        "Tanger Med -> Busan": 8.0,
+        "Tanger Med -> Cartagena": 12.0,
+        "Tanger Med -> Colombo": 25.0,
+        "Tanger Med -> Hamburg": 18.0,
+        "Tanger Med -> Ho Chi Minh City": 3.0,
+        "Tanger Med -> Jakarta": 4.0,
+        "Tanger Med -> Jebel Ali": 37.0,
+        "Tanger Med -> Kaohsiung": 5.0,
+        "Tanger Med -> Laem Chabang": 3.0,
+        "Tanger Med -> Los Angeles": 5.0,
+        "Tanger Med -> New Jersey": 13.0,
+        "Tanger Med -> Piraeus": 20.0,
+        "Tanger Med -> Qingdao": 7.0,
+        "Tanger Med -> Rotterdam": 25.0,
+        "Tanger Med -> Shanghai": 25.0,
+        "Tanger Med -> Shenzhen": 22.0,
+        "Tanger Med -> Singapore": 15.0,
+        "Tanger Med -> Tianjin": 3.0,
+        "Tanger Med -> Xiamen": 6.0,
+        "Tianjin -> Busan": 8.0,
+        "Tianjin -> Cartagena": 2.0,
+        "Tianjin -> Colombo": 8.0,
+        "Tianjin -> Hamburg": 8.0,
+        "Tianjin -> Ho Chi Minh City": 1.0,
+        "Tianjin -> Jakarta": 2.0,
+        "Tianjin -> Jebel Ali": 14.0,
+        "Tianjin -> Kaohsiung": 6.0,
+        "Tianjin -> Laem Chabang": 2.0,
+        "Tianjin -> Los Angeles": 18.0,
+        "Tianjin -> New Jersey": 10.0,
+        "Tianjin -> Piraeus": 7.0,
+        "Tianjin -> Qingdao": 10.0,
+        "Tianjin -> Rotterdam": 11.0,
+        "Tianjin -> Shanghai": 22.0,
+        "Tianjin -> Shenzhen": 7.0,
+        "Tianjin -> Singapore": 11.0,
+        "Tianjin -> Tanger Med": 4.0,
+        "Tianjin -> Xiamen": 0.0,
+        "Xiamen -> Busan": 19.0,
+        "Xiamen -> Cartagena": 3.0,
+        "Xiamen -> Colombo": 13.0,
+        "Xiamen -> Hamburg": 13.0,
+        "Xiamen -> Ho Chi Minh City": 3.0,
+        "Xiamen -> Jakarta": 3.0,
+        "Xiamen -> Jebel Ali": 21.0,
+        "Xiamen -> Kaohsiung": 13.0,
+        "Xiamen -> Laem Chabang": 3.0,
+        "Xiamen -> Los Angeles": 16.0,
+        "Xiamen -> New Jersey": 16.0,
+        "Xiamen -> Piraeus": 11.0,
+        "Xiamen -> Qingdao": 5.0,
+        "Xiamen -> Rotterdam": 17.0,
+        "Xiamen -> Shanghai": 12.0,
+        "Xiamen -> Shenzhen": 46.0,
+        "Xiamen -> Singapore": 16.0,
+        "Xiamen -> Tanger Med": 6.0,
+        "Xiamen -> Tianjin": 0.0
+      },
+      "Average_In_Transit_TEU_By_OD.csv": {
+        "Busan -> Cartagena": 35.0,
+        "Busan -> Colombo": 70.0,
+        "Busan -> Hamburg": 132.0,
+        "Busan -> Ho Chi Minh City": 12.0,
+        "Busan -> Jakarta": 16.0,
+        "Busan -> Jebel Ali": 181.0,
+        "Busan -> Kaohsiung": 128.0,
+        "Busan -> Laem Chabang": 14.0,
+        "Busan -> Los Angeles": 178.0,
+        "Busan -> New Jersey": 232.0,
+        "Busan -> Piraeus": 93.0,
+        "Busan -> Qingdao": 12.0,
+        "Busan -> Rotterdam": 169.0,
+        "Busan -> Shanghai": 51.0,
+        "Busan -> Shenzhen": 39.0,
+        "Busan -> Singapore": 67.0,
+        "Busan -> Tanger Med": 63.0,
+        "Busan -> Tianjin": 5.0,
+        "Busan -> Xiamen": 20.0,
+        "Cartagena -> Busan": 25.0,
+        "Cartagena -> Colombo": 42.0,
+        "Cartagena -> Hamburg": 39.0,
+        "Cartagena -> Ho Chi Minh City": 9.0,
+        "Cartagena -> Jakarta": 12.0,
+        "Cartagena -> Jebel Ali": 47.0,
+        "Cartagena -> Kaohsiung": 15.0,
+        "Cartagena -> Laem Chabang": 10.0,
+        "Cartagena -> Los Angeles": 63.0,
+        "Cartagena -> New Jersey": 33.0,
+        "Cartagena -> Piraeus": 45.0,
+        "Cartagena -> Qingdao": 34.0,
+        "Cartagena -> Rotterdam": 54.0,
+        "Cartagena -> Shanghai": 83.0,
+        "Cartagena -> Shenzhen": 74.0,
+        "Cartagena -> Singapore": 41.0,
+        "Cartagena -> Tanger Med": 32.0,
+        "Cartagena -> Tianjin": 18.0,
+        "Cartagena -> Xiamen": 19.0,
+        "Colombo -> Busan": 63.0,
+        "Colombo -> Cartagena": 42.0,
+        "Colombo -> Hamburg": 85.0,
+        "Colombo -> Ho Chi Minh City": 12.0,
+        "Colombo -> Jakarta": 13.0,
+        "Colombo -> Jebel Ali": 63.0,
+        "Colombo -> Kaohsiung": 37.0,
+        "Colombo -> Laem Chabang": 15.0,
+        "Colombo -> Los Angeles": 54.0,
+        "Colombo -> New Jersey": 88.0,
+        "Colombo -> Piraeus": 45.0,
+        "Colombo -> Qingdao": 55.0,
+        "Colombo -> Rotterdam": 122.0,
+        "Colombo -> Shanghai": 81.0,
+        "Colombo -> Shenzhen": 97.0,
+        "Colombo -> Singapore": 31.0,
+        "Colombo -> Tanger Med": 59.0,
+        "Colombo -> Tianjin": 16.0,
+        "Colombo -> Xiamen": 40.0,
+        "Hamburg -> Busan": 60.0,
+        "Hamburg -> Cartagena": 38.0,
+        "Hamburg -> Colombo": 89.0,
+        "Hamburg -> Ho Chi Minh City": 13.0,
+        "Hamburg -> Jakarta": 16.0,
+        "Hamburg -> Jebel Ali": 160.0,
+        "Hamburg -> Kaohsiung": 38.0,
+        "Hamburg -> Laem Chabang": 14.0,
+        "Hamburg -> Los Angeles": 71.0,
+        "Hamburg -> New Jersey": 69.0,
+        "Hamburg -> Piraeus": 29.0,
+        "Hamburg -> Qingdao": 58.0,
+        "Hamburg -> Rotterdam": 7.0,
+        "Hamburg -> Shanghai": 155.0,
+        "Hamburg -> Shenzhen": 162.0,
+        "Hamburg -> Singapore": 56.0,
+        "Hamburg -> Tanger Med": 23.0,
+        "Hamburg -> Tianjin": 25.0,
+        "Hamburg -> Xiamen": 51.0,
+        "Ho Chi Minh City -> Busan": 14.0,
+        "Ho Chi Minh City -> Cartagena": 15.0,
+        "Ho Chi Minh City -> Colombo": 22.0,
+        "Ho Chi Minh City -> Hamburg": 33.0,
+        "Ho Chi Minh City -> Jakarta": 10.0,
+        "Ho Chi Minh City -> Jebel Ali": 47.0,
+        "Ho Chi Minh City -> Kaohsiung": 10.0,
+        "Ho Chi Minh City -> Laem Chabang": 2.0,
+        "Ho Chi Minh City -> Los Angeles": 50.0,
+        "Ho Chi Minh City -> New Jersey": 35.0,
+        "Ho Chi Minh City -> Piraeus": 19.0,
+        "Ho Chi Minh City -> Qingdao": 18.0,
+        "Ho Chi Minh City -> Rotterdam": 50.0,
+        "Ho Chi Minh City -> Shanghai": 46.0,
+        "Ho Chi Minh City -> Shenzhen": 48.0,
+        "Ho Chi Minh City -> Singapore": 14.0,
+        "Ho Chi Minh City -> Tanger Med": 21.0,
+        "Ho Chi Minh City -> Tianjin": 8.0,
+        "Ho Chi Minh City -> Xiamen": 13.0,
+        "Jakarta -> Busan": 20.0,
+        "Jakarta -> Cartagena": 21.0,
+        "Jakarta -> Colombo": 28.0,
+        "Jakarta -> Hamburg": 39.0,
+        "Jakarta -> Ho Chi Minh City": 6.0,
+        "Jakarta -> Jebel Ali": 57.0,
+        "Jakarta -> Kaohsiung": 11.0,
+        "Jakarta -> Laem Chabang": 7.0,
+        "Jakarta -> Los Angeles": 67.0,
+        "Jakarta -> New Jersey": 48.0,
+        "Jakarta -> Piraeus": 37.0,
+        "Jakarta -> Qingdao": 18.0,
+        "Jakarta -> Rotterdam": 61.0,
+        "Jakarta -> Shanghai": 52.0,
+        "Jakarta -> Shenzhen": 59.0,
+        "Jakarta -> Singapore": 5.0,
+        "Jakarta -> Tanger Med": 25.0,
+        "Jakarta -> Tianjin": 11.0,
+        "Jakarta -> Xiamen": 15.0,
+        "Jebel Ali -> Busan": 86.0,
+        "Jebel Ali -> Cartagena": 30.0,
+        "Jebel Ali -> Colombo": 61.0,
+        "Jebel Ali -> Hamburg": 113.0,
+        "Jebel Ali -> Ho Chi Minh City": 16.0,
+        "Jebel Ali -> Jakarta": 20.0,
+        "Jebel Ali -> Kaohsiung": 55.0,
+        "Jebel Ali -> Laem Chabang": 17.0,
+        "Jebel Ali -> Los Angeles": 120.0,
+        "Jebel Ali -> New Jersey": 78.0,
+        "Jebel Ali -> Piraeus": 37.0,
+        "Jebel Ali -> Qingdao": 65.0,
+        "Jebel Ali -> Rotterdam": 170.0,
+        "Jebel Ali -> Shanghai": 105.0,
+        "Jebel Ali -> Shenzhen": 118.0,
+        "Jebel Ali -> Singapore": 53.0,
+        "Jebel Ali -> Tanger Med": 121.0,
+        "Jebel Ali -> Tianjin": 19.0,
+        "Jebel Ali -> Xiamen": 54.0,
+        "Kaohsiung -> Busan": 15.0,
+        "Kaohsiung -> Cartagena": 24.0,
+        "Kaohsiung -> Colombo": 26.0,
+        "Kaohsiung -> Hamburg": 63.0,
+        "Kaohsiung -> Ho Chi Minh City": 10.0,
+        "Kaohsiung -> Jakarta": 11.0,
+        "Kaohsiung -> Jebel Ali": 54.0,
+        "Kaohsiung -> Laem Chabang": 10.0,
+        "Kaohsiung -> Los Angeles": 133.0,
+        "Kaohsiung -> New Jersey": 83.0,
+        "Kaohsiung -> Piraeus": 38.0,
+        "Kaohsiung -> Qingdao": 11.0,
+        "Kaohsiung -> Rotterdam": 71.0,
+        "Kaohsiung -> Shanghai": 28.0,
+        "Kaohsiung -> Shenzhen": 18.0,
+        "Kaohsiung -> Singapore": 28.0,
+        "Kaohsiung -> Tanger Med": 32.0,
+        "Kaohsiung -> Tianjin": 8.0,
+        "Kaohsiung -> Xiamen": 8.0,
+        "Laem Chabang -> Busan": 15.0,
+        "Laem Chabang -> Cartagena": 17.0,
+        "Laem Chabang -> Colombo": 20.0,
+        "Laem Chabang -> Hamburg": 31.0,
+        "Laem Chabang -> Ho Chi Minh City": 2.0,
+        "Laem Chabang -> Jakarta": 9.0,
+        "Laem Chabang -> Jebel Ali": 47.0,
+        "Laem Chabang -> Kaohsiung": 9.0,
+        "Laem Chabang -> Los Angeles": 57.0,
+        "Laem Chabang -> New Jersey": 37.0,
+        "Laem Chabang -> Piraeus": 26.0,
+        "Laem Chabang -> Qingdao": 16.0,
+        "Laem Chabang -> Rotterdam": 45.0,
+        "Laem Chabang -> Shanghai": 43.0,
+        "Laem Chabang -> Shenzhen": 48.0,
+        "Laem Chabang -> Singapore": 10.0,
+        "Laem Chabang -> Tanger Med": 20.0,
+        "Laem Chabang -> Tianjin": 10.0,
+        "Laem Chabang -> Xiamen": 12.0,
+        "Los Angeles -> Busan": 87.0,
+        "Los Angeles -> Cartagena": 92.0,
+        "Los Angeles -> Colombo": 57.0,
+        "Los Angeles -> Hamburg": 66.0,
+        "Los Angeles -> Ho Chi Minh City": 18.0,
+        "Los Angeles -> Jakarta": 21.0,
+        "Los Angeles -> Jebel Ali": 108.0,
+        "Los Angeles -> Kaohsiung": 51.0,
+        "Los Angeles -> Laem Chabang": 18.0,
+        "Los Angeles -> New Jersey": 315.0,
+        "Los Angeles -> Piraeus": 52.0,
+        "Los Angeles -> Qingdao": 78.0,
+        "Los Angeles -> Rotterdam": 99.0,
+        "Los Angeles -> Shanghai": 154.0,
+        "Los Angeles -> Shenzhen": 129.0,
+        "Los Angeles -> Singapore": 58.0,
+        "Los Angeles -> Tanger Med": 39.0,
+        "Los Angeles -> Tianjin": 31.0,
+        "Los Angeles -> Xiamen": 63.0,
+        "New Jersey -> Busan": 72.0,
+        "New Jersey -> Cartagena": 42.0,
+        "New Jersey -> Colombo": 88.0,
+        "New Jersey -> Hamburg": 67.0,
+        "New Jersey -> Ho Chi Minh City": 11.0,
+        "New Jersey -> Jakarta": 13.0,
+        "New Jersey -> Jebel Ali": 85.0,
+        "New Jersey -> Kaohsiung": 51.0,
+        "New Jersey -> Laem Chabang": 10.0,
+        "New Jersey -> Los Angeles": 283.0,
+        "New Jersey -> Piraeus": 67.0,
+        "New Jersey -> Qingdao": 72.0,
+        "New Jersey -> Rotterdam": 76.0,
+        "New Jersey -> Shanghai": 172.0,
+        "New Jersey -> Shenzhen": 164.0,
+        "New Jersey -> Singapore": 47.0,
+        "New Jersey -> Tanger Med": 21.0,
+        "New Jersey -> Tianjin": 27.0,
+        "New Jersey -> Xiamen": 56.0,
+        "Piraeus -> Busan": 43.0,
+        "Piraeus -> Cartagena": 40.0,
+        "Piraeus -> Colombo": 42.0,
+        "Piraeus -> Hamburg": 17.0,
+        "Piraeus -> Ho Chi Minh City": 8.0,
+        "Piraeus -> Jakarta": 8.0,
+        "Piraeus -> Jebel Ali": 47.0,
+        "Piraeus -> Kaohsiung": 25.0,
+        "Piraeus -> Laem Chabang": 7.0,
+        "Piraeus -> Los Angeles": 47.0,
+        "Piraeus -> New Jersey": 57.0,
+        "Piraeus -> Qingdao": 40.0,
+        "Piraeus -> Rotterdam": 36.0,
+        "Piraeus -> Shanghai": 92.0,
+        "Piraeus -> Shenzhen": 89.0,
+        "Piraeus -> Singapore": 31.0,
+        "Piraeus -> Tanger Med": 20.0,
+        "Piraeus -> Tianjin": 15.0,
+        "Piraeus -> Xiamen": 30.0,
+        "Qingdao -> Busan": 5.0,
+        "Qingdao -> Cartagena": 32.0,
+        "Qingdao -> Colombo": 43.0,
+        "Qingdao -> Hamburg": 72.0,
+        "Qingdao -> Ho Chi Minh City": 8.0,
+        "Qingdao -> Jakarta": 12.0,
+        "Qingdao -> Jebel Ali": 94.0,
+        "Qingdao -> Kaohsiung": 12.0,
+        "Qingdao -> Laem Chabang": 9.0,
+        "Qingdao -> Los Angeles": 184.0,
+        "Qingdao -> New Jersey": 132.0,
+        "Qingdao -> Piraeus": 63.0,
+        "Qingdao -> Rotterdam": 88.0,
+        "Qingdao -> Shanghai": 8.0,
+        "Qingdao -> Shenzhen": 8.0,
+        "Qingdao -> Singapore": 40.0,
+        "Qingdao -> Tanger Med": 47.0,
+        "Qingdao -> Tianjin": 8.0,
+        "Qingdao -> Xiamen": 0.0,
+        "Rotterdam -> Busan": 90.0,
+        "Rotterdam -> Cartagena": 55.0,
+        "Rotterdam -> Colombo": 130.0,
+        "Rotterdam -> Hamburg": 4.0,
+        "Rotterdam -> Ho Chi Minh City": 19.0,
+        "Rotterdam -> Jakarta": 25.0,
+        "Rotterdam -> Jebel Ali": 231.0,
+        "Rotterdam -> Kaohsiung": 60.0,
+        "Rotterdam -> Laem Chabang": 22.0,
+        "Rotterdam -> Los Angeles": 107.0,
+        "Rotterdam -> New Jersey": 100.0,
+        "Rotterdam -> Piraeus": 26.0,
+        "Rotterdam -> Qingdao": 93.0,
+        "Rotterdam -> Shanghai": 218.0,
+        "Rotterdam -> Shenzhen": 220.0,
+        "Rotterdam -> Singapore": 76.0,
+        "Rotterdam -> Tanger Med": 28.0,
+        "Rotterdam -> Tianjin": 34.0,
+        "Rotterdam -> Xiamen": 69.0,
+        "Shanghai -> Busan": 40.0,
+        "Shanghai -> Cartagena": 75.0,
+        "Shanghai -> Colombo": 61.0,
+        "Shanghai -> Hamburg": 214.0,
+        "Shanghai -> Ho Chi Minh City": 19.0,
+        "Shanghai -> Jakarta": 20.0,
+        "Shanghai -> Jebel Ali": 150.0,
+        "Shanghai -> Kaohsiung": 17.0,
+        "Shanghai -> Laem Chabang": 21.0,
+        "Shanghai -> Los Angeles": 257.0,
+        "Shanghai -> New Jersey": 274.0,
+        "Shanghai -> Piraeus": 117.0,
+        "Shanghai -> Qingdao": 51.0,
+        "Shanghai -> Rotterdam": 248.0,
+        "Shanghai -> Shenzhen": 14.0,
+        "Shanghai -> Singapore": 53.0,
+        "Shanghai -> Tanger Med": 101.0,
+        "Shanghai -> Tianjin": 31.0,
+        "Shanghai -> Xiamen": 4.0,
+        "Shenzhen -> Busan": 29.0,
+        "Shenzhen -> Cartagena": 62.0,
+        "Shenzhen -> Colombo": 55.0,
+        "Shenzhen -> Hamburg": 212.0,
+        "Shenzhen -> Ho Chi Minh City": 16.0,
+        "Shenzhen -> Jakarta": 18.0,
+        "Shenzhen -> Jebel Ali": 193.0,
+        "Shenzhen -> Kaohsiung": 7.0,
+        "Shenzhen -> Laem Chabang": 20.0,
+        "Shenzhen -> Los Angeles": 147.0,
+        "Shenzhen -> New Jersey": 271.0,
+        "Shenzhen -> Piraeus": 119.0,
+        "Shenzhen -> Qingdao": 11.0,
+        "Shenzhen -> Rotterdam": 278.0,
+        "Shenzhen -> Shanghai": 33.0,
+        "Shenzhen -> Singapore": 39.0,
+        "Shenzhen -> Tanger Med": 81.0,
+        "Shenzhen -> Tianjin": 8.0,
+        "Shenzhen -> Xiamen": 6.0,
+        "Singapore -> Busan": 57.0,
+        "Singapore -> Cartagena": 47.0,
+        "Singapore -> Colombo": 28.0,
+        "Singapore -> Hamburg": 95.0,
+        "Singapore -> Ho Chi Minh City": 4.0,
+        "Singapore -> Jakarta": 8.0,
+        "Singapore -> Jebel Ali": 95.0,
+        "Singapore -> Kaohsiung": 32.0,
+        "Singapore -> Laem Chabang": 7.0,
+        "Singapore -> Los Angeles": 189.0,
+        "Singapore -> New Jersey": 94.0,
+        "Singapore -> Piraeus": 53.0,
+        "Singapore -> Qingdao": 59.0,
+        "Singapore -> Rotterdam": 135.0,
+        "Singapore -> Shanghai": 67.0,
+        "Singapore -> Shenzhen": 91.0,
+        "Singapore -> Tanger Med": 63.0,
+        "Singapore -> Tianjin": 16.0,
+        "Singapore -> Xiamen": 40.0,
+        "Tanger Med -> Busan": 45.0,
+        "Tanger Med -> Cartagena": 30.0,
+        "Tanger Med -> Colombo": 63.0,
+        "Tanger Med -> Hamburg": 13.0,
+        "Tanger Med -> Ho Chi Minh City": 12.0,
+        "Tanger Med -> Jakarta": 17.0,
+        "Tanger Med -> Jebel Ali": 113.0,
+        "Tanger Med -> Kaohsiung": 24.0,
+        "Tanger Med -> Laem Chabang": 13.0,
+        "Tanger Med -> Los Angeles": 40.0,
+        "Tanger Med -> New Jersey": 21.0,
+        "Tanger Med -> Piraeus": 13.0,
+        "Tanger Med -> Qingdao": 43.0,
+        "Tanger Med -> Rotterdam": 14.0,
+        "Tanger Med -> Shanghai": 101.0,
+        "Tanger Med -> Shenzhen": 100.0,
+        "Tanger Med -> Singapore": 47.0,
+        "Tanger Med -> Tianjin": 18.0,
+        "Tanger Med -> Xiamen": 33.0,
+        "Tianjin -> Busan": 5.0,
+        "Tianjin -> Cartagena": 24.0,
+        "Tianjin -> Colombo": 35.0,
+        "Tianjin -> Hamburg": 67.0,
+        "Tianjin -> Ho Chi Minh City": 7.0,
+        "Tianjin -> Jakarta": 9.0,
+        "Tianjin -> Jebel Ali": 88.0,
+        "Tianjin -> Kaohsiung": 7.0,
+        "Tianjin -> Laem Chabang": 7.0,
+        "Tianjin -> Los Angeles": 73.0,
+        "Tianjin -> New Jersey": 101.0,
+        "Tianjin -> Piraeus": 42.0,
+        "Tianjin -> Qingdao": 2.0,
+        "Tianjin -> Rotterdam": 98.0,
+        "Tianjin -> Shanghai": 10.0,
+        "Tianjin -> Shenzhen": 7.0,
+        "Tianjin -> Singapore": 37.0,
+        "Tianjin -> Tanger Med": 34.0,
+        "Tianjin -> Xiamen": 0.0,
+        "Xiamen -> Busan": 21.0,
+        "Xiamen -> Cartagena": 32.0,
+        "Xiamen -> Colombo": 48.0,
+        "Xiamen -> Hamburg": 107.0,
+        "Xiamen -> Ho Chi Minh City": 9.0,
+        "Xiamen -> Jakarta": 10.0,
+        "Xiamen -> Jebel Ali": 126.0,
+        "Xiamen -> Kaohsiung": 6.0,
+        "Xiamen -> Laem Chabang": 11.0,
+        "Xiamen -> Los Angeles": 81.0,
+        "Xiamen -> New Jersey": 157.0,
+        "Xiamen -> Piraeus": 65.0,
+        "Xiamen -> Qingdao": 7.0,
+        "Xiamen -> Rotterdam": 132.0,
+        "Xiamen -> Shanghai": 24.0,
+        "Xiamen -> Shenzhen": 12.0,
+        "Xiamen -> Singapore": 44.0,
+        "Xiamen -> Tanger Med": 47.0,
+        "Xiamen -> Tianjin": 1.0
+      },
+      "Cumulative_Completed_TEU_By_OD.csv": {
+        "Busan -> Cartagena": 267.0,
+        "Busan -> Colombo": 1421.0,
+        "Busan -> Hamburg": 1316.0,
+        "Busan -> Ho Chi Minh City": 223.0,
+        "Busan -> Jakarta": 321.0,
+        "Busan -> Jebel Ali": 2465.0,
+        "Busan -> Kaohsiung": 6852.0,
+        "Busan -> Laem Chabang": 249.0,
+        "Busan -> Los Angeles": 5596.0,
+        "Busan -> New Jersey": 2032.0,
+        "Busan -> Piraeus": 1235.0,
+        "Busan -> Qingdao": 1895.0,
+        "Busan -> Rotterdam": 1690.0,
+        "Busan -> Shanghai": 4558.0,
+        "Busan -> Shenzhen": 2360.0,
+        "Busan -> Singapore": 1666.0,
+        "Busan -> Tanger Med": 689.0,
+        "Busan -> Tianjin": 1132.0,
+        "Busan -> Xiamen": 1300.0,
+        "Cartagena -> Busan": 191.0,
+        "Cartagena -> Colombo": 537.0,
+        "Cartagena -> Hamburg": 1028.0,
+        "Cartagena -> Ho Chi Minh City": 101.0,
+        "Cartagena -> Jakarta": 135.0,
+        "Cartagena -> Jebel Ali": 504.0,
+        "Cartagena -> Kaohsiung": 122.0,
+        "Cartagena -> Laem Chabang": 99.0,
+        "Cartagena -> Los Angeles": 417.0,
+        "Cartagena -> New Jersey": 2777.0,
+        "Cartagena -> Piraeus": 724.0,
+        "Cartagena -> Qingdao": 251.0,
+        "Cartagena -> Rotterdam": 1470.0,
+        "Cartagena -> Shanghai": 819.0,
+        "Cartagena -> Shenzhen": 698.0,
+        "Cartagena -> Singapore": 466.0,
+        "Cartagena -> Tanger Med": 1052.0,
+        "Cartagena -> Tianjin": 138.0,
+        "Cartagena -> Xiamen": 164.0,
+        "Colombo -> Busan": 1334.0,
+        "Colombo -> Cartagena": 539.0,
+        "Colombo -> Hamburg": 1746.0,
+        "Colombo -> Ho Chi Minh City": 611.0,
+        "Colombo -> Jakarta": 779.0,
+        "Colombo -> Jebel Ali": 5406.0,
+        "Colombo -> Kaohsiung": 881.0,
+        "Colombo -> Laem Chabang": 652.0,
+        "Colombo -> Los Angeles": 682.0,
+        "Colombo -> New Jersey": 1595.0,
+        "Colombo -> Piraeus": 1631.0,
+        "Colombo -> Qingdao": 1064.0,
+        "Colombo -> Rotterdam": 2589.0,
+        "Colombo -> Shanghai": 3586.0,
+        "Colombo -> Shenzhen": 3512.0,
+        "Colombo -> Singapore": 3106.0,
+        "Colombo -> Tanger Med": 1398.0,
+        "Colombo -> Tianjin": 326.0,
+        "Colombo -> Xiamen": 1020.0,
+        "Hamburg -> Busan": 656.0,
+        "Hamburg -> Cartagena": 967.0,
+        "Hamburg -> Colombo": 1874.0,
+        "Hamburg -> Ho Chi Minh City": 200.0,
+        "Hamburg -> Jakarta": 268.0,
+        "Hamburg -> Jebel Ali": 2884.0,
+        "Hamburg -> Kaohsiung": 440.0,
+        "Hamburg -> Laem Chabang": 201.0,
+        "Hamburg -> Los Angeles": 540.0,
+        "Hamburg -> New Jersey": 2430.0,
+        "Hamburg -> Piraeus": 1515.0,
+        "Hamburg -> Qingdao": 614.0,
+        "Hamburg -> Rotterdam": 2877.0,
+        "Hamburg -> Shanghai": 2269.0,
+        "Hamburg -> Shenzhen": 2219.0,
+        "Hamburg -> Singapore": 1005.0,
+        "Hamburg -> Tanger Med": 2535.0,
+        "Hamburg -> Tianjin": 278.0,
+        "Hamburg -> Xiamen": 589.0,
+        "Ho Chi Minh City -> Busan": 237.0,
+        "Ho Chi Minh City -> Cartagena": 129.0,
+        "Ho Chi Minh City -> Colombo": 726.0,
+        "Ho Chi Minh City -> Hamburg": 385.0,
+        "Ho Chi Minh City -> Jakarta": 658.0,
+        "Ho Chi Minh City -> Jebel Ali": 1105.0,
+        "Ho Chi Minh City -> Kaohsiung": 170.0,
+        "Ho Chi Minh City -> Laem Chabang": 545.0,
+        "Ho Chi Minh City -> Los Angeles": 550.0,
+        "Ho Chi Minh City -> New Jersey": 345.0,
+        "Ho Chi Minh City -> Piraeus": 317.0,
+        "Ho Chi Minh City -> Qingdao": 265.0,
+        "Ho Chi Minh City -> Rotterdam": 588.0,
+        "Ho Chi Minh City -> Shanghai": 1248.0,
+        "Ho Chi Minh City -> Shenzhen": 1165.0,
+        "Ho Chi Minh City -> Singapore": 1815.0,
+        "Ho Chi Minh City -> Tanger Med": 277.0,
+        "Ho Chi Minh City -> Tianjin": 130.0,
+        "Ho Chi Minh City -> Xiamen": 240.0,
+        "Jakarta -> Busan": 340.0,
+        "Jakarta -> Cartagena": 182.0,
+        "Jakarta -> Colombo": 1039.0,
+        "Jakarta -> Hamburg": 497.0,
+        "Jakarta -> Ho Chi Minh City": 448.0,
+        "Jakarta -> Jebel Ali": 1523.0,
+        "Jakarta -> Kaohsiung": 219.0,
+        "Jakarta -> Laem Chabang": 470.0,
+        "Jakarta -> Los Angeles": 780.0,
+        "Jakarta -> New Jersey": 507.0,
+        "Jakarta -> Piraeus": 657.0,
+        "Jakarta -> Qingdao": 297.0,
+        "Jakarta -> Rotterdam": 807.0,
+        "Jakarta -> Shanghai": 1619.0,
+        "Jakarta -> Shenzhen": 1553.0,
+        "Jakarta -> Singapore": 1475.0,
+        "Jakarta -> Tanger Med": 338.0,
+        "Jakarta -> Tianjin": 184.0,
+        "Jakarta -> Xiamen": 298.0,
+        "Jebel Ali -> Busan": 1162.0,
+        "Jebel Ali -> Cartagena": 345.0,
+        "Jebel Ali -> Colombo": 5418.0,
+        "Jebel Ali -> Hamburg": 1842.0,
+        "Jebel Ali -> Ho Chi Minh City": 525.0,
+        "Jebel Ali -> Jakarta": 727.0,
+        "Jebel Ali -> Kaohsiung": 797.0,
+        "Jebel Ali -> Laem Chabang": 518.0,
+        "Jebel Ali -> Los Angeles": 1158.0,
+        "Jebel Ali -> New Jersey": 994.0,
+        "Jebel Ali -> Piraeus": 1655.0,
+        "Jebel Ali -> Qingdao": 818.0,
+        "Jebel Ali -> Rotterdam": 2864.0,
+        "Jebel Ali -> Shanghai": 2149.0,
+        "Jebel Ali -> Shenzhen": 2198.0,
+        "Jebel Ali -> Singapore": 2561.0,
+        "Jebel Ali -> Tanger Med": 2274.0,
+        "Jebel Ali -> Tianjin": 247.0,
+        "Jebel Ali -> Xiamen": 846.0,
+        "Kaohsiung -> Busan": 2445.0,
+        "Kaohsiung -> Cartagena": 166.0,
+        "Kaohsiung -> Colombo": 454.0,
+        "Kaohsiung -> Hamburg": 607.0,
+        "Kaohsiung -> Ho Chi Minh City": 165.0,
+        "Kaohsiung -> Jakarta": 202.0,
+        "Kaohsiung -> Jebel Ali": 654.0,
+        "Kaohsiung -> Laem Chabang": 171.0,
+        "Kaohsiung -> Los Angeles": 3655.0,
+        "Kaohsiung -> New Jersey": 699.0,
+        "Kaohsiung -> Piraeus": 461.0,
+        "Kaohsiung -> Qingdao": 904.0,
+        "Kaohsiung -> Rotterdam": 673.0,
+        "Kaohsiung -> Shanghai": 1706.0,
+        "Kaohsiung -> Shenzhen": 759.0,
+        "Kaohsiung -> Singapore": 574.0,
+        "Kaohsiung -> Tanger Med": 324.0,
+        "Kaohsiung -> Tianjin": 800.0,
+        "Kaohsiung -> Xiamen": 391.0,
+        "Laem Chabang -> Busan": 251.0,
+        "Laem Chabang -> Cartagena": 138.0,
+        "Laem Chabang -> Colombo": 724.0,
+        "Laem Chabang -> Hamburg": 387.0,
+        "Laem Chabang -> Ho Chi Minh City": 225.0,
+        "Laem Chabang -> Jakarta": 747.0,
+        "Laem Chabang -> Jebel Ali": 1184.0,
+        "Laem Chabang -> Kaohsiung": 173.0,
+        "Laem Chabang -> Los Angeles": 633.0,
+        "Laem Chabang -> New Jersey": 363.0,
+        "Laem Chabang -> Piraeus": 458.0,
+        "Laem Chabang -> Qingdao": 253.0,
+        "Laem Chabang -> Rotterdam": 553.0,
+        "Laem Chabang -> Shanghai": 1235.0,
+        "Laem Chabang -> Shenzhen": 1217.0,
+        "Laem Chabang -> Singapore": 1808.0,
+        "Laem Chabang -> Tanger Med": 274.0,
+        "Laem Chabang -> Tianjin": 165.0,
+        "Laem Chabang -> Xiamen": 229.0,
+        "Los Angeles -> Busan": 2757.0,
+        "Los Angeles -> Cartagena": 582.0,
+        "Los Angeles -> Colombo": 770.0,
+        "Los Angeles -> Hamburg": 527.0,
+        "Los Angeles -> Ho Chi Minh City": 245.0,
+        "Los Angeles -> Jakarta": 291.0,
+        "Los Angeles -> Jebel Ali": 1139.0,
+        "Los Angeles -> Kaohsiung": 1256.0,
+        "Los Angeles -> Laem Chabang": 235.0,
+        "Los Angeles -> New Jersey": 2276.0,
+        "Los Angeles -> Piraeus": 529.0,
+        "Los Angeles -> Qingdao": 2097.0,
+        "Los Angeles -> Rotterdam": 801.0,
+        "Los Angeles -> Shanghai": 4450.0,
+        "Los Angeles -> Shenzhen": 2409.0,
+        "Los Angeles -> Singapore": 887.0,
+        "Los Angeles -> Tanger Med": 328.0,
+        "Los Angeles -> Tianjin": 870.0,
+        "Los Angeles -> Xiamen": 1216.0,
+        "New Jersey -> Busan": 684.0,
+        "New Jersey -> Cartagena": 3630.0,
+        "New Jersey -> Colombo": 1573.0,
+        "New Jersey -> Hamburg": 2492.0,
+        "New Jersey -> Ho Chi Minh City": 157.0,
+        "New Jersey -> Jakarta": 183.0,
+        "New Jersey -> Jebel Ali": 1074.0,
+        "New Jersey -> Kaohsiung": 519.0,
+        "New Jersey -> Laem Chabang": 137.0,
+        "New Jersey -> Los Angeles": 2112.0,
+        "New Jersey -> Piraeus": 1357.0,
+        "New Jersey -> Qingdao": 651.0,
+        "New Jersey -> Rotterdam": 3001.0,
+        "New Jersey -> Shanghai": 2230.0,
+        "New Jersey -> Shenzhen": 1979.0,
+        "New Jersey -> Singapore": 737.0,
+        "New Jersey -> Tanger Med": 1068.0,
+        "New Jersey -> Tianjin": 245.0,
+        "New Jersey -> Xiamen": 581.0,
+        "Piraeus -> Busan": 592.0,
+        "Piraeus -> Cartagena": 764.0,
+        "Piraeus -> Colombo": 1555.0,
+        "Piraeus -> Hamburg": 969.0,
+        "Piraeus -> Ho Chi Minh City": 184.0,
+        "Piraeus -> Jakarta": 205.0,
+        "Piraeus -> Jebel Ali": 2238.0,
+        "Piraeus -> Kaohsiung": 380.0,
+        "Piraeus -> Laem Chabang": 153.0,
+        "Piraeus -> Los Angeles": 414.0,
+        "Piraeus -> New Jersey": 1408.0,
+        "Piraeus -> Qingdao": 523.0,
+        "Piraeus -> Rotterdam": 2224.0,
+        "Piraeus -> Shanghai": 1899.0,
+        "Piraeus -> Shenzhen": 1671.0,
+        "Piraeus -> Singapore": 854.0,
+        "Piraeus -> Tanger Med": 2027.0,
+        "Piraeus -> Tianjin": 206.0,
+        "Piraeus -> Xiamen": 469.0,
+        "Qingdao -> Busan": 1152.0,
+        "Qingdao -> Cartagena": 253.0,
+        "Qingdao -> Colombo": 1007.0,
+        "Qingdao -> Hamburg": 786.0,
+        "Qingdao -> Ho Chi Minh City": 202.0,
+        "Qingdao -> Jakarta": 298.0,
+        "Qingdao -> Jebel Ali": 1406.0,
+        "Qingdao -> Kaohsiung": 1067.0,
+        "Qingdao -> Laem Chabang": 193.0,
+        "Qingdao -> Los Angeles": 5210.0,
+        "Qingdao -> New Jersey": 1208.0,
+        "Qingdao -> Piraeus": 914.0,
+        "Qingdao -> Rotterdam": 971.0,
+        "Qingdao -> Shanghai": 2665.0,
+        "Qingdao -> Shenzhen": 921.0,
+        "Qingdao -> Singapore": 1187.0,
+        "Qingdao -> Tanger Med": 526.0,
+        "Qingdao -> Tianjin": 462.0,
+        "Qingdao -> Xiamen": 45.0,
+        "Rotterdam -> Busan": 991.0,
+        "Rotterdam -> Cartagena": 1477.0,
+        "Rotterdam -> Colombo": 2856.0,
+        "Rotterdam -> Hamburg": 1725.0,
+        "Rotterdam -> Ho Chi Minh City": 307.0,
+        "Rotterdam -> Jakarta": 424.0,
+        "Rotterdam -> Jebel Ali": 4262.0,
+        "Rotterdam -> Kaohsiung": 708.0,
+        "Rotterdam -> Laem Chabang": 331.0,
+        "Rotterdam -> Los Angeles": 795.0,
+        "Rotterdam -> New Jersey": 3846.0,
+        "Rotterdam -> Piraeus": 1503.0,
+        "Rotterdam -> Qingdao": 980.0,
+        "Rotterdam -> Shanghai": 3290.0,
+        "Rotterdam -> Shenzhen": 3114.0,
+        "Rotterdam -> Singapore": 1412.0,
+        "Rotterdam -> Tanger Med": 3962.0,
+        "Rotterdam -> Tianjin": 361.0,
+        "Rotterdam -> Xiamen": 866.0,
+        "Shanghai -> Busan": 2798.0,
+        "Shanghai -> Cartagena": 750.0,
+        "Shanghai -> Colombo": 2563.0,
+        "Shanghai -> Hamburg": 2816.0,
+        "Shanghai -> Ho Chi Minh City": 743.0,
+        "Shanghai -> Jakarta": 936.0,
+        "Shanghai -> Jebel Ali": 3203.0,
+        "Shanghai -> Kaohsiung": 1912.0,
+        "Shanghai -> Laem Chabang": 745.0,
+        "Shanghai -> Los Angeles": 6031.0,
+        "Shanghai -> New Jersey": 3493.0,
+        "Shanghai -> Piraeus": 2309.0,
+        "Shanghai -> Qingdao": 2549.0,
+        "Shanghai -> Rotterdam": 3393.0,
+        "Shanghai -> Shenzhen": 2269.0,
+        "Shanghai -> Singapore": 3621.0,
+        "Shanghai -> Tanger Med": 1459.0,
+        "Shanghai -> Tianjin": 1744.0,
+        "Shanghai -> Xiamen": 982.0,
+        "Shenzhen -> Busan": 3209.0,
+        "Shenzhen -> Cartagena": 660.0,
+        "Shenzhen -> Colombo": 2887.0,
+        "Shenzhen -> Hamburg": 3041.0,
+        "Shenzhen -> Ho Chi Minh City": 805.0,
+        "Shenzhen -> Jakarta": 1080.0,
+        "Shenzhen -> Jebel Ali": 4579.0,
+        "Shenzhen -> Kaohsiung": 2148.0,
+        "Shenzhen -> Laem Chabang": 838.0,
+        "Shenzhen -> Los Angeles": 3003.0,
+        "Shenzhen -> New Jersey": 3731.0,
+        "Shenzhen -> Piraeus": 2585.0,
+        "Shenzhen -> Qingdao": 773.0,
+        "Shenzhen -> Rotterdam": 4088.0,
+        "Shenzhen -> Shanghai": 1869.0,
+        "Shenzhen -> Singapore": 3917.0,
+        "Shenzhen -> Tanger Med": 1295.0,
+        "Shenzhen -> Tianjin": 649.0,
+        "Shenzhen -> Xiamen": 255.0,
+        "Singapore -> Busan": 1489.0,
+        "Singapore -> Cartagena": 549.0,
+        "Singapore -> Colombo": 2859.0,
+        "Singapore -> Hamburg": 1592.0,
+        "Singapore -> Ho Chi Minh City": 908.0,
+        "Singapore -> Jakarta": 2077.0,
+        "Singapore -> Jebel Ali": 4562.0,
+        "Singapore -> Kaohsiung": 992.0,
+        "Singapore -> Laem Chabang": 960.0,
+        "Singapore -> Los Angeles": 2744.0,
+        "Singapore -> New Jersey": 1482.0,
+        "Singapore -> Piraeus": 1456.0,
+        "Singapore -> Qingdao": 1363.0,
+        "Singapore -> Rotterdam": 2341.0,
+        "Singapore -> Shanghai": 4918.0,
+        "Singapore -> Shenzhen": 4930.0,
+        "Singapore -> Tanger Med": 1188.0,
+        "Singapore -> Tianjin": 378.0,
+        "Singapore -> Xiamen": 1362.0,
+        "Tanger Med -> Busan": 533.0,
+        "Tanger Med -> Cartagena": 988.0,
+        "Tanger Med -> Colombo": 1619.0,
+        "Tanger Med -> Hamburg": 1495.0,
+        "Tanger Med -> Ho Chi Minh City": 221.0,
+        "Tanger Med -> Jakarta": 310.0,
+        "Tanger Med -> Jebel Ali": 2353.0,
+        "Tanger Med -> Kaohsiung": 306.0,
+        "Tanger Med -> Laem Chabang": 213.0,
+        "Tanger Med -> Los Angeles": 343.0,
+        "Tanger Med -> New Jersey": 1077.0,
+        "Tanger Med -> Piraeus": 1152.0,
+        "Tanger Med -> Qingdao": 480.0,
+        "Tanger Med -> Rotterdam": 2089.0,
+        "Tanger Med -> Shanghai": 1693.0,
+        "Tanger Med -> Shenzhen": 1552.0,
+        "Tanger Med -> Singapore": 1017.0,
+        "Tanger Med -> Tianjin": 206.0,
+        "Tanger Med -> Xiamen": 418.0,
+        "Tianjin -> Busan": 887.0,
+        "Tianjin -> Cartagena": 191.0,
+        "Tianjin -> Colombo": 768.0,
+        "Tianjin -> Hamburg": 706.0,
+        "Tianjin -> Ho Chi Minh City": 138.0,
+        "Tianjin -> Jakarta": 202.0,
+        "Tianjin -> Jebel Ali": 1306.0,
+        "Tianjin -> Kaohsiung": 563.0,
+        "Tianjin -> Laem Chabang": 153.0,
+        "Tianjin -> Los Angeles": 1987.0,
+        "Tianjin -> New Jersey": 888.0,
+        "Tianjin -> Piraeus": 609.0,
+        "Tianjin -> Qingdao": 993.0,
+        "Tianjin -> Rotterdam": 1079.0,
+        "Tianjin -> Shanghai": 2140.0,
+        "Tianjin -> Shenzhen": 639.0,
+        "Tianjin -> Singapore": 1073.0,
+        "Tianjin -> Tanger Med": 374.0,
+        "Tianjin -> Xiamen": 43.0,
+        "Xiamen -> Busan": 1872.0,
+        "Xiamen -> Cartagena": 258.0,
+        "Xiamen -> Colombo": 1277.0,
+        "Xiamen -> Hamburg": 1240.0,
+        "Xiamen -> Ho Chi Minh City": 230.0,
+        "Xiamen -> Jakarta": 281.0,
+        "Xiamen -> Jebel Ali": 2091.0,
+        "Xiamen -> Kaohsiung": 1237.0,
+        "Xiamen -> Laem Chabang": 252.0,
+        "Xiamen -> Los Angeles": 1594.0,
+        "Xiamen -> New Jersey": 1531.0,
+        "Xiamen -> Piraeus": 1036.0,
+        "Xiamen -> Qingdao": 447.0,
+        "Xiamen -> Rotterdam": 1555.0,
+        "Xiamen -> Shanghai": 1203.0,
+        "Xiamen -> Shenzhen": 4383.0,
+        "Xiamen -> Singapore": 1582.0,
+        "Xiamen -> Tanger Med": 563.0,
+        "Xiamen -> Tianjin": 43.0
+      }
+    },
+    "completed_teu_rounded_sum": 485681.0
+  },
+  "comparison_control": "H1",
+  "complete": true,
+  "individual_mechanism_attribution": false,
+  "mean_interval_att_days_change": {
+    "absolute": 0.6563888888888894,
+    "percent": 4.547116439278787
+  },
+  "loss_kpi_change": {
+    "absolute": 12.758854393869415,
+    "percent": 107.93971583258455
+  },
+  "completed_teu_rounded_sum_change": {
+    "absolute": -4602.0,
+    "percent": -0.938641560078568
+  },
+  "interval_changes": [
+    {
+      "start": 1,
+      "end": 5,
+      "att": -0.20000000000000107,
+      "loss": -0.0740371238762938
+    },
+    {
+      "start": 6,
+      "end": 10,
+      "att": -0.08999999999999986,
+      "loss": -0.03510100861932375
+    },
+    {
+      "start": 11,
+      "end": 15,
+      "att": 0.009999999999999787,
+      "loss": 0.0037650559615182155
+    },
+    {
+      "start": 16,
+      "end": 20,
+      "att": -0.019999999999999574,
+      "loss": -0.00771411437605618
+    },
+    {
+      "start": 21,
+      "end": 25,
+      "att": 0.02999999999999936,
+      "loss": 0.011514798661260706
+    },
+    {
+      "start": 26,
+      "end": 30,
+      "att": 0.1999999999999993,
+      "loss": 0.07880939700573908
+    },
+    {
+      "start": 31,
+      "end": 35,
+      "att": -0.28999999999999915,
+      "loss": -0.11306487304914903
+    },
+    {
+      "start": 36,
+      "end": 40,
+      "att": -0.4499999999999993,
+      "loss": -0.17508643027340454
+    },
+    {
+      "start": 41,
+      "end": 45,
+      "att": -0.33999999999999986,
+      "loss": -0.13403576044932253
+    },
+    {
+      "start": 46,
+      "end": 50,
+      "att": -0.02999999999999936,
+      "loss": -0.011061703936198208
+    },
+    {
+      "start": 51,
+      "end": 55,
+      "att": -0.08999999999999986,
+      "loss": -0.03415785964175133
+    },
+    {
+      "start": 56,
+      "end": 60,
+      "att": -0.03999999999999915,
+      "loss": -0.01555952184719711
+    },
+    {
+      "start": 61,
+      "end": 65,
+      "att": -0.4800000000000004,
+      "loss": -0.1759252267809891
+    },
+    {
+      "start": 66,
+      "end": 70,
+      "att": -0.47000000000000064,
+      "loss": -0.16790659802760954
+    },
+    {
+      "start": 71,
+      "end": 75,
+      "att": 0.5,
+      "loss": 0.18431777522753823
+    },
+    {
+      "start": 76,
+      "end": 80,
+      "att": 0.35999999999999943,
+      "loss": 0.12412868249649434
+    },
+    {
+      "start": 81,
+      "end": 85,
+      "att": -0.02999999999999936,
+      "loss": -0.011640071305468735
+    },
+    {
+      "start": 86,
+      "end": 90,
+      "att": -0.16000000000000014,
+      "loss": -0.060969488838991115
+    },
+    {
+      "start": 91,
+      "end": 95,
+      "att": -0.7799999999999994,
+      "loss": -0.2849773071104378
+    },
+    {
+      "start": 96,
+      "end": 100,
+      "att": -0.370000000000001,
+      "loss": -0.13205661291001758
+    },
+    {
+      "start": 101,
+      "end": 105,
+      "att": 0.049999999999998934,
+      "loss": 0.018009579665156372
+    },
+    {
+      "start": 106,
+      "end": 110,
+      "att": 0.10999999999999943,
+      "loss": 0.04015796845223074
+    },
+    {
+      "start": 111,
+      "end": 115,
+      "att": 0.0600000000000005,
+      "loss": 0.022104267531604105
+    },
+    {
+      "start": 116,
+      "end": 120,
+      "att": -0.41000000000000014,
+      "loss": -0.1402623865017516
+    },
+    {
+      "start": 121,
+      "end": 125,
+      "att": -0.3699999999999992,
+      "loss": -0.12335808252192104
+    },
+    {
+      "start": 126,
+      "end": 130,
+      "att": -0.16000000000000014,
+      "loss": -0.057710509414190536
+    },
+    {
+      "start": 131,
+      "end": 135,
+      "att": -0.3699999999999992,
+      "loss": -0.13307658030428382
+    },
+    {
+      "start": 136,
+      "end": 140,
+      "att": -0.0600000000000005,
+      "loss": -0.021869807284481402
+    },
+    {
+      "start": 141,
+      "end": 145,
+      "att": -0.28999999999999915,
+      "loss": -0.09474216022545168
+    },
+    {
+      "start": 146,
+      "end": 150,
+      "att": -0.09999999999999964,
+      "loss": -0.031234278143924543
+    },
+    {
+      "start": 151,
+      "end": 155,
+      "att": 0.0600000000000005,
+      "loss": 0.017062667062667236
+    },
+    {
+      "start": 156,
+      "end": 160,
+      "att": 0.4299999999999997,
+      "loss": 0.10886536699189209
+    },
+    {
+      "start": 161,
+      "end": 165,
+      "att": 0.10999999999999943,
+      "loss": 0.025969698285457365
+    },
+    {
+      "start": 166,
+      "end": 170,
+      "att": 0.129999999999999,
+      "loss": 0.029501913659328194
+    },
+    {
+      "start": 171,
+      "end": 175,
+      "att": 0.21999999999999886,
+      "loss": 0.04826739618406228
+    },
+    {
+      "start": 176,
+      "end": 180,
+      "att": 0.28999999999999915,
+      "loss": 0.05912404282535144
+    },
+    {
+      "start": 181,
+      "end": 185,
+      "att": 0.2699999999999996,
+      "loss": 0.05210000804241943
+    },
+    {
+      "start": 186,
+      "end": 190,
+      "att": 0.5400000000000027,
+      "loss": 0.09927348789006074
+    },
+    {
+      "start": 191,
+      "end": 195,
+      "att": 4.98,
+      "loss": 1.118181862281404
+    },
+    {
+      "start": 196,
+      "end": 200,
+      "att": 1.3199999999999985,
+      "loss": 0.4517081620042829
+    },
+    {
+      "start": 201,
+      "end": 205,
+      "att": 1.8699999999999992,
+      "loss": 0.5975001143589043
+    },
+    {
+      "start": 206,
+      "end": 210,
+      "att": 0.7799999999999994,
+      "loss": 0.2686139440567775
+    },
+    {
+      "start": 211,
+      "end": 215,
+      "att": 0.39000000000000057,
+      "loss": 0.15114749588170162
+    },
+    {
+      "start": 216,
+      "end": 220,
+      "att": 0.0600000000000005,
+      "loss": 0.02200675292078791
+    },
+    {
+      "start": 221,
+      "end": 225,
+      "att": -0.3699999999999992,
+      "loss": -0.14015914977703048
+    },
+    {
+      "start": 226,
+      "end": 230,
+      "att": 0.11999999999999922,
+      "loss": 0.04698895323895336
+    },
+    {
+      "start": 231,
+      "end": 235,
+      "att": 0.33999999999999986,
+      "loss": 0.12492866285658266
+    },
+    {
+      "start": 236,
+      "end": 240,
+      "att": -0.11000000000000121,
+      "loss": -0.04052894506078708
+    },
+    {
+      "start": 241,
+      "end": 245,
+      "att": 0.09999999999999964,
+      "loss": 0.03727769251242741
+    },
+    {
+      "start": 246,
+      "end": 250,
+      "att": 0.27999999999999936,
+      "loss": 0.10263110763770178
+    },
+    {
+      "start": 251,
+      "end": 255,
+      "att": 0.5299999999999994,
+      "loss": 0.20646976611458978
+    },
+    {
+      "start": 256,
+      "end": 260,
+      "att": 0.9900000000000002,
+      "loss": 0.3808099680914312
+    },
+    {
+      "start": 261,
+      "end": 265,
+      "att": -0.08999999999999986,
+      "loss": -0.03489151721009387
+    },
+    {
+      "start": 266,
+      "end": 270,
+      "att": 0.4800000000000004,
+      "loss": 0.179500918841633
+    },
+    {
+      "start": 271,
+      "end": 275,
+      "att": 0.5400000000000009,
+      "loss": 0.17341783308999437
+    },
+    {
+      "start": 276,
+      "end": 280,
+      "att": 0.4299999999999997,
+      "loss": 0.13724677055476087
+    },
+    {
+      "start": 281,
+      "end": 285,
+      "att": 1.1900000000000013,
+      "loss": 0.3431916457227774
+    },
+    {
+      "start": 286,
+      "end": 290,
+      "att": 1.1700000000000017,
+      "loss": 0.32033658033392476
+    },
+    {
+      "start": 291,
+      "end": 295,
+      "att": 1.6900000000000013,
+      "loss": 0.412753623188406
+    },
+    {
+      "start": 296,
+      "end": 300,
+      "att": 1.6400000000000006,
+      "loss": 0.3618692506578902
+    },
+    {
+      "start": 301,
+      "end": 305,
+      "att": 1.7699999999999996,
+      "loss": 0.40387928998916367
+    },
+    {
+      "start": 306,
+      "end": 310,
+      "att": 3.5500000000000007,
+      "loss": 0.9134292937109839
+    },
+    {
+      "start": 311,
+      "end": 315,
+      "att": 3.549999999999999,
+      "loss": 0.8850408570268792
+    },
+    {
+      "start": 316,
+      "end": 320,
+      "att": 3.3000000000000007,
+      "loss": 0.9784286838409367
+    },
+    {
+      "start": 321,
+      "end": 325,
+      "att": 1.4100000000000001,
+      "loss": 0.4502772779473446
+    },
+    {
+      "start": 326,
+      "end": 330,
+      "att": 1.8699999999999992,
+      "loss": 0.5612192004335353
+    },
+    {
+      "start": 331,
+      "end": 335,
+      "att": 1.9100000000000001,
+      "loss": 0.6234691446271146
+    },
+    {
+      "start": 336,
+      "end": 340,
+      "att": 2.7500000000000018,
+      "loss": 0.8161209262547242
+    },
+    {
+      "start": 341,
+      "end": 345,
+      "att": 3.259999999999998,
+      "loss": 0.9066336966144639
+    },
+    {
+      "start": 346,
+      "end": 350,
+      "att": 2.0299999999999994,
+      "loss": 0.545677208156094
+    },
+    {
+      "start": 351,
+      "end": 355,
+      "att": 2.639999999999999,
+      "loss": 0.7079667083364172
+    },
+    {
+      "start": 356,
+      "end": 360,
+      "att": 3.120000000000001,
+      "loss": 0.8582860141301706
+    }
+  ],
+  "window_changes": {
+    "41-100": {
+      "att": -0.1608333333333345,
+      "loss": -0.7198436931239505
+    },
+    "141-200": {
+      "att": 0.663333333333334,
+      "loss": 1.8840781668575488
+    },
+    "216-240": {
+      "att": 0.007999999999999119,
+      "loss": 0.013236274178506369
+    },
+    "261-275": {
+      "att": 0.3100000000000005,
+      "loss": 0.3180272347215335
+    },
+    "276-320": {
+      "att": 2.032222222222222,
+      "loss": 4.756175995025722
+    },
+    "321-330": {
+      "att": 1.6400000000000006,
+      "loss": 1.01149647838088
+    },
+    "331-360": {
+      "att": 2.618333333333334,
+      "loss": 4.458153698118984
+    },
+    "261-360": {
+      "att": 1.9105000000000008,
+      "loss": 10.54385340624712
+    }
+  },
+  "ports_changes": {
+    "Busan": {
+      "Origin Waiting TEU": -8.0,
+      "Transshipment Waiting TEU": -12.0,
+      "Total Waiting TEU": -20.0,
+      "Vessels Waiting": 0.0
+    },
+    "Cartagena": {
+      "Origin Waiting TEU": 30.0,
+      "Transshipment Waiting TEU": 0.0,
+      "Total Waiting TEU": 30.0,
+      "Vessels Waiting": 0.0
+    },
+    "Colombo": {
+      "Origin Waiting TEU": 88.0,
+      "Transshipment Waiting TEU": 20.0,
+      "Total Waiting TEU": 107.0,
+      "Vessels Waiting": 0.0
+    },
+    "Hamburg": {
+      "Origin Waiting TEU": 72.0,
+      "Transshipment Waiting TEU": 0.0,
+      "Total Waiting TEU": 72.0,
+      "Vessels Waiting": 0.0
+    },
+    "Ho Chi Minh City": {
+      "Origin Waiting TEU": 0.0,
+      "Transshipment Waiting TEU": 0.0,
+      "Total Waiting TEU": 0.0,
+      "Vessels Waiting": 0.0
+    },
+    "Jakarta": {
+      "Origin Waiting TEU": 0.0,
+      "Transshipment Waiting TEU": 0.0,
+      "Total Waiting TEU": 0.0,
+      "Vessels Waiting": 0.0
+    },
+    "Jebel Ali": {
+      "Origin Waiting TEU": 14.0,
+      "Transshipment Waiting TEU": 0.0,
+      "Total Waiting TEU": 14.0,
+      "Vessels Waiting": 0.0
+    },
+    "Kaohsiung": {
+      "Origin Waiting TEU": -2.0,
+      "Transshipment Waiting TEU": 0.0,
+      "Total Waiting TEU": -2.0,
+      "Vessels Waiting": 0.0
+    },
+    "Laem Chabang": {
+      "Origin Waiting TEU": 0.0,
+      "Transshipment Waiting TEU": 0.0,
+      "Total Waiting TEU": 0.0,
+      "Vessels Waiting": 0.0
+    },
+    "Los Angeles": {
+      "Origin Waiting TEU": -14.0,
+      "Transshipment Waiting TEU": -4.0,
+      "Total Waiting TEU": -17.0,
+      "Vessels Waiting": 0.0
+    },
+    "New Jersey": {
+      "Origin Waiting TEU": 58.0,
+      "Transshipment Waiting TEU": 36.0,
+      "Total Waiting TEU": 94.0,
+      "Vessels Waiting": 0.0
+    },
+    "Piraeus": {
+      "Origin Waiting TEU": 67.0,
+      "Transshipment Waiting TEU": -4.0,
+      "Total Waiting TEU": 62.0,
+      "Vessels Waiting": 0.04000000000000001
+    },
+    "Qingdao": {
+      "Origin Waiting TEU": -7.0,
+      "Transshipment Waiting TEU": 0.0,
+      "Total Waiting TEU": -7.0,
+      "Vessels Waiting": 0.0
+    },
+    "Rotterdam": {
+      "Origin Waiting TEU": 108.0,
+      "Transshipment Waiting TEU": -2.0,
+      "Total Waiting TEU": 106.0,
+      "Vessels Waiting": 0.0
+    },
+    "Shanghai": {
+      "Origin Waiting TEU": 80.0,
+      "Transshipment Waiting TEU": 175.0,
+      "Total Waiting TEU": 255.0,
+      "Vessels Waiting": 0.0
+    },
+    "Shenzhen": {
+      "Origin Waiting TEU": 112.0,
+      "Transshipment Waiting TEU": 68.0,
+      "Total Waiting TEU": 179.0,
+      "Vessels Waiting": 0.0
+    },
+    "Singapore": {
+      "Origin Waiting TEU": 107.0,
+      "Transshipment Waiting TEU": 98.0,
+      "Total Waiting TEU": 205.0,
+      "Vessels Waiting": 0.0
+    },
+    "Tanger Med": {
+      "Origin Waiting TEU": 52.0,
+      "Transshipment Waiting TEU": 4.0,
+      "Total Waiting TEU": 55.0,
+      "Vessels Waiting": 0.0
+    },
+    "Tianjin": {
+      "Origin Waiting TEU": -4.0,
+      "Transshipment Waiting TEU": 0.0,
+      "Total Waiting TEU": -4.0,
+      "Vessels Waiting": 0.0
+    },
+    "Xiamen": {
+      "Origin Waiting TEU": -1.0,
+      "Transshipment Waiting TEU": 0.0,
+      "Total Waiting TEU": -1.0,
+      "Vessels Waiting": 0.0
+    },
+    "TOTAL": {
+      "Origin Waiting TEU": 753.0,
+      "Transshipment Waiting TEU": 378.0,
+      "Total Waiting TEU": 1132.0,
+      "Vessels Waiting": 0.04999999999999999
+    }
+  },
+  "routes_changes": {
+    "S1": {
+      "Avg Capacity TEU": -643.0,
+      "Avg Carried TEU": -103.0,
+      "Utilization": -0.04999999999999982
+    },
+    "S2": {
+      "Avg Capacity TEU": 22.0,
+      "Avg Carried TEU": 0.0,
+      "Utilization": -0.010000000000000675
+    },
+    "S3": {
+      "Avg Capacity TEU": -3.0,
+      "Avg Carried TEU": -1.0,
+      "Utilization": -0.009999999999999787
+    },
+    "S4": {
+      "Avg Capacity TEU": -4.0,
+      "Avg Carried TEU": 11.0,
+      "Utilization": 0.029999999999999805
+    },
+    "S5": {
+      "Avg Capacity TEU": 33.0,
+      "Avg Carried TEU": 28.0,
+      "Utilization": 0.020000000000000018
+    },
+    "S6": {
+      "Avg Capacity TEU": -1.0,
+      "Avg Carried TEU": -16.0,
+      "Utilization": -0.04999999999999982
+    },
+    "S7": {
+      "Avg Capacity TEU": -13.0,
+      "Avg Carried TEU": -17.0,
+      "Utilization": -0.040000000000000036
+    },
+    "S8": {
+      "Avg Capacity TEU": 0.0,
+      "Avg Carried TEU": 0.0,
+      "Utilization": 0.0
+    },
+    "S9": {
+      "Avg Capacity TEU": -14.0,
+      "Avg Carried TEU": 2.0,
+      "Utilization": 0.0
+    },
+    "TOTAL": {
+      "Avg Capacity TEU": -622.0,
+      "Avg Carried TEU": -96.0,
+      "Utilization": -0.020000000000000018
+    }
+  },
+  "vessels_changes": {
+    "Average vessels sailing": {
+      "Average Count": -0.030000000000001137
+    },
+    "Average vessels waiting for berth at port": {
+      "Average Count": 0.04999999999999999
+    },
+    "Average vessels being served at berth": {
+      "Average Count": -0.010000000000000009
+    },
+    "TOTAL average active/port vessels": {
+      "Average Count": 0.0
+    }
+  },
+  "new_routes": {},
+  "od_largest_changes": {
+    "Average_Origin_Waiting_TEU_By_OD.csv": {
+      "increases": [
+        {
+          "od": "Singapore -> Shanghai",
+          "control": 56.0,
+          "integrated": 76.0,
+          "delta": 20.0
+        },
+        {
+          "od": "Singapore -> Shenzhen",
+          "control": 56.0,
+          "integrated": 76.0,
+          "delta": 20.0
+        },
+        {
+          "od": "Shenzhen -> Jebel Ali",
+          "control": 55.0,
+          "integrated": 72.0,
+          "delta": 17.0
+        },
+        {
+          "od": "Rotterdam -> Jebel Ali",
+          "control": 50.0,
+          "integrated": 66.0,
+          "delta": 16.0
+        },
+        {
+          "od": "Shenzhen -> New Jersey",
+          "control": 81.0,
+          "integrated": 97.0,
+          "delta": 16.0
+        },
+        {
+          "od": "Shenzhen -> Singapore",
+          "control": 46.0,
+          "integrated": 61.0,
+          "delta": 15.0
+        },
+        {
+          "od": "Colombo -> Shanghai",
+          "control": 41.0,
+          "integrated": 55.0,
+          "delta": 14.0
+        },
+        {
+          "od": "Shanghai -> New Jersey",
+          "control": 73.0,
+          "integrated": 87.0,
+          "delta": 14.0
+        },
+        {
+          "od": "Rotterdam -> Shenzhen",
+          "control": 35.0,
+          "integrated": 48.0,
+          "delta": 13.0
+        },
+        {
+          "od": "Colombo -> Shenzhen",
+          "control": 42.0,
+          "integrated": 54.0,
+          "delta": 12.0
+        }
+      ],
+      "decreases": [
+        {
+          "od": "Busan -> Los Angeles",
+          "control": 58.0,
+          "integrated": 51.0,
+          "delta": -7.0
+        },
+        {
+          "od": "Qingdao -> Los Angeles",
+          "control": 52.0,
+          "integrated": 47.0,
+          "delta": -5.0
+        },
+        {
+          "od": "Los Angeles -> Busan",
+          "control": 28.0,
+          "integrated": 24.0,
+          "delta": -4.0
+        },
+        {
+          "od": "Los Angeles -> Qingdao",
+          "control": 22.0,
+          "integrated": 19.0,
+          "delta": -3.0
+        },
+        {
+          "od": "Kaohsiung -> Los Angeles",
+          "control": 49.0,
+          "integrated": 47.0,
+          "delta": -2.0
+        },
+        {
+          "od": "Los Angeles -> Xiamen",
+          "control": 17.0,
+          "integrated": 15.0,
+          "delta": -2.0
+        },
+        {
+          "od": "Shanghai -> Los Angeles",
+          "control": 75.0,
+          "integrated": 73.0,
+          "delta": -2.0
+        },
+        {
+          "od": "Tianjin -> Los Angeles",
+          "control": 20.0,
+          "integrated": 18.0,
+          "delta": -2.0
+        },
+        {
+          "od": "Busan -> Jakarta",
+          "control": 4.0,
+          "integrated": 3.0,
+          "delta": -1.0
+        },
+        {
+          "od": "Busan -> Kaohsiung",
+          "control": 74.0,
+          "integrated": 73.0,
+          "delta": -1.0
+        }
+      ]
+    },
+    "Average_In_Transit_TEU_By_OD.csv": {
+      "increases": [
+        {
+          "od": "Jebel Ali -> Rotterdam",
+          "control": 160.0,
+          "integrated": 170.0,
+          "delta": 10.0
+        },
+        {
+          "od": "Busan -> Jebel Ali",
+          "control": 172.0,
+          "integrated": 181.0,
+          "delta": 9.0
+        },
+        {
+          "od": "Busan -> Rotterdam",
+          "control": 160.0,
+          "integrated": 169.0,
+          "delta": 9.0
+        },
+        {
+          "od": "Jebel Ali -> Tanger Med",
+          "control": 113.0,
+          "integrated": 121.0,
+          "delta": 8.0
+        },
+        {
+          "od": "New Jersey -> Piraeus",
+          "control": 59.0,
+          "integrated": 67.0,
+          "delta": 8.0
+        },
+        {
+          "od": "Busan -> Hamburg",
+          "control": 125.0,
+          "integrated": 132.0,
+          "delta": 7.0
+        },
+        {
+          "od": "Jebel Ali -> Shenzhen",
+          "control": 111.0,
+          "integrated": 118.0,
+          "delta": 7.0
+        },
+        {
+          "od": "Shanghai -> Hamburg",
+          "control": 207.0,
+          "integrated": 214.0,
+          "delta": 7.0
+        },
+        {
+          "od": "Shanghai -> Rotterdam",
+          "control": 241.0,
+          "integrated": 248.0,
+          "delta": 7.0
+        },
+        {
+          "od": "Xiamen -> Jebel Ali",
+          "control": 119.0,
+          "integrated": 126.0,
+          "delta": 7.0
+        }
+      ],
+      "decreases": [
+        {
+          "od": "Rotterdam -> Jebel Ali",
+          "control": 241.0,
+          "integrated": 231.0,
+          "delta": -10.0
+        },
+        {
+          "od": "Hamburg -> Jebel Ali",
+          "control": 169.0,
+          "integrated": 160.0,
+          "delta": -9.0
+        },
+        {
+          "od": "Colombo -> New Jersey",
+          "control": 94.0,
+          "integrated": 88.0,
+          "delta": -6.0
+        },
+        {
+          "od": "Shanghai -> New Jersey",
+          "control": 280.0,
+          "integrated": 274.0,
+          "delta": -6.0
+        },
+        {
+          "od": "Shenzhen -> New Jersey",
+          "control": 277.0,
+          "integrated": 271.0,
+          "delta": -6.0
+        },
+        {
+          "od": "Singapore -> Los Angeles",
+          "control": 195.0,
+          "integrated": 189.0,
+          "delta": -6.0
+        },
+        {
+          "od": "Tanger Med -> Jebel Ali",
+          "control": 119.0,
+          "integrated": 113.0,
+          "delta": -6.0
+        },
+        {
+          "od": "Shenzhen -> Los Angeles",
+          "control": 152.0,
+          "integrated": 147.0,
+          "delta": -5.0
+        },
+        {
+          "od": "Qingdao -> Los Angeles",
+          "control": 187.0,
+          "integrated": 184.0,
+          "delta": -3.0
+        },
+        {
+          "od": "Shenzhen -> Shanghai",
+          "control": 36.0,
+          "integrated": 33.0,
+          "delta": -3.0
+        }
+      ]
+    },
+    "Cumulative_Completed_TEU_By_OD.csv": {
+      "increases": [
+        {
+          "od": "Jebel Ali -> Shenzhen",
+          "control": 2090.0,
+          "integrated": 2198.0,
+          "delta": 108.0
+        },
+        {
+          "od": "Shenzhen -> Shanghai",
+          "control": 1769.0,
+          "integrated": 1869.0,
+          "delta": 100.0
+        },
+        {
+          "od": "Busan -> Shanghai",
+          "control": 4471.0,
+          "integrated": 4558.0,
+          "delta": 87.0
+        },
+        {
+          "od": "Singapore -> Shenzhen",
+          "control": 4847.0,
+          "integrated": 4930.0,
+          "delta": 83.0
+        },
+        {
+          "od": "Xiamen -> Shanghai",
+          "control": 1144.0,
+          "integrated": 1203.0,
+          "delta": 59.0
+        },
+        {
+          "od": "Shanghai -> Tianjin",
+          "control": 1689.0,
+          "integrated": 1744.0,
+          "delta": 55.0
+        },
+        {
+          "od": "Qingdao -> Shanghai",
+          "control": 2612.0,
+          "integrated": 2665.0,
+          "delta": 53.0
+        },
+        {
+          "od": "Colombo -> Shenzhen",
+          "control": 3465.0,
+          "integrated": 3512.0,
+          "delta": 47.0
+        },
+        {
+          "od": "Rotterdam -> Shenzhen",
+          "control": 3068.0,
+          "integrated": 3114.0,
+          "delta": 46.0
+        },
+        {
+          "od": "Tianjin -> Shanghai",
+          "control": 2094.0,
+          "integrated": 2140.0,
+          "delta": 46.0
+        }
+      ],
+      "decreases": [
+        {
+          "od": "Jebel Ali -> Rotterdam",
+          "control": 3084.0,
+          "integrated": 2864.0,
+          "delta": -220.0
+        },
+        {
+          "od": "Jebel Ali -> Tanger Med",
+          "control": 2488.0,
+          "integrated": 2274.0,
+          "delta": -214.0
+        },
+        {
+          "od": "Piraeus -> Tanger Med",
+          "control": 2204.0,
+          "integrated": 2027.0,
+          "delta": -177.0
+        },
+        {
+          "od": "Shenzhen -> Rotterdam",
+          "control": 4265.0,
+          "integrated": 4088.0,
+          "delta": -177.0
+        },
+        {
+          "od": "Shanghai -> Rotterdam",
+          "control": 3556.0,
+          "integrated": 3393.0,
+          "delta": -163.0
+        },
+        {
+          "od": "Jebel Ali -> Hamburg",
+          "control": 1991.0,
+          "integrated": 1842.0,
+          "delta": -149.0
+        },
+        {
+          "od": "Colombo -> Tanger Med",
+          "control": 1543.0,
+          "integrated": 1398.0,
+          "delta": -145.0
+        },
+        {
+          "od": "Cartagena -> New Jersey",
+          "control": 2912.0,
+          "integrated": 2777.0,
+          "delta": -135.0
+        },
+        {
+          "od": "Shenzhen -> Hamburg",
+          "control": 3168.0,
+          "integrated": 3041.0,
+          "delta": -127.0
+        },
+        {
+          "od": "Piraeus -> Rotterdam",
+          "control": 2346.0,
+          "integrated": 2224.0,
+          "delta": -122.0
+        }
+      ]
+    }
+  },
+  "observations": {
+    "queue_maxima_at_every_counter_update": {
+      "Shanghai": {
+        "origin": {
+          "teu": 1905.0,
+          "day": 334.93607893332177
+        },
+        "transshipment": {
+          "teu": 2990.0,
+          "day": 336.52021425836807
+        },
+        "total": {
+          "teu": 4816.0,
+          "day": 337.42542761996526
+        }
+      },
+      "Singapore": {
+        "origin": {
+          "teu": 2074.0,
+          "day": 286.8545413408796
+        },
+        "transshipment": {
+          "teu": 2949.0,
+          "day": 344.9744707469792
+        },
+        "total": {
+          "teu": 3846.0,
+          "day": 286.8545413408796
+        }
+      },
+      "Shenzhen": {
+        "origin": {
+          "teu": 2324.0,
+          "day": 337.88271768515045
+        },
+        "transshipment": {
+          "teu": 1751.0,
+          "day": 341.8759045456134
+        },
+        "total": {
+          "teu": 3493.0,
+          "day": 293.20183154211804
+        }
+      },
+      "Qingdao": {
+        "origin": {
+          "teu": 541.0,
+          "day": 327.6469304664352
+        },
+        "transshipment": {
+          "teu": 73.0,
+          "day": 353.1125682873495
+        },
+        "total": {
+          "teu": 541.0,
+          "day": 327.6469304664352
+        }
+      },
+      "Busan": {
+        "origin": {
+          "teu": 1031.0,
+          "day": 329.02051228706017
+        },
+        "transshipment": {
+          "teu": 538.0,
+          "day": 193.3637571813773
+        },
+        "total": {
+          "teu": 1316.0,
+          "day": 329.02051228706017
+        }
+      },
+      "Tianjin": {
+        "origin": {
+          "teu": 351.0,
+          "day": 349.99708598964116
+        },
+        "transshipment": {
+          "teu": 0.0,
+          "day": 0.0
+        },
+        "total": {
+          "teu": 351.0,
+          "day": 349.99708598964116
+        }
+      },
+      "Xiamen": {
+        "origin": {
+          "teu": 550.0,
+          "day": 181.5586751713889
+        },
+        "transshipment": {
+          "teu": 0.0,
+          "day": 0.0
+        },
+        "total": {
+          "teu": 550.0,
+          "day": 181.5586751713889
+        }
+      },
+      "Kaohsiung": {
+        "origin": {
+          "teu": 419.0,
+          "day": 299.91949791637734
+        },
+        "transshipment": {
+          "teu": 25.0,
+          "day": 175.70523986377316
+        },
+        "total": {
+          "teu": 423.0,
+          "day": 299.91949791637734
+        }
+      },
+      "Laem Chabang": {
+        "origin": {
+          "teu": 150.0,
+          "day": 21.176358093969906
+        },
+        "transshipment": {
+          "teu": 0.0,
+          "day": 0.0
+        },
+        "total": {
+          "teu": 150.0,
+          "day": 21.176358093969906
+        }
+      },
+      "Ho Chi Minh City": {
+        "origin": {
+          "teu": 159.0,
+          "day": 182.7355336335301
+        },
+        "transshipment": {
+          "teu": 0.0,
+          "day": 0.0
+        },
+        "total": {
+          "teu": 159.0,
+          "day": 182.7355336335301
+        }
+      },
+      "Jakarta": {
+        "origin": {
+          "teu": 121.0,
+          "day": 119.49619259230325
+        },
+        "transshipment": {
+          "teu": 0.0,
+          "day": 0.0
+        },
+        "total": {
+          "teu": 121.0,
+          "day": 119.49619259230325
+        }
+      },
+      "Colombo": {
+        "origin": {
+          "teu": 1571.0,
+          "day": 283.5516832648727
+        },
+        "transshipment": {
+          "teu": 1352.0,
+          "day": 292.2364681955903
+        },
+        "total": {
+          "teu": 2508.0,
+          "day": 283.5516832648727
+        }
+      },
+      "Jebel Ali": {
+        "origin": {
+          "teu": 1073.0,
+          "day": 281.43601064078706
+        },
+        "transshipment": {
+          "teu": 0.0,
+          "day": 0.0
+        },
+        "total": {
+          "teu": 1073.0,
+          "day": 281.43601064078706
+        }
+      },
+      "Rotterdam": {
+        "origin": {
+          "teu": 2051.0,
+          "day": 315.7144260974884
+        },
+        "transshipment": {
+          "teu": 146.0,
+          "day": 261.6927746914005
+        },
+        "total": {
+          "teu": 2051.0,
+          "day": 315.7144260974884
+        }
+      },
+      "Hamburg": {
+        "origin": {
+          "teu": 1539.0,
+          "day": 314.9778175277894
+        },
+        "transshipment": {
+          "teu": 0.0,
+          "day": 0.0
+        },
+        "total": {
+          "teu": 1539.0,
+          "day": 314.9778175277894
+        }
+      },
+      "Piraeus": {
+        "origin": {
+          "teu": 1182.0,
+          "day": 274.06618720887735
+        },
+        "transshipment": {
+          "teu": 1051.0,
+          "day": 274.3991349766551
+        },
+        "total": {
+          "teu": 1909.0,
+          "day": 357.49667255365745
+        }
+      },
+      "Los Angeles": {
+        "origin": {
+          "teu": 847.0,
+          "day": 159.47317045069445
+        },
+        "transshipment": {
+          "teu": 580.0,
+          "day": 340.4170554608449
+        },
+        "total": {
+          "teu": 1053.0,
+          "day": 349.3555537918287
+        }
+      },
+      "New Jersey": {
+        "origin": {
+          "teu": 1627.0,
+          "day": 138.44771563983795
+        },
+        "transshipment": {
+          "teu": 1809.0,
+          "day": 288.7420587710648
+        },
+        "total": {
+          "teu": 1943.0,
+          "day": 289.5446319726273
+        }
+      },
+      "Tanger Med": {
+        "origin": {
+          "teu": 1124.0,
+          "day": 318.11927070255786
+        },
+        "transshipment": {
+          "teu": 1608.0,
+          "day": 65.88070858006944
+        },
+        "total": {
+          "teu": 2008.0,
+          "day": 66.34808071642361
+        }
+      },
+      "Cartagena": {
+        "origin": {
+          "teu": 535.0,
+          "day": 300.92511458099534
+        },
+        "transshipment": {
+          "teu": 0.0,
+          "day": 0.0
+        },
+        "total": {
+          "teu": 535.0,
+          "day": 300.92511458099534
+        }
+      }
+    },
+    "sailing_legs_started": {
+      "S2": 649,
+      "S3": 532,
+      "S6": 529,
+      "S9": 350,
+      "S7": 370,
+      "S1": 774,
+      "S4": 160,
+      "S8": 308,
+      "S5": 329
+    },
+    "empty_sailing_legs_started": {
+      "S3": 36,
+      "S7": 18,
+      "S6": 8,
+      "S5": 36,
+      "S4": 4,
+      "S1": 4
+    },
+    "strategy_errors": {},
+    "hook_calls": {
+      "create_alternative_service_routes": 347308,
+      "assign_associated_bookings": 339309,
+      "adjust_bookings_before_cargo_handling": 3998,
+      "select_vessel_for_berth": 11
+    },
+    "hook_none": {},
+    "same_41_vessel_objects": true,
+    "same_leg_objects": true,
+    "limitations": [
+      "Vessel states sampled daily, not continuously.",
+      "Shipment age is since generation, not local queue residence.",
+      "Historical H1 lacks comparable queue maxima and vessel snapshots.",
+      "Booking cost components not traced."
+    ],
+    "daily_samples": 361,
+    "vessel_audit_anomaly_count": 0,
+    "vessel_audit_anomaly_examples": [],
+    "final_state": {
+      "day": 360,
+      "clock": "0002-05-16 00:00:00",
+      "ports": [
+        {
+          "port": "Shanghai",
+          "origin": 296.0,
+          "transshipment": 1205.0,
+          "total": 1501.0,
+          "max_stored_shipment_age_days": 499.99227593712965
+        },
+        {
+          "port": "Singapore",
+          "origin": 516.0,
+          "transshipment": 687.0,
+          "total": 1203.0,
+          "max_stored_shipment_age_days": 499.97934725975693
+        },
+        {
+          "port": "Shenzhen",
+          "origin": 373.0,
+          "transshipment": 548.0,
+          "total": 921.0,
+          "max_stored_shipment_age_days": 499.99805766251154
+        },
+        {
+          "port": "Qingdao",
+          "origin": 91.0,
+          "transshipment": 0.0,
+          "total": 91.0,
+          "max_stored_shipment_age_days": 499.991091584375
+        },
+        {
+          "port": "Busan",
+          "origin": 403.0,
+          "transshipment": 2.0,
+          "total": 405.0,
+          "max_stored_shipment_age_days": 499.9910317625347
+        },
+        {
+          "port": "Tianjin",
+          "origin": 96.0,
+          "transshipment": 0.0,
+          "total": 96.0,
+          "max_stored_shipment_age_days": 499.99298427266206
+        },
+        {
+          "port": "Xiamen",
+          "origin": 473.0,
+          "transshipment": 0.0,
+          "total": 473.0,
+          "max_stored_shipment_age_days": 499.99966269181715
+        },
+        {
+          "port": "Kaohsiung",
+          "origin": 253.0,
+          "transshipment": 0.0,
+          "total": 253.0,
+          "max_stored_shipment_age_days": 499.99770237803244
+        },
+        {
+          "port": "Laem Chabang",
+          "origin": 29.0,
+          "transshipment": 0.0,
+          "total": 29.0,
+          "max_stored_shipment_age_days": 499.9623374661806
+        },
+        {
+          "port": "Ho Chi Minh City",
+          "origin": 72.0,
+          "transshipment": 0.0,
+          "total": 72.0,
+          "max_stored_shipment_age_days": 499.90506628582176
+        },
+        {
+          "port": "Jakarta",
+          "origin": 78.0,
+          "transshipment": 0.0,
+          "total": 78.0,
+          "max_stored_shipment_age_days": 499.8441353199537
+        },
+        {
+          "port": "Colombo",
+          "origin": 616.0,
+          "transshipment": 186.0,
+          "total": 802.0,
+          "max_stored_shipment_age_days": 499.987777090706
+        },
+        {
+          "port": "Jebel Ali",
+          "origin": 488.0,
+          "transshipment": 0.0,
+          "total": 488.0,
+          "max_stored_shipment_age_days": 499.9889718474769
+        },
+        {
+          "port": "Rotterdam",
+          "origin": 1890.0,
+          "transshipment": 0.0,
+          "total": 1890.0,
+          "max_stored_shipment_age_days": 499.96502784019674
+        },
+        {
+          "port": "Hamburg",
+          "origin": 1269.0,
+          "transshipment": 0.0,
+          "total": 1269.0,
+          "max_stored_shipment_age_days": 499.9087713950463
+        },
+        {
+          "port": "Piraeus",
+          "origin": 626.0,
+          "transshipment": 0.0,
+          "total": 626.0,
+          "max_stored_shipment_age_days": 499.9151169953009
+        },
+        {
+          "port": "Los Angeles",
+          "origin": 418.0,
+          "transshipment": 0.0,
+          "total": 418.0,
+          "max_stored_shipment_age_days": 499.9886231901273
+        },
+        {
+          "port": "New Jersey",
+          "origin": 668.0,
+          "transshipment": 108.0,
+          "total": 776.0,
+          "max_stored_shipment_age_days": 499.9935315309143
+        },
+        {
+          "port": "Tanger Med",
+          "origin": 846.0,
+          "transshipment": 301.0,
+          "total": 1147.0,
+          "max_stored_shipment_age_days": 499.9856863160532
+        },
+        {
+          "port": "Cartagena",
+          "origin": 119.0,
+          "transshipment": 0.0,
+          "total": 119.0,
+          "max_stored_shipment_age_days": 499.94192885695605
+        }
+      ],
+      "vessels": [
+        {
+          "id": 1,
+          "states": [
+            "vessel_sailing.s_loads_started"
+          ],
+          "route": "S1",
+          "initial_route": "S1",
+          "pending_route": null,
+          "segment": 5,
+          "leg": [
+            "Piraeus",
+            "Tanger Med"
+          ],
+          "cargo_teu": 1043,
+          "capacity_teu": 18000,
+          "shipment_count": 646,
+          "registered": true,
+          "cargo_references_valid": true
+        },
+        {
+          "id": 2,
+          "states": [
+            "vessel_sailing.s_loads_started"
+          ],
+          "route": "S1",
+          "initial_route": "S1",
+          "pending_route": null,
+          "segment": 4,
+          "leg": [
+            "Colombo",
+            "Piraeus"
+          ],
+          "cargo_teu": 1203,
+          "capacity_teu": 18000,
+          "shipment_count": 889,
+          "registered": true,
+          "cargo_references_valid": true
+        },
+        {
+          "id": 3,
+          "states": [
+            "vessel_sailing.s_loads_started"
+          ],
+          "route": "S1",
+          "initial_route": "S1",
+          "pending_route": null,
+          "segment": 4,
+          "leg": [
+            "Colombo",
+            "Piraeus"
+          ],
+          "cargo_teu": 515,
+          "capacity_teu": 18000,
+          "shipment_count": 342,
+          "registered": true,
+          "cargo_references_valid": true
+        },
+        {
+          "id": 4,
+          "states": [
+            "vessel_sailing.s_loads_started"
+          ],
+          "route": "S1",
+          "initial_route": "S1",
+          "pending_route": null,
+          "segment": 2,
+          "leg": [
+            "Shenzhen",
+            "Singapore"
+          ],
+          "cargo_teu": 20,
+          "capacity_teu": 18000,
+          "shipment_count": 15,
+          "registered": true,
+          "cargo_references_valid": true
+        },
+        {
+          "id": 5,
+          "states": [
+            "vessel_sailing.s_loads_started"
+          ],
+          "route": "S1",
+          "initial_route": "S1",
+          "pending_route": null,
+          "segment": 2,
+          "leg": [
+            "Shenzhen",
+            "Singapore"
+          ],
+          "cargo_teu": 1961,
+          "capacity_teu": 18000,
+          "shipment_count": 1448,
+          "registered": true,
+          "cargo_references_valid": true
+        },
+        {
+          "id": 6,
+          "states": [
+            "vessel_sailing.s_loads_started"
+          ],
+          "route": "S1",
+          "initial_route": "S1",
+          "pending_route": null,
+          "segment": 5,
+          "leg": [
+            "Piraeus",
+            "Tanger Med"
+          ],
+          "cargo_teu": 1552,
+          "capacity_teu": 18000,
+          "shipment_count": 1162,
+          "registered": true,
+          "cargo_references_valid": true
+        },
+        {
+          "id": 7,
+          "states": [
+            "vessel_sailing.s_loads_started"
+          ],
+          "route": "S1",
+          "initial_route": "S1",
+          "pending_route": null,
+          "segment": 5,
+          "leg": [
+            "Piraeus",
+            "Tanger Med"
+          ],
+          "cargo_teu": 1338,
+          "capacity_teu": 18000,
+          "shipment_count": 989,
+          "registered": true,
+          "cargo_references_valid": true
+        },
+        {
+          "id": 8,
+          "states": [
+            "vessel_sailing.s_loads_started"
+          ],
+          "route": "S1",
+          "initial_route": "S1",
+          "pending_route": null,
+          "segment": 5,
+          "leg": [
+            "Piraeus",
+            "Tanger Med"
+          ],
+          "cargo_teu": 1427,
+          "capacity_teu": 18000,
+          "shipment_count": 942,
+          "registered": true,
+          "cargo_references_valid": true
+        },
+        {
+          "id": 9,
+          "states": [
+            "vessel_sailing.s_loads_started"
+          ],
+          "route": "S2",
+          "initial_route": "S2",
+          "pending_route": null,
+          "segment": 3,
+          "leg": [
+            "Shanghai",
+            "Xiamen"
+          ],
+          "cargo_teu": 914,
+          "capacity_teu": 8000,
+          "shipment_count": 725,
+          "registered": true,
+          "cargo_references_valid": true
+        },
+        {
+          "id": 10,
+          "states": [
+            "vessel_sailing.s_loads_started"
+          ],
+          "route": "S2",
+          "initial_route": "S2",
+          "pending_route": null,
+          "segment": 3,
+          "leg": [
+            "Shanghai",
+            "Xiamen"
+          ],
+          "cargo_teu": 300,
+          "capacity_teu": 8000,
+          "shipment_count": 168,
+          "registered": true,
+          "cargo_references_valid": true
+        },
+        {
+          "id": 11,
+          "states": [
+            "vessel_sailing.s_loads_started"
+          ],
+          "route": "S3",
+          "initial_route": "S3",
+          "pending_route": null,
+          "segment": 3,
+          "leg": [
+            "Laem Chabang",
+            "Singapore"
+          ],
+          "cargo_teu": 11,
+          "capacity_teu": 2800,
+          "shipment_count": 9,
+          "registered": true,
+          "cargo_references_valid": true
+        },
+        {
+          "id": 12,
+          "states": [
+            "vessel_sailing.s_loads_started"
+          ],
+          "route": "S3",
+          "initial_route": "S3",
+          "pending_route": null,
+          "segment": 3,
+          "leg": [
+            "Laem Chabang",
+            "Singapore"
+          ],
+          "cargo_teu": 219,
+          "capacity_teu": 2800,
+          "shipment_count": 193,
+          "registered": true,
+          "cargo_references_valid": true
+        },
+        {
+          "id": 13,
+          "states": [
+            "vessel_sailing.s_loads_started"
+          ],
+          "route": "S4",
+          "initial_route": "S4",
+          "pending_route": null,
+          "segment": 3,
+          "leg": [
+            "Los Angeles",
+            "Shanghai"
+          ],
+          "cargo_teu": 165,
+          "capacity_teu": 13000,
+          "shipment_count": 127,
+          "registered": true,
+          "cargo_references_valid": true
+        },
+        {
+          "id": 14,
+          "states": [
+            "vessel_sailing.s_loads_started"
+          ],
+          "route": "S4",
+          "initial_route": "S4",
+          "pending_route": null,
+          "segment": 2,
+          "leg": [
+            "Kaohsiung",
+            "Los Angeles"
+          ],
+          "cargo_teu": 807,
+          "capacity_teu": 13000,
+          "shipment_count": 510,
+          "registered": true,
+          "cargo_references_valid": true
+        },
+        {
+          "id": 15,
+          "states": [
+            "vessel_sailing.s_loads_started"
+          ],
+          "route": "S4",
+          "initial_route": "S4",
+          "pending_route": null,
+          "segment": 3,
+          "leg": [
+            "Los Angeles",
+            "Shanghai"
+          ],
+          "cargo_teu": 1039,
+          "capacity_teu": 13000,
+          "shipment_count": 685,
+          "registered": true,
+          "cargo_references_valid": true
+        },
+        {
+          "id": 16,
+          "states": [
+            "vessel_sailing.s_loads_started"
+          ],
+          "route": "S4",
+          "initial_route": "S4",
+          "pending_route": null,
+          "segment": 3,
+          "leg": [
+            "Los Angeles",
+            "Shanghai"
+          ],
+          "cargo_teu": 43,
+          "capacity_teu": 13000,
+          "shipment_count": 30,
+          "registered": true,
+          "cargo_references_valid": true
+        },
+        {
+          "id": 17,
+          "states": [
+            "vessel_sailing.s_loads_started"
+          ],
+          "route": "S5",
+          "initial_route": "S5",
+          "pending_route": null,
+          "segment": 5,
+          "leg": [
+            "New Jersey",
+            "Colombo"
+          ],
+          "cargo_teu": 14,
+          "capacity_teu": 13000,
+          "shipment_count": 11,
+          "registered": true,
+          "cargo_references_valid": true
+        },
+        {
+          "id": 18,
+          "states": [
+            "vessel_sailing.s_loads_started"
+          ],
+          "route": "S5",
+          "initial_route": "S5",
+          "pending_route": null,
+          "segment": 5,
+          "leg": [
+            "New Jersey",
+            "Colombo"
+          ],
+          "cargo_teu": 312,
+          "capacity_teu": 13000,
+          "shipment_count": 254,
+          "registered": true,
+          "cargo_references_valid": true
+        },
+        {
+          "id": 19,
+          "states": [
+            "vessel_sailing.s_loads_started"
+          ],
+          "route": "S5",
+          "initial_route": "S5",
+          "pending_route": null,
+          "segment": 5,
+          "leg": [
+            "New Jersey",
+            "Colombo"
+          ],
+          "cargo_teu": 138,
+          "capacity_teu": 13000,
+          "shipment_count": 98,
+          "registered": true,
+          "cargo_references_valid": true
+        },
+        {
+          "id": 20,
+          "states": [
+            "vessel_sailing.s_loads_started"
+          ],
+          "route": "S5",
+          "initial_route": "S5",
+          "pending_route": null,
+          "segment": 5,
+          "leg": [
+            "New Jersey",
+            "Colombo"
+          ],
+          "cargo_teu": 32,
+          "capacity_teu": 13000,
+          "shipment_count": 26,
+          "registered": true,
+          "cargo_references_valid": true
+        },
+        {
+          "id": 21,
+          "states": [
+            "vessel_sailing.s_loads_started"
+          ],
+          "route": "S5",
+          "initial_route": "S5",
+          "pending_route": null,
+          "segment": 4,
+          "leg": [
+            "Colombo",
+            "New Jersey"
+          ],
+          "cargo_teu": 755,
+          "capacity_teu": 13000,
+          "shipment_count": 547,
+          "registered": true,
+          "cargo_references_valid": true
+        },
+        {
+          "id": 22,
+          "states": [
+            "vessel_sailing.s_loads_started"
+          ],
+          "route": "S5",
+          "initial_route": "S5",
+          "pending_route": null,
+          "segment": 3,
+          "leg": [
+            "Singapore",
+            "Colombo"
+          ],
+          "cargo_teu": 860,
+          "capacity_teu": 13000,
+          "shipment_count": 633,
+          "registered": true,
+          "cargo_references_valid": true
+        },
+        {
+          "id": 23,
+          "states": [
+            "vessel_sailing.s_loads_started"
+          ],
+          "route": "S5",
+          "initial_route": "S5",
+          "pending_route": null,
+          "segment": 1,
+          "leg": [
+            "Shanghai",
+            "Shenzhen"
+          ],
+          "cargo_teu": 247,
+          "capacity_teu": 13000,
+          "shipment_count": 193,
+          "registered": true,
+          "cargo_references_valid": true
+        },
+        {
+          "id": 24,
+          "states": [
+            "vessel_sailing.s_loads_started"
+          ],
+          "route": "S5",
+          "initial_route": "S5",
+          "pending_route": null,
+          "segment": 7,
+          "leg": [
+            "Singapore",
+            "Shanghai"
+          ],
+          "cargo_teu": 209,
+          "capacity_teu": 13000,
+          "shipment_count": 176,
+          "registered": true,
+          "cargo_references_valid": true
+        },
+        {
+          "id": 25,
+          "states": [
+            "vessel_sailing.s_loads_started"
+          ],
+          "route": "S5",
+          "initial_route": "S5",
+          "pending_route": null,
+          "segment": 5,
+          "leg": [
+            "New Jersey",
+            "Colombo"
+          ],
+          "cargo_teu": 252,
+          "capacity_teu": 13000,
+          "shipment_count": 192,
+          "registered": true,
+          "cargo_references_valid": true
+        },
+        {
+          "id": 26,
+          "states": [
+            "vessel_sailing.s_loads_started"
+          ],
+          "route": "S6",
+          "initial_route": "S6",
+          "pending_route": null,
+          "segment": 3,
+          "leg": [
+            "Tanger Med",
+            "New Jersey"
+          ],
+          "cargo_teu": 1,
+          "capacity_teu": 8000,
+          "shipment_count": 1,
+          "registered": true,
+          "cargo_references_valid": true
+        },
+        {
+          "id": 27,
+          "states": [
+            "vessel_sailing.s_loads_started"
+          ],
+          "route": "S6",
+          "initial_route": "S6",
+          "pending_route": null,
+          "segment": 5,
+          "leg": [
+            "Cartagena",
+            "New Jersey"
+          ],
+          "cargo_teu": 8,
+          "capacity_teu": 8000,
+          "shipment_count": 6,
+          "registered": true,
+          "cargo_references_valid": true
+        },
+        {
+          "id": 28,
+          "states": [
+            "vessel_sailing.s_loads_started"
+          ],
+          "route": "S6",
+          "initial_route": "S6",
+          "pending_route": null,
+          "segment": 5,
+          "leg": [
+            "Cartagena",
+            "New Jersey"
+          ],
+          "cargo_teu": 508,
+          "capacity_teu": 8000,
+          "shipment_count": 398,
+          "registered": true,
+          "cargo_references_valid": true
+        },
+        {
+          "id": 29,
+          "states": [
+            "vessel_sailing.s_loads_started"
+          ],
+          "route": "S6",
+          "initial_route": "S6",
+          "pending_route": null,
+          "segment": 3,
+          "leg": [
+            "Tanger Med",
+            "New Jersey"
+          ],
+          "cargo_teu": 256,
+          "capacity_teu": 8000,
+          "shipment_count": 185,
+          "registered": true,
+          "cargo_references_valid": true
+        },
+        {
+          "id": 30,
+          "states": [
+            "vessel_sailing.s_loads_started"
+          ],
+          "route": "S6",
+          "initial_route": "S6",
+          "pending_route": null,
+          "segment": 3,
+          "leg": [
+            "Tanger Med",
+            "New Jersey"
+          ],
+          "cargo_teu": 76,
+          "capacity_teu": 8000,
+          "shipment_count": 50,
+          "registered": true,
+          "cargo_references_valid": true
+        },
+        {
+          "id": 31,
+          "states": [
+            "vessel_sailing.s_loads_started"
+          ],
+          "route": "S7",
+          "initial_route": "S7",
+          "pending_route": null,
+          "segment": 1,
+          "leg": [
+            "Singapore",
+            "Colombo"
+          ],
+          "cargo_teu": 844,
+          "capacity_teu": 8000,
+          "shipment_count": 542,
+          "registered": true,
+          "cargo_references_valid": true
+        },
+        {
+          "id": 32,
+          "states": [
+            "vessel_sailing.s_loads_started"
+          ],
+          "route": "S7",
+          "initial_route": "S7",
+          "pending_route": null,
+          "segment": 3,
+          "leg": [
+            "Jebel Ali",
+            "Piraeus"
+          ],
+          "cargo_teu": 9,
+          "capacity_teu": 8000,
+          "shipment_count": 5,
+          "registered": true,
+          "cargo_references_valid": true
+        },
+        {
+          "id": 33,
+          "states": [
+            "vessel_sailing.s_loads_started"
+          ],
+          "route": "S7",
+          "initial_route": "S7",
+          "pending_route": null,
+          "segment": 3,
+          "leg": [
+            "Jebel Ali",
+            "Piraeus"
+          ],
+          "cargo_teu": 494,
+          "capacity_teu": 8000,
+          "shipment_count": 345,
+          "registered": true,
+          "cargo_references_valid": true
+        },
+        {
+          "id": 34,
+          "states": [
+            "vessel_sailing.s_loads_started"
+          ],
+          "route": "S7",
+          "initial_route": "S7",
+          "pending_route": null,
+          "segment": 1,
+          "leg": [
+            "Singapore",
+            "Colombo"
+          ],
+          "cargo_teu": 7,
+          "capacity_teu": 8000,
+          "shipment_count": 2,
+          "registered": true,
+          "cargo_references_valid": true
+        },
+        {
+          "id": 35,
+          "states": [
+            "vessel_sailing.s_loads_started"
+          ],
+          "route": "S7",
+          "initial_route": "S7",
+          "pending_route": null,
+          "segment": 1,
+          "leg": [
+            "Singapore",
+            "Colombo"
+          ],
+          "cargo_teu": 15,
+          "capacity_teu": 8000,
+          "shipment_count": 7,
+          "registered": true,
+          "cargo_references_valid": true
+        },
+        {
+          "id": 36,
+          "states": [
+            "vessel_sailing.s_loads_started"
+          ],
+          "route": "S8",
+          "initial_route": "S8",
+          "pending_route": null,
+          "segment": 1,
+          "leg": [
+            "Singapore",
+            "Jakarta"
+          ],
+          "cargo_teu": 74,
+          "capacity_teu": 1800,
+          "shipment_count": 54,
+          "registered": true,
+          "cargo_references_valid": true
+        },
+        {
+          "id": 37,
+          "states": [
+            "vessel_sailing.s_loads_started"
+          ],
+          "route": "S9",
+          "initial_route": "S9",
+          "pending_route": null,
+          "segment": 3,
+          "leg": [
+            "Busan",
+            "Los Angeles"
+          ],
+          "cargo_teu": 40,
+          "capacity_teu": 13000,
+          "shipment_count": 16,
+          "registered": true,
+          "cargo_references_valid": true
+        },
+        {
+          "id": 38,
+          "states": [
+            "vessel_sailing.s_loads_started"
+          ],
+          "route": "S9",
+          "initial_route": "S9",
+          "pending_route": null,
+          "segment": 5,
+          "leg": [
+            "Busan",
+            "Tianjin"
+          ],
+          "cargo_teu": 34,
+          "capacity_teu": 13000,
+          "shipment_count": 26,
+          "registered": true,
+          "cargo_references_valid": true
+        },
+        {
+          "id": 39,
+          "states": [
+            "vessel_sailing.s_loads_started"
+          ],
+          "route": "S9",
+          "initial_route": "S9",
+          "pending_route": null,
+          "segment": 4,
+          "leg": [
+            "Los Angeles",
+            "Busan"
+          ],
+          "cargo_teu": 83,
+          "capacity_teu": 13000,
+          "shipment_count": 54,
+          "registered": true,
+          "cargo_references_valid": true
+        },
+        {
+          "id": 40,
+          "states": [
+            "vessel_sailing.s_loads_started"
+          ],
+          "route": "S9",
+          "initial_route": "S9",
+          "pending_route": null,
+          "segment": 3,
+          "leg": [
+            "Busan",
+            "Los Angeles"
+          ],
+          "cargo_teu": 527,
+          "capacity_teu": 13000,
+          "shipment_count": 283,
+          "registered": true,
+          "cargo_references_valid": true
+        },
+        {
+          "id": 41,
+          "states": [
+            "vessel_sailing.s_loads_started"
+          ],
+          "route": "S9",
+          "initial_route": "S9",
+          "pending_route": null,
+          "segment": 3,
+          "leg": [
+            "Busan",
+            "Los Angeles"
+          ],
+          "cargo_teu": 177,
+          "capacity_teu": 13000,
+          "shipment_count": 115,
+          "registered": true,
+          "cargo_references_valid": true
+        }
+      ],
+      "routes": [
+        {
+          "id": "S1",
+          "source": null,
+          "disruption_key": null,
+          "vessels": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "onboard_teu": 9059
+        },
+        {
+          "id": "S2",
+          "source": null,
+          "disruption_key": null,
+          "vessels": [
+            9,
+            10
+          ],
+          "onboard_teu": 1214
+        },
+        {
+          "id": "S3",
+          "source": null,
+          "disruption_key": null,
+          "vessels": [
+            11,
+            12
+          ],
+          "onboard_teu": 230
+        },
+        {
+          "id": "S4",
+          "source": null,
+          "disruption_key": null,
+          "vessels": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "onboard_teu": 2054
+        },
+        {
+          "id": "S5",
+          "source": null,
+          "disruption_key": null,
+          "vessels": [
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "onboard_teu": 2819
+        },
+        {
+          "id": "S6",
+          "source": null,
+          "disruption_key": null,
+          "vessels": [
+            26,
+            27,
+            28,
+            29,
+            30
+          ],
+          "onboard_teu": 849
+        },
+        {
+          "id": "S7",
+          "source": null,
+          "disruption_key": null,
+          "vessels": [
+            31,
+            32,
+            33,
+            34,
+            35
+          ],
+          "onboard_teu": 1369
+        },
+        {
+          "id": "S8",
+          "source": null,
+          "disruption_key": null,
+          "vessels": [
+            36
+          ],
+          "onboard_teu": 74
+        },
+        {
+          "id": "S9",
+          "source": null,
+          "disruption_key": null,
+          "vessels": [
+            37,
+            38,
+            39,
+            40,
+            41
+          ],
+          "onboard_teu": 861
+        },
+        {
+          "id": "S1-ALT-1",
+          "source": "S1",
+          "disruption_key": [
+            [
+              "piraeus"
+            ],
+            []
+          ],
+          "vessels": [],
+          "onboard_teu": 0
+        },
+        {
+          "id": "S7-ALT-1",
+          "source": "S7",
+          "disruption_key": [
+            [
+              "piraeus"
+            ],
+            []
+          ],
+          "vessels": [],
+          "onboard_teu": 0
+        }
+      ],
+      "strategy_errors": {},
+      "hook_calls": {
+        "create_alternative_service_routes": 347308,
+        "assign_associated_bookings": 339309,
+        "adjust_bookings_before_cargo_handling": 3998,
+        "select_vessel_for_berth": 11
+      },
+      "hook_none": {}
+    },
+    "sampled_total_queue_peak": {
+      "day": 286,
+      "teu": 18350.0
+    },
+    "raw_storage_list_age_sample_not_valid_as_pending_age": {
+      "day": 360,
+      "port": "Xiamen",
+      "age_days": 499.99966269181715
+    },
+    "any_alternative_routes_sampled": true
+  },
+  "observation_quality_notes": [
+    "The raw stored-shipment age field includes completed shipments retained in port storage lists. Do not interpret it as pending shipment age or local waiting time. Queue TEU values and maxima use dedicated model counters and are unaffected.",
+    "The historical H1 run lacks matching peak and vessel telemetry. No H1 instrumented replay was performed.",
+    "No same-process decision cost decomposition was recorded; the combination cannot identify the causal contribution of each mechanism."
+  ],
+  "alternative_route_audit": {
+    "S1-ALT-1": {
+      "first_day": 261,
+      "last_day": 360,
+      "source": "S1",
+      "max_vessels": 0,
+      "max_teu": 0,
+      "days_with_vessels": 0,
+      "observed_days": 100
+    },
+    "S7-ALT-1": {
+      "first_day": 261,
+      "last_day": 360,
+      "source": "S7",
+      "max_vessels": 0,
+      "max_teu": 0,
+      "days_with_vessels": 0,
+      "observed_days": 100
+    }
+  },
+  "integrity": {
+    "changes_outside_experiment": {},
+    "historical_checks_after_errors": []
+  }
+}

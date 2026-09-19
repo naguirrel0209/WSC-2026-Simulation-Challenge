@@ -1,0 +1,1398 @@
+{
+  "description": "Read-only analysis of a user-completed simulation. No simulation or tests executed.",
+  "end_local": "2026-09-13T23:43:51.3482156-06:00",
+  "previous_run_end_local": "2026-09-13T18:53:53-06:00",
+  "complete": true,
+  "warmup_days": 140,
+  "measurement_days": 360,
+  "measured_intervals": 72,
+  "current_runtime": "00:15:55",
+  "previous_runtime": "00:15:04",
+  "log": "Logs/202609132327_SimulationProgressResults.log",
+  "log_sha256": "9b2fd9058cdd6c9b7eef07e28893f59bb33494d55022372b2a339e771f157565",
+  "previous_output_manifest": "response_strategies/benchmark_results/integrated_mechanisms_20260913/validation_20260914T052330_657007Z_5db09ecd/before_hashes.json",
+  "output_files": [
+    {
+      "path": "Output/ATT_By_Statistics_Interval.csv",
+      "sha256": "77bef7759b1770259dd814a8d50f602cf481e0a924cdccb745c02d2c3791bbb4",
+      "previous_sha256": "77bef7759b1770259dd814a8d50f602cf481e0a924cdccb745c02d2c3791bbb4",
+      "same_as_previous": true,
+      "last_write_local": "2026-09-13T23:43:51.3482156-06:00"
+    },
+    {
+      "path": "Output/Average_In_Transit_TEU_By_OD.csv",
+      "sha256": "8a1cc98459a01e3fb3dd0ddfd6cc642d90478d39f6e5b54e12a588fb808d7478",
+      "previous_sha256": "8a1cc98459a01e3fb3dd0ddfd6cc642d90478d39f6e5b54e12a588fb808d7478",
+      "same_as_previous": true,
+      "last_write_local": "2026-09-13T23:43:51.3446936-06:00"
+    },
+    {
+      "path": "Output/Average_Origin_Waiting_TEU_By_OD.csv",
+      "sha256": "c7a53d7ac01081dac7d97c8e9a695f82940587d6dc3b9600119c6bc4788ab51f",
+      "previous_sha256": "c7a53d7ac01081dac7d97c8e9a695f82940587d6dc3b9600119c6bc4788ab51f",
+      "same_as_previous": true,
+      "last_write_local": "2026-09-13T23:43:51.3347239-06:00"
+    },
+    {
+      "path": "Output/Average_Vessel_State_Counts.csv",
+      "sha256": "66ea484157b9213685d00f1e990c933b96c039ab5c63b5b8e86c5b22ccef8855",
+      "previous_sha256": "66ea484157b9213685d00f1e990c933b96c039ab5c63b5b8e86c5b22ccef8855",
+      "same_as_previous": true,
+      "last_write_local": "2026-09-13T23:43:51.3457025-06:00"
+    },
+    {
+      "path": "Output/Baseline_ATT_By_Statistics_Interval.csv",
+      "sha256": "1dc6e2dc9067f6b9f34760c65aba85d9431de2f187d8704100b7e018d9edfa3f",
+      "previous_sha256": "1dc6e2dc9067f6b9f34760c65aba85d9431de2f187d8704100b7e018d9edfa3f",
+      "same_as_previous": true,
+      "last_write_local": "2026-09-02T23:28:24.4909042-06:00"
+    },
+    {
+      "path": "Output/Cumulative_Completed_TEU_By_OD.csv",
+      "sha256": "d0b473694b960f43f838c80f1dc89a7db6ff44e5e708ba7c76c4ac1577871ce6",
+      "previous_sha256": "d0b473694b960f43f838c80f1dc89a7db6ff44e5e708ba7c76c4ac1577871ce6",
+      "same_as_previous": true,
+      "last_write_local": "2026-09-13T23:43:51.3457025-06:00"
+    },
+    {
+      "path": "Output/Port_Waiting_Statistics.csv",
+      "sha256": "6758e50943ac5c57007abc32fada3b4d8cdfcf5b752490f0caa2e94f1d2ffb62",
+      "previous_sha256": "6758e50943ac5c57007abc32fada3b4d8cdfcf5b752490f0caa2e94f1d2ffb62",
+      "same_as_previous": true,
+      "last_write_local": "2026-09-13T23:43:51.3347239-06:00"
+    },
+    {
+      "path": "Output/Service_Route_Utilization.csv",
+      "sha256": "f1aba8f52272e48e54a6b6743572fa7b67c7e40359a2a95b896b294513aec328",
+      "previous_sha256": "f1aba8f52272e48e54a6b6743572fa7b67c7e40359a2a95b896b294513aec328",
+      "same_as_previous": true,
+      "last_write_local": "2026-09-13T23:43:51.3457025-06:00"
+    }
+  ],
+  "metrics_current": {
+    "days": "1-360",
+    "intervals": 72,
+    "mean_interval_att_days": 14.435277777777777,
+    "loss_kpi": 11.820352032108838
+  },
+  "metrics_original_control": {
+    "days": "1-360",
+    "intervals": 72,
+    "mean_interval_att_days": 14.801805555555553,
+    "loss_kpi": 19.028838584012544
+  },
+  "metrics_previous_run": "Exactly equal to current; verified by all eight CSV SHA-256 hashes.",
+  "windows": [
+    {
+      "current": {
+        "days": "41-100",
+        "intervals": 12,
+        "mean_interval_att_days": 13.564166666666665,
+        "loss_kpi": 0.2656366806002669
+      },
+      "original_control": {
+        "days": "41-100",
+        "intervals": 12,
+        "mean_interval_att_days": 13.430000000000001,
+        "loss_kpi": -0.32586785978025057
+      },
+      "previous_run_delta_att_days": 0.0,
+      "previous_run_delta_loss_kpi": 0.0,
+      "subtotal_only": false
+    },
+    {
+      "current": {
+        "days": "141-200",
+        "intervals": 12,
+        "mean_interval_att_days": 16.53166666666667,
+        "loss_kpi": 9.39921536927262
+      },
+      "original_control": {
+        "days": "141-200",
+        "intervals": 12,
+        "mean_interval_att_days": 17.288333333333334,
+        "loss_kpi": 11.519401997175283
+      },
+      "previous_run_delta_att_days": 0.0,
+      "previous_run_delta_loss_kpi": 0.0,
+      "subtotal_only": false
+    },
+    {
+      "current": {
+        "days": "216-240",
+        "intervals": 5,
+        "mean_interval_att_days": 13.713999999999999,
+        "loss_kpi": -0.6926356689204705
+      },
+      "original_control": {
+        "days": "216-240",
+        "intervals": 5,
+        "mean_interval_att_days": 13.64,
+        "loss_kpi": -0.8343919203625894
+      },
+      "previous_run_delta_att_days": 0.0,
+      "previous_run_delta_loss_kpi": 0.0,
+      "subtotal_only": false
+    },
+    {
+      "current": {
+        "days": "261-275",
+        "intervals": 3,
+        "mean_interval_att_days": 13.816666666666668,
+        "loss_kpi": -0.2363883927422955
+      },
+      "original_control": {
+        "days": "261-275",
+        "intervals": 3,
+        "mean_interval_att_days": 14.06,
+        "loss_kpi": 0.03796662503655235
+      },
+      "previous_run_delta_att_days": 0.0,
+      "previous_run_delta_loss_kpi": 0.0,
+      "subtotal_only": false
+    },
+    {
+      "current": {
+        "days": "276-320",
+        "intervals": 9,
+        "mean_interval_att_days": 15.533333333333335,
+        "loss_kpi": 3.5398226223196243
+      },
+      "original_control": {
+        "days": "276-320",
+        "intervals": 9,
+        "mean_interval_att_days": 16.752222222222223,
+        "loss_kpi": 6.454585535400679
+      },
+      "previous_run_delta_att_days": 0.0,
+      "previous_run_delta_loss_kpi": 0.0,
+      "subtotal_only": false
+    },
+    {
+      "current": {
+        "days": "321-330",
+        "intervals": 2,
+        "mean_interval_att_days": 14.46,
+        "loss_kpi": 0.03203275541384054
+      },
+      "original_control": {
+        "days": "321-330",
+        "intervals": 2,
+        "mean_interval_att_days": 14.795,
+        "loss_kpi": 0.24543685218025968
+      },
+      "previous_run_delta_att_days": 0.0,
+      "previous_run_delta_loss_kpi": 0.0,
+      "subtotal_only": false
+    },
+    {
+      "current": {
+        "days": "331-360",
+        "intervals": 6,
+        "mean_interval_att_days": 14.69,
+        "loss_kpi": 0.42352448789075736
+      },
+      "original_control": {
+        "days": "331-360",
+        "intervals": 6,
+        "mean_interval_att_days": 15.158333333333333,
+        "loss_kpi": 1.3593741557775556
+      },
+      "previous_run_delta_att_days": 0.0,
+      "previous_run_delta_loss_kpi": 0.0,
+      "subtotal_only": false
+    },
+    {
+      "current": {
+        "days": "261-360",
+        "intervals": 20,
+        "mean_interval_att_days": 14.9155,
+        "loss_kpi": 3.758991472881927
+      },
+      "original_control": {
+        "days": "261-360",
+        "intervals": 20,
+        "mean_interval_att_days": 15.6745,
+        "loss_kpi": 8.097363168395047
+      },
+      "previous_run_delta_att_days": 0.0,
+      "previous_run_delta_loss_kpi": 0.0,
+      "subtotal_only": true
+    }
+  ],
+  "port_comparisons": [
+    {
+      "port": "Busan",
+      "current_waiting_teu": "472",
+      "control_waiting_teu": "494",
+      "current_transshipment_teu": "68",
+      "control_transshipment_teu": "92"
+    },
+    {
+      "port": "Cartagena",
+      "current_waiting_teu": "119",
+      "control_waiting_teu": "124",
+      "current_transshipment_teu": "0",
+      "control_transshipment_teu": "0"
+    },
+    {
+      "port": "Colombo",
+      "current_waiting_teu": "569",
+      "control_waiting_teu": "624",
+      "current_transshipment_teu": "134",
+      "control_transshipment_teu": "174"
+    },
+    {
+      "port": "Hamburg",
+      "current_waiting_teu": "271",
+      "control_waiting_teu": "276",
+      "current_transshipment_teu": "0",
+      "control_transshipment_teu": "0"
+    },
+    {
+      "port": "Ho Chi Minh City",
+      "current_waiting_teu": "57",
+      "control_waiting_teu": "58",
+      "current_transshipment_teu": "0",
+      "control_transshipment_teu": "0"
+    },
+    {
+      "port": "Jakarta",
+      "current_waiting_teu": "44",
+      "control_waiting_teu": "44",
+      "current_transshipment_teu": "0",
+      "control_transshipment_teu": "0"
+    },
+    {
+      "port": "Jebel Ali",
+      "current_waiting_teu": "389",
+      "control_waiting_teu": "356",
+      "current_transshipment_teu": "0",
+      "control_transshipment_teu": "0"
+    },
+    {
+      "port": "Kaohsiung",
+      "current_waiting_teu": "183",
+      "control_waiting_teu": "187",
+      "current_transshipment_teu": "2",
+      "control_transshipment_teu": "3"
+    },
+    {
+      "port": "Laem Chabang",
+      "current_waiting_teu": "58",
+      "control_waiting_teu": "59",
+      "current_transshipment_teu": "0",
+      "control_transshipment_teu": "0"
+    },
+    {
+      "port": "Los Angeles",
+      "current_waiting_teu": "312",
+      "control_waiting_teu": "313",
+      "current_transshipment_teu": "18",
+      "control_transshipment_teu": "3"
+    },
+    {
+      "port": "New Jersey",
+      "current_waiting_teu": "397",
+      "control_waiting_teu": "473",
+      "current_transshipment_teu": "105",
+      "control_transshipment_teu": "156"
+    },
+    {
+      "port": "Piraeus",
+      "current_waiting_teu": "516",
+      "control_waiting_teu": "469",
+      "current_transshipment_teu": "281",
+      "control_transshipment_teu": "228"
+    },
+    {
+      "port": "Qingdao",
+      "current_waiting_teu": "215",
+      "control_waiting_teu": "219",
+      "current_transshipment_teu": "1",
+      "control_transshipment_teu": "1"
+    },
+    {
+      "port": "Rotterdam",
+      "current_waiting_teu": "376",
+      "control_waiting_teu": "393",
+      "current_transshipment_teu": "2",
+      "control_transshipment_teu": "4"
+    },
+    {
+      "port": "Shanghai",
+      "current_waiting_teu": "1,416",
+      "control_waiting_teu": "1,839",
+      "current_transshipment_teu": "863",
+      "control_transshipment_teu": "1,257"
+    },
+    {
+      "port": "Shenzhen",
+      "current_waiting_teu": "946",
+      "control_waiting_teu": "765",
+      "current_transshipment_teu": "420",
+      "control_transshipment_teu": "207"
+    },
+    {
+      "port": "Singapore",
+      "current_waiting_teu": "1,128",
+      "control_waiting_teu": "1,194",
+      "current_transshipment_teu": "675",
+      "control_transshipment_teu": "722"
+    },
+    {
+      "port": "Tanger Med",
+      "current_waiting_teu": "373",
+      "control_waiting_teu": "350",
+      "current_transshipment_teu": "168",
+      "control_transshipment_teu": "137"
+    },
+    {
+      "port": "Tianjin",
+      "current_waiting_teu": "153",
+      "control_waiting_teu": "155",
+      "current_transshipment_teu": "0",
+      "control_transshipment_teu": "0"
+    },
+    {
+      "port": "Xiamen",
+      "current_waiting_teu": "235",
+      "control_waiting_teu": "235",
+      "current_transshipment_teu": "0",
+      "control_transshipment_teu": "0"
+    },
+    {
+      "port": "TOTAL",
+      "current_waiting_teu": "8,227",
+      "control_waiting_teu": "8,626",
+      "current_transshipment_teu": "2,737",
+      "control_transshipment_teu": "2,983"
+    }
+  ],
+  "active_entry": "UserStrategy inherits ResilienceStrategy (H1). IntegratedStrategy remains separate.",
+  "code_sources": [
+    {
+      "path": "response_strategies/user_strategy.py",
+      "sha256": "06b108f0150678cc432db02f5116f53b9ed45a9c58e385f3421e73b6058be93e",
+      "same_as_pre_run_validation": true,
+      "timing": "Observed after run; not a record of code loaded at start."
+    },
+    {
+      "path": "response_strategies/resilience_strategy.py",
+      "sha256": "bde16bfcd00ab5084beded9e99baa7a1d393b329306797be8211165daa2fac1b",
+      "same_as_pre_run_validation": true,
+      "timing": "Observed after run; not a record of code loaded at start."
+    },
+    {
+      "path": "response_strategies/integrated_strategy.py",
+      "sha256": "7ca9ce3562e47ecae0ad307ea4384ca7dd22c4912124c4a967201d6c4859340c",
+      "same_as_pre_run_validation": true,
+      "timing": "Observed after run; not a record of code loaded at start."
+    },
+    {
+      "path": "response_strategies/h2_connection_strategy.py",
+      "sha256": "587b4994a530c8d386f2a9a8f4ffcd3b92508642feea428d47c79ed11ba0ff96",
+      "same_as_pre_run_validation": true,
+      "timing": "Observed after run; not a record of code loaded at start."
+    },
+    {
+      "path": "response_strategies/h2_control_strategy.py",
+      "sha256": "a387c563fb91e77b7f5010e4a3f3b43ca772f4e4d58c80ab5c7be3f5245d502b",
+      "same_as_pre_run_validation": true,
+      "timing": "Observed after run; not a record of code loaded at start."
+    }
+  ],
+  "strategy_attribution": "Current entry and sources match the pre-run validation snapshot; the simulation log does not record the strategy hash loaded at startup.",
+  "protected_original_manifest_count": 163,
+  "protected_original_matches": 156,
+  "protected_original_expected_generated_output_changes": 7,
+  "unexpected_protected_changes": [],
+  "protected_original_audit": [
+    {
+      "path": "Input/demand_matrix.csv",
+      "expected": "b385a9fafe17f6076b01db595782c75154e5f578d83ccf150242c6e6ee523d2e",
+      "actual": "b385a9fafe17f6076b01db595782c75154e5f578d83ccf150242c6e6ee523d2e",
+      "matches": true
+    },
+    {
+      "path": "Input/input_summary.csv",
+      "expected": "474f31812f3934a7b8e051be23ccf186893de1cbf6bc3f4f300a3e0147d176dc",
+      "actual": "474f31812f3934a7b8e051be23ccf186893de1cbf6bc3f4f300a3e0147d176dc",
+      "matches": true
+    },
+    {
+      "path": "Input/ports.csv",
+      "expected": "fb9d1a47d507dad0f0af3aac26db0a79b7eb4405cb385042742e8a933d4ddb72",
+      "actual": "fb9d1a47d507dad0f0af3aac26db0a79b7eb4405cb385042742e8a933d4ddb72",
+      "matches": true
+    },
+    {
+      "path": "Input/route_plan.csv",
+      "expected": "c22c1ed0f8acdec48d1d0038aea51d3464823a60922f2c7eef4678d58f8ab4b6",
+      "actual": "c22c1ed0f8acdec48d1d0038aea51d3464823a60922f2c7eef4678d58f8ab4b6",
+      "matches": true
+    },
+    {
+      "path": "Input/route_segments.csv",
+      "expected": "746ee3ff6f84e73b3842a65b50de736e4ff43cccf860d94f59b2814a6e5734c8",
+      "actual": "746ee3ff6f84e73b3842a65b50de736e4ff43cccf860d94f59b2814a6e5734c8",
+      "matches": true
+    },
+    {
+      "path": "Input/service_routes.csv",
+      "expected": "32ed9028f90af2b975053f82481784cc3a754f402bb84e29cfefc5261a60e135",
+      "actual": "32ed9028f90af2b975053f82481784cc3a754f402bb84e29cfefc5261a60e135",
+      "matches": true
+    },
+    {
+      "path": "Input/vessel_classes.csv",
+      "expected": "68589cbb356cfa3b6e138fbe310b620d534f813d2e5bf72634be1662c667523e",
+      "actual": "68589cbb356cfa3b6e138fbe310b620d534f813d2e5bf72634be1662c667523e",
+      "matches": true
+    },
+    {
+      "path": "Output/ATT_By_Statistics_Interval.csv",
+      "expected": "35c61abdf1daeb82b0d2baaa0d56efe85f148923144ce1000bba27adf325d486",
+      "actual": "77bef7759b1770259dd814a8d50f602cf481e0a924cdccb745c02d2c3791bbb4",
+      "matches": false
+    },
+    {
+      "path": "Output/Average_In_Transit_TEU_By_OD.csv",
+      "expected": "932d36e72dac38f7bef2e70ef8a887aba0509af83e0027759d77d3d7322df70a",
+      "actual": "8a1cc98459a01e3fb3dd0ddfd6cc642d90478d39f6e5b54e12a588fb808d7478",
+      "matches": false
+    },
+    {
+      "path": "Output/Average_Origin_Waiting_TEU_By_OD.csv",
+      "expected": "c242d31bb3efc51fcab53e5579a4e7594dd7772d6f55545e626c5fb3c4d40a36",
+      "actual": "c7a53d7ac01081dac7d97c8e9a695f82940587d6dc3b9600119c6bc4788ab51f",
+      "matches": false
+    },
+    {
+      "path": "Output/Average_Vessel_State_Counts.csv",
+      "expected": "ac647249295a51b7bc3ba9562e348632f20d7a1dee8dcc08ef02215f2e960927",
+      "actual": "66ea484157b9213685d00f1e990c933b96c039ab5c63b5b8e86c5b22ccef8855",
+      "matches": false
+    },
+    {
+      "path": "Output/Baseline_ATT_By_Statistics_Interval.csv",
+      "expected": "1dc6e2dc9067f6b9f34760c65aba85d9431de2f187d8704100b7e018d9edfa3f",
+      "actual": "1dc6e2dc9067f6b9f34760c65aba85d9431de2f187d8704100b7e018d9edfa3f",
+      "matches": true
+    },
+    {
+      "path": "Output/Cumulative_Completed_TEU_By_OD.csv",
+      "expected": "0e8541f02a47d63df6ebf82b61f5857130b421698a29b485e372e39f812d75ba",
+      "actual": "d0b473694b960f43f838c80f1dc89a7db6ff44e5e708ba7c76c4ac1577871ce6",
+      "matches": false
+    },
+    {
+      "path": "Output/Port_Waiting_Statistics.csv",
+      "expected": "016fec571ca22a0d01cb0dd640808f16ccff19fd462678a95e48d6c7a96314d6",
+      "actual": "6758e50943ac5c57007abc32fada3b4d8cdfcf5b752490f0caa2e94f1d2ffb62",
+      "matches": false
+    },
+    {
+      "path": "Output/Service_Route_Utilization.csv",
+      "expected": "e2735582eb29b7bb824f72782ace6f56057f235e0bd6318f4737da9eab7746a2",
+      "actual": "f1aba8f52272e48e54a6b6743572fa7b67c7e40359a2a95b896b294513aec328",
+      "matches": false
+    },
+    {
+      "path": "README.md",
+      "expected": "959c352d3072e05a72bae9fe59f2391b1b4a846c9c67f2762ecc87e4df09dcac",
+      "actual": "959c352d3072e05a72bae9fe59f2391b1b4a846c9c67f2762ecc87e4df09dcac",
+      "matches": true
+    },
+    {
+      "path": "config/__init__.py",
+      "expected": "7233a901cf65b795f73317312e3eb41dc1e45fd0ffa64757b44e41b739ae0498",
+      "actual": "7233a901cf65b795f73317312e3eb41dc1e45fd0ffa64757b44e41b739ae0498",
+      "matches": true
+    },
+    {
+      "path": "config/simulation_config.py",
+      "expected": "d1e32030620c57fe88008da981aa942e318a87a408119ba1cb7847b5d8261a16",
+      "actual": "d1e32030620c57fe88008da981aa942e318a87a408119ba1cb7847b5d8261a16",
+      "matches": true
+    },
+    {
+      "path": "dashboard/app.js",
+      "expected": "a3fb90854f41ff45b8981ecf405efa30801c636879dca061297cb064c9eb8958",
+      "actual": "a3fb90854f41ff45b8981ecf405efa30801c636879dca061297cb064c9eb8958",
+      "matches": true
+    },
+    {
+      "path": "dashboard/index.html",
+      "expected": "87ef13d780453b62ee4262c305b759237ab1b923ce4d12d27937c136f5aa8b57",
+      "actual": "87ef13d780453b62ee4262c305b759237ab1b923ce4d12d27937c136f5aa8b57",
+      "matches": true
+    },
+    {
+      "path": "dashboard/serve_gui.py",
+      "expected": "0138c72896f2907557998ffc2fb2c34e2fc72f612d7ae6fbf924e1d0014f746a",
+      "actual": "0138c72896f2907557998ffc2fb2c34e2fc72f612d7ae6fbf924e1d0014f746a",
+      "matches": true
+    },
+    {
+      "path": "dashboard/styles.css",
+      "expected": "3c040bcccc52c23980295b7ef0a494cf99aa3cf93551ed782f431200eafbc752",
+      "actual": "3c040bcccc52c23980295b7ef0a494cf99aa3cf93551ed782f431200eafbc752",
+      "matches": true
+    },
+    {
+      "path": "dashboard/vendor/plotly.min.js",
+      "expected": "6d21266ce1bd7d9e5ab4e115989c70c20de0382fd973a8f26ab58619eba4d603",
+      "actual": "6d21266ce1bd7d9e5ab4e115989c70c20de0382fd973a8f26ab58619eba4d603",
+      "matches": true
+    },
+    {
+      "path": "main.py",
+      "expected": "7aaf1b04cc3b06c7301de8f8d8bd037f1a571031af7124f93bda4ffcc3ad986d",
+      "actual": "7aaf1b04cc3b06c7301de8f8d8bd037f1a571031af7124f93bda4ffcc3ad986d",
+      "matches": true
+    },
+    {
+      "path": "maritime_data_context/__init__.py",
+      "expected": "95fbc2cb6f98ee75ecb5570fa3eb6414f0f19549e03ad87ed8c90454e41c0d9a",
+      "actual": "95fbc2cb6f98ee75ecb5570fa3eb6414f0f19549e03ad87ed8c90454e41c0d9a",
+      "matches": true
+    },
+    {
+      "path": "maritime_data_context/berth.py",
+      "expected": "f0e06e2dd4ef0525d3ef09ed09174f07122204c57f0a4e0e3c7a4795219aaad9",
+      "actual": "f0e06e2dd4ef0525d3ef09ed09174f07122204c57f0a4e0e3c7a4795219aaad9",
+      "matches": true
+    },
+    {
+      "path": "maritime_data_context/booking.py",
+      "expected": "a4804433bc29f8763479c9f53e9973685be1ba03caf46c6982a063e0bc8bce69",
+      "actual": "a4804433bc29f8763479c9f53e9973685be1ba03caf46c6982a063e0bc8bce69",
+      "matches": true
+    },
+    {
+      "path": "maritime_data_context/demand.py",
+      "expected": "f3d6445f6152c17b4f4c5f359781adeb338a02fb789917fc71cf5a26a8e5ee75",
+      "actual": "f3d6445f6152c17b4f4c5f359781adeb338a02fb789917fc71cf5a26a8e5ee75",
+      "matches": true
+    },
+    {
+      "path": "maritime_data_context/disruption_plan.py",
+      "expected": "aef6c21bd2c752786e63cd982731322239b10e3db7b3eef894ed5e30529d89da",
+      "actual": "aef6c21bd2c752786e63cd982731322239b10e3db7b3eef894ed5e30529d89da",
+      "matches": true
+    },
+    {
+      "path": "maritime_data_context/leg.py",
+      "expected": "f6eaa41c37334b780188977dd9340e178d178c0d683b36c815b2a5b2ae24453e",
+      "actual": "f6eaa41c37334b780188977dd9340e178d178c0d683b36c815b2a5b2ae24453e",
+      "matches": true
+    },
+    {
+      "path": "maritime_data_context/maritime_data_context.py",
+      "expected": "aebdf76e3f0ecc64f02865cd11dc77ac35098df3416e627386486867f424ca45",
+      "actual": "aebdf76e3f0ecc64f02865cd11dc77ac35098df3416e627386486867f424ca45",
+      "matches": true
+    },
+    {
+      "path": "maritime_data_context/port.py",
+      "expected": "422b90d7b870ec3af40963a4b27781f9ad8092264833ff3632f28c1c836ad917",
+      "actual": "422b90d7b870ec3af40963a4b27781f9ad8092264833ff3632f28c1c836ad917",
+      "matches": true
+    },
+    {
+      "path": "maritime_data_context/segment.py",
+      "expected": "bf833b6f106e4c8e6b719a7f8712baa4fa1364b2aab57575b154394bc82b6ac5",
+      "actual": "bf833b6f106e4c8e6b719a7f8712baa4fa1364b2aab57575b154394bc82b6ac5",
+      "matches": true
+    },
+    {
+      "path": "maritime_data_context/service_route.py",
+      "expected": "f801a423d406d25b65d27bfb398a82b70c836ebadb4072d48d4ac12de26c4e63",
+      "actual": "f801a423d406d25b65d27bfb398a82b70c836ebadb4072d48d4ac12de26c4e63",
+      "matches": true
+    },
+    {
+      "path": "maritime_data_context/shipment.py",
+      "expected": "7e0daf91373a9a74fb4f40fba16dec011d9250eb8be9c19f8e972e1ef3349d0b",
+      "actual": "7e0daf91373a9a74fb4f40fba16dec011d9250eb8be9c19f8e972e1ef3349d0b",
+      "matches": true
+    },
+    {
+      "path": "maritime_data_context/vessel.py",
+      "expected": "49b13e4c14ac219e3f7dacb2f6ae69c6ea080a90371c5f866f225d4b322e7c1e",
+      "actual": "49b13e4c14ac219e3f7dacb2f6ae69c6ea080a90371c5f866f225d4b322e7c1e",
+      "matches": true
+    },
+    {
+      "path": "maritime_data_context/vessel_class.py",
+      "expected": "055fe70a0589cd23904d834e817dd48b64fe8b4918b8fc17ab3f2e0d4fe2c901",
+      "actual": "055fe70a0589cd23904d834e817dd48b64fe8b4918b8fc17ab3f2e0d4fe2c901",
+      "matches": true
+    },
+    {
+      "path": "o2despy/.gitignore",
+      "expected": "2c5e1a66108319b277f2307d3d9d7e9f00b7d3fe1549b016dac673a8d31c22c4",
+      "actual": "2c5e1a66108319b277f2307d3d9d7e9f00b7d3fe1549b016dac673a8d31c22c4",
+      "matches": true
+    },
+    {
+      "path": "o2despy/README.md",
+      "expected": "37b332d9b903130d7f9f6cd2ecfcefd0cdb9a9730f4247c43ab1ed58ababade7",
+      "actual": "37b332d9b903130d7f9f6cd2ecfcefd0cdb9a9730f4247c43ab1ed58ababade7",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/__init__.py",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo1/__init__.py",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo1/__main__.py",
+      "expected": "a9d3d8d6e0b55e6ba1f89a0d783b04b6c208d34c13946ebba6889f54353b9fd6",
+      "actual": "a9d3d8d6e0b55e6ba1f89a0d783b04b6c208d34c13946ebba6889f54353b9fd6",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo1/hello_world.py",
+      "expected": "df421e0990dcb8a10999e283193dac3c99a088f63fa6504e2f72a2ad442da97c",
+      "actual": "df421e0990dcb8a10999e283193dac3c99a088f63fa6504e2f72a2ad442da97c",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo10/__init__.py",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo10/__main__.py",
+      "expected": "bb6a626d49543342700161d9de175d9199eff591d961ec7e886e1cc6acd2bff2",
+      "actual": "bb6a626d49543342700161d9de175d9199eff591d961ec7e886e1cc6acd2bff2",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo10/constrained_tandem_queue_push.py",
+      "expected": "9364c4ace1162cc3a637a5deffe1c444fcc37d2ff440383048f2aa19ef4a4366",
+      "actual": "9364c4ace1162cc3a637a5deffe1c444fcc37d2ff440383048f2aa19ef4a4366",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo10/generator.py",
+      "expected": "a1049c9cbc60eafd4819231c61cad0022dc04ade6c8b2074eaf809c70fefd3e0",
+      "actual": "a1049c9cbc60eafd4819231c61cad0022dc04ade6c8b2074eaf809c70fefd3e0",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo10/queue_.py",
+      "expected": "b8312ae964f24054a7eaf9c6c0ce93b40b7efd05eac76b8a91880d9f81a9d664",
+      "actual": "b8312ae964f24054a7eaf9c6c0ce93b40b7efd05eac76b8a91880d9f81a9d664",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo10/server.py",
+      "expected": "dc465731444bcb390f574e8c4c9366a22ccd8b90292ca282de55ca2a2d330b35",
+      "actual": "dc465731444bcb390f574e8c4c9366a22ccd8b90292ca282de55ca2a2d330b35",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo2/__init__.py",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo2/__main__.py",
+      "expected": "66ed2481b9d9be15841ef22907433875df354e93b9074ac5fe58990e7d731bd4",
+      "actual": "66ed2481b9d9be15841ef22907433875df354e93b9074ac5fe58990e7d731bd4",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo2/birth_death.py",
+      "expected": "21e8def10fecfb8baf1e560671f6f6e8ae5a1a5c570e65bb231653840b2d64ad",
+      "actual": "21e8def10fecfb8baf1e560671f6f6e8ae5a1a5c570e65bb231653840b2d64ad",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo3/__init__.py",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo3/__main__.py",
+      "expected": "2bc02cf0c1dbb0ad666964750f57e72028bdc50feffe0a1fd9355bda6f3189f8",
+      "actual": "2bc02cf0c1dbb0ad666964750f57e72028bdc50feffe0a1fd9355bda6f3189f8",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo3/mmc_queue.py",
+      "expected": "2caa91bab277b9409591c8cde60e05af834f58cbf60c38fe6819c300c1233f3d",
+      "actual": "2caa91bab277b9409591c8cde60e05af834f58cbf60c38fe6819c300c1233f3d",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo4/__init__.py",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo4/__main__.py",
+      "expected": "70ce87c87222ade3b3657288525deedd120fccb2b79f94641ff174e60e57ca88",
+      "actual": "70ce87c87222ade3b3657288525deedd120fccb2b79f94641ff174e60e57ca88",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo4/pingponggame.py",
+      "expected": "6ad8a0fe064ced6e268991d7998652650194f5a22534de7a1be8d5f5798524da",
+      "actual": "6ad8a0fe064ced6e268991d7998652650194f5a22534de7a1be8d5f5798524da",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo4/pingpongplayer.py",
+      "expected": "cc4dcf849bbcda7014ca337708a12d8d0a474de8c2d79c7a59293fb62d79dbd1",
+      "actual": "cc4dcf849bbcda7014ca337708a12d8d0a474de8c2d79c7a59293fb62d79dbd1",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo5/__init__.py",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo5/__main__.py",
+      "expected": "c9a8607860fe37b1509bc3ae9906b473200f92b7eb6624fa65e2d0131fd662fa",
+      "actual": "c9a8607860fe37b1509bc3ae9906b473200f92b7eb6624fa65e2d0131fd662fa",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo5/generator.py",
+      "expected": "992f3fb550d3e8179a737c6e81bf088238be301d920b1105e7ef40533676d55f",
+      "actual": "992f3fb550d3e8179a737c6e81bf088238be301d920b1105e7ef40533676d55f",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo5/mmc_queue_pull.py",
+      "expected": "d73af3e4e83b42a4c0d43cc365920f71714bacb446b43675d594de899b7deac2",
+      "actual": "d73af3e4e83b42a4c0d43cc365920f71714bacb446b43675d594de899b7deac2",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo5/queue_.py",
+      "expected": "4c0834fa0889effaf514b6c824ebb8a6dcb0f2bb03eb73b8565f89568f3049d2",
+      "actual": "4c0834fa0889effaf514b6c824ebb8a6dcb0f2bb03eb73b8565f89568f3049d2",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo5/server.py",
+      "expected": "26d6d2f2ceed6e35aae9e3a76510b90d03c6a21f8286f0feba52dee3fe75b739",
+      "actual": "26d6d2f2ceed6e35aae9e3a76510b90d03c6a21f8286f0feba52dee3fe75b739",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo6/__init__.py",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo6/__main__.py",
+      "expected": "912cb9b658a72e65e73d544035d83d39aa46b5e0e3e57a4359b45b3c358f245a",
+      "actual": "912cb9b658a72e65e73d544035d83d39aa46b5e0e3e57a4359b45b3c358f245a",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo6/generator.py",
+      "expected": "f95916cc7da2018c32a9c9229655bd9a8a139d756517b61fa59374b26853c402",
+      "actual": "f95916cc7da2018c32a9c9229655bd9a8a139d756517b61fa59374b26853c402",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo6/mmc_queue_push.py",
+      "expected": "69678cb3be0131c5cd3216740b525554477fd4c7980dec67b0bb6c826ca237fe",
+      "actual": "69678cb3be0131c5cd3216740b525554477fd4c7980dec67b0bb6c826ca237fe",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo6/queue_.py",
+      "expected": "280a8a2e58c1e31175312f6e6819e0102ab139fb250efe5e79184a6ebaf8280b",
+      "actual": "280a8a2e58c1e31175312f6e6819e0102ab139fb250efe5e79184a6ebaf8280b",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo6/server.py",
+      "expected": "02bab9dc6778fa773e3c41cabdee708115b3dac6cbbc063b2026a1800841d34e",
+      "actual": "02bab9dc6778fa773e3c41cabdee708115b3dac6cbbc063b2026a1800841d34e",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo7/__init__.py",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo7/__main__.py",
+      "expected": "1024f4d054c857e4ca89caae502d2c5e5ac3f2a5d9f3a207abc365d173627024",
+      "actual": "1024f4d054c857e4ca89caae502d2c5e5ac3f2a5d9f3a207abc365d173627024",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo7/generator.py",
+      "expected": "a1049c9cbc60eafd4819231c61cad0022dc04ade6c8b2074eaf809c70fefd3e0",
+      "actual": "a1049c9cbc60eafd4819231c61cad0022dc04ade6c8b2074eaf809c70fefd3e0",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo7/queue_.py",
+      "expected": "4c0834fa0889effaf514b6c824ebb8a6dcb0f2bb03eb73b8565f89568f3049d2",
+      "actual": "4c0834fa0889effaf514b6c824ebb8a6dcb0f2bb03eb73b8565f89568f3049d2",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo7/server.py",
+      "expected": "a166e43928bd0df08ecd84bdf002c9e073109cd22c547c86dd594f66e9bc1faf",
+      "actual": "a166e43928bd0df08ecd84bdf002c9e073109cd22c547c86dd594f66e9bc1faf",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo7/tandem_queue_pull.py",
+      "expected": "7e14d31786c05fede7670d92c51be341671de5176a1f24fff071f7ad6303266f",
+      "actual": "7e14d31786c05fede7670d92c51be341671de5176a1f24fff071f7ad6303266f",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo8/__init__.py",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo8/__main__.py",
+      "expected": "d7456399eb59a70ef3c67f7334f1a14c509feb9c6ee6efa481814a96210ea394",
+      "actual": "d7456399eb59a70ef3c67f7334f1a14c509feb9c6ee6efa481814a96210ea394",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo8/generator.py",
+      "expected": "a1049c9cbc60eafd4819231c61cad0022dc04ade6c8b2074eaf809c70fefd3e0",
+      "actual": "a1049c9cbc60eafd4819231c61cad0022dc04ade6c8b2074eaf809c70fefd3e0",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo8/queue_.py",
+      "expected": "0fcb1fd9fcbace8901d3b4d0b32b98a420fa470bbe8cd6e10a763a3af0048348",
+      "actual": "0fcb1fd9fcbace8901d3b4d0b32b98a420fa470bbe8cd6e10a763a3af0048348",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo8/server.py",
+      "expected": "ce54246a2aa3b0bbdf711cb1250c91e89712bb29900462c2babfa966d6f2d901",
+      "actual": "ce54246a2aa3b0bbdf711cb1250c91e89712bb29900462c2babfa966d6f2d901",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo8/tandem_queue_push.py",
+      "expected": "2709513905522fe275c077bd2395525e8853bf91ae31bb934c7ee9542badf777",
+      "actual": "2709513905522fe275c077bd2395525e8853bf91ae31bb934c7ee9542badf777",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo9/__init__.py",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo9/__main__.py",
+      "expected": "4e34463041a5f3b471d93d6ba24bca53ccdd6f894a0e2fbe7ad58e0abe7914d7",
+      "actual": "4e34463041a5f3b471d93d6ba24bca53ccdd6f894a0e2fbe7ad58e0abe7914d7",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo9/constrained_tandem_queue_pull.py",
+      "expected": "62e8094f5dd895580116e1ce0d6c7732d015e659b5a9b35d99bdb9573907feca",
+      "actual": "62e8094f5dd895580116e1ce0d6c7732d015e659b5a9b35d99bdb9573907feca",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo9/generator.py",
+      "expected": "a1049c9cbc60eafd4819231c61cad0022dc04ade6c8b2074eaf809c70fefd3e0",
+      "actual": "a1049c9cbc60eafd4819231c61cad0022dc04ade6c8b2074eaf809c70fefd3e0",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo9/queue_.py",
+      "expected": "8296e6ef258d05776d35e71ca5472c83c59de1c9b53ef522073d5a017fe26e18",
+      "actual": "8296e6ef258d05776d35e71ca5472c83c59de1c9b53ef522073d5a017fe26e18",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/demo9/server.py",
+      "expected": "e2d8882f7593a623f483fe6b2ed82049e6487276e51858a12bcfca1cc31c6f54",
+      "actual": "e2d8882f7593a623f483fe6b2ed82049e6487276e51858a12bcfca1cc31c6f54",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/main.py",
+      "expected": "caf8351797f905d0fcc90518ee998ba4cafcff2a1e34ce931858b8bb0c96fba8",
+      "actual": "caf8351797f905d0fcc90518ee998ba4cafcff2a1e34ce931858b8bb0c96fba8",
+      "matches": true
+    },
+    {
+      "path": "o2despy/demos/tandem_queue.py",
+      "expected": "6a93418453450a04f905a05ca102991c6d913fbe30c9ef73c5a8b4f32d82421a",
+      "actual": "6a93418453450a04f905a05ca102991c6d913fbe30c9ef73c5a8b4f32d82421a",
+      "matches": true
+    },
+    {
+      "path": "o2despy/o2des/__init__.py",
+      "expected": "87e432bcc5730cda53de3c95b247126d45455f118247189e14faef4ef7991bd9",
+      "actual": "87e432bcc5730cda53de3c95b247126d45455f118247189e14faef4ef7991bd9",
+      "matches": true
+    },
+    {
+      "path": "o2despy/o2des/common/__init__.py",
+      "expected": "05fe499cf0bc0a08b485d926251087e3031a544911a1f37b4882561c9653df9d",
+      "actual": "05fe499cf0bc0a08b485d926251087e3031a544911a1f37b4882561c9653df9d",
+      "matches": true
+    },
+    {
+      "path": "o2despy/o2des/common/actionset.py",
+      "expected": "222de7e4e409efa692b5c532841e1e79a15347d105173e88311eefebe3f59deb",
+      "actual": "222de7e4e409efa692b5c532841e1e79a15347d105173e88311eefebe3f59deb",
+      "matches": true
+    },
+    {
+      "path": "o2despy/o2des/common/auto_indexed.py",
+      "expected": "1a58f20982dcdcca4a642d5769a2507c1f368a53fb731915c3b04ad6e9b7f2ae",
+      "actual": "1a58f20982dcdcca4a642d5769a2507c1f368a53fb731915c3b04ad6e9b7f2ae",
+      "matches": true
+    },
+    {
+      "path": "o2despy/o2des/common/disposable_base.py",
+      "expected": "3e577a9ff19fb3ac0dd0e1805380d7694f465e09cc52728a98924022b2c05df8",
+      "actual": "3e577a9ff19fb3ac0dd0e1805380d7694f465e09cc52728a98924022b2c05df8",
+      "matches": true
+    },
+    {
+      "path": "o2despy/o2des/common/loggable.py",
+      "expected": "e2415d20486f50744766afd4eac29396a3e3a4fa7ba569d64516c05fcb9e7fb2",
+      "actual": "e2415d20486f50744766afd4eac29396a3e3a4fa7ba569d64516c05fcb9e7fb2",
+      "matches": true
+    },
+    {
+      "path": "o2despy/o2des/config/__init__.py",
+      "expected": "4432259014a5ac85c253b8cdc9fb6ce802fe934cdabad692b14dd5c20d342211",
+      "actual": "4432259014a5ac85c253b8cdc9fb6ce802fe934cdabad692b14dd5c20d342211",
+      "matches": true
+    },
+    {
+      "path": "o2despy/o2des/config/file_io_config.py",
+      "expected": "a747f25ddc8ecff916802880bf423207b2e72a9f3cc152f1a2a0d2bdc85573e9",
+      "actual": "a747f25ddc8ecff916802880bf423207b2e72a9f3cc152f1a2a0d2bdc85573e9",
+      "matches": true
+    },
+    {
+      "path": "o2despy/o2des/core/__init__.py",
+      "expected": "d288793926ebf3d9e56874bd252364047cf9815ced48c2b568e59637a49976f4",
+      "actual": "d288793926ebf3d9e56874bd252364047cf9815ced48c2b568e59637a49976f4",
+      "matches": true
+    },
+    {
+      "path": "o2despy/o2des/core/assets.py",
+      "expected": "b6435d1a0a0a0f47a1e74153817824c610d240cc09260b285f5d0c697aaf3956",
+      "actual": "b6435d1a0a0a0f47a1e74153817824c610d240cc09260b285f5d0c697aaf3956",
+      "matches": true
+    },
+    {
+      "path": "o2despy/o2des/core/event.py",
+      "expected": "222c133f22291ed1f0050af8fef38d2087e3e5f93e30db44840cf26e3271e89f",
+      "actual": "222c133f22291ed1f0050af8fef38d2087e3e5f93e30db44840cf26e3271e89f",
+      "matches": true
+    },
+    {
+      "path": "o2despy/o2des/core/hour_counter.py",
+      "expected": "431a3c501b6fc0cac91174cca72db9b65de23df7701d1f79b99b2d8d06049716",
+      "actual": "431a3c501b6fc0cac91174cca72db9b65de23df7701d1f79b99b2d8d06049716",
+      "matches": true
+    },
+    {
+      "path": "o2despy/o2des/core/hour_counter_base.py",
+      "expected": "406cf894a706421a13283ec88712dec5dad887002e2b0a8ca7f91a3c58732e1e",
+      "actual": "406cf894a706421a13283ec88712dec5dad887002e2b0a8ca7f91a3c58732e1e",
+      "matches": true
+    },
+    {
+      "path": "o2despy/o2des/core/phase_tracker.py",
+      "expected": "16161462df70bae525a49319a681200baa22f93f11d895ff69afed398549ce62",
+      "actual": "16161462df70bae525a49319a681200baa22f93f11d895ff69afed398549ce62",
+      "matches": true
+    },
+    {
+      "path": "o2despy/o2des/core/pointer.py",
+      "expected": "67013eb1b109c2f4ae0689870dedaecb13ccba32e306a3b34c99c0f8d7380a74",
+      "actual": "67013eb1b109c2f4ae0689870dedaecb13ccba32e306a3b34c99c0f8d7380a74",
+      "matches": true
+    },
+    {
+      "path": "o2despy/o2des/core/sandbox.py",
+      "expected": "f23bcf9024132c11320037bdb8ecf507b48a00432dea79391ead5eb5dee8f950",
+      "actual": "f23bcf9024132c11320037bdb8ecf507b48a00432dea79391ead5eb5dee8f950",
+      "matches": true
+    },
+    {
+      "path": "o2despy/o2des/core/sandbox_base.py",
+      "expected": "841662b7404361b46682c7a0f409ff8432c90759632ed3aee53878f9b09870c2",
+      "actual": "841662b7404361b46682c7a0f409ff8432c90759632ed3aee53878f9b09870c2",
+      "matches": true
+    },
+    {
+      "path": "o2despy/o2des/statistics/__init__.py",
+      "expected": "08f4468bd6e1104ce3e27f7d1ef96213ce95378bd22291b9c4814792c4942268",
+      "actual": "08f4468bd6e1104ce3e27f7d1ef96213ce95378bd22291b9c4814792c4942268",
+      "matches": true
+    },
+    {
+      "path": "o2despy/o2des/statistics/event_logger.py",
+      "expected": "655fcfe9a60d98b2ca13fce4ffaafe936d87bf4f22f7e67c3d8dd0e511cd1990",
+      "actual": "655fcfe9a60d98b2ca13fce4ffaafe936d87bf4f22f7e67c3d8dd0e511cd1990",
+      "matches": true
+    },
+    {
+      "path": "o2despy/o2des/statistics/hour_counter_logger.py",
+      "expected": "25e7a480cd27c8279c122d650089a6918d0813459a9ea8737349a62619be7256",
+      "actual": "25e7a480cd27c8279c122d650089a6918d0813459a9ea8737349a62619be7256",
+      "matches": true
+    },
+    {
+      "path": "o2despy/o2des/utils/__init__.py",
+      "expected": "639a944c9288f2f5f33e7e3a70b89f6688a0ff74fb7906195d0344960ab31ac2",
+      "actual": "639a944c9288f2f5f33e7e3a70b89f6688a0ff74fb7906195d0344960ab31ac2",
+      "matches": true
+    },
+    {
+      "path": "o2despy/o2des/utils/distributions.py",
+      "expected": "13c13e2d63a76556e0ed096c940721cfa1f4d69f39664414041deda1278b7269",
+      "actual": "13c13e2d63a76556e0ed096c940721cfa1f4d69f39664414041deda1278b7269",
+      "matches": true
+    },
+    {
+      "path": "o2despy/o2des/utils/dotnet_distributions.py",
+      "expected": "69cb470a966d73bbdafcc8ed212510a3e27863a3f8c25b46de5d0816c490469e",
+      "actual": "69cb470a966d73bbdafcc8ed212510a3e27863a3f8c25b46de5d0816c490469e",
+      "matches": true
+    },
+    {
+      "path": "o2despy/o2des/utils/dotnet_random.py",
+      "expected": "4abf50b72cf745379a294d3226bd78f0eb4d807e068a401510de2b1dbe0d840e",
+      "actual": "4abf50b72cf745379a294d3226bd78f0eb4d807e068a401510de2b1dbe0d840e",
+      "matches": true
+    },
+    {
+      "path": "o2despy/o2des/utils/file_io_utils.py",
+      "expected": "e2bd50efd13aa986fc78dd06d5ce29b60b993a5bbcf18d45035e8e2163942ca5",
+      "actual": "e2bd50efd13aa986fc78dd06d5ce29b60b993a5bbcf18d45035e8e2163942ca5",
+      "matches": true
+    },
+    {
+      "path": "o2despy/o2des/utils/format_utils.py",
+      "expected": "3ed01d467815a00fabc8d12c9a75ea4b4c5564da5c20289487f44553a5cd57a5",
+      "actual": "3ed01d467815a00fabc8d12c9a75ea4b4c5564da5c20289487f44553a5cd57a5",
+      "matches": true
+    },
+    {
+      "path": "o2despy/o2des/utils/log_utils.py",
+      "expected": "dcbc0ec71e28275c18bb48087cee32166bacf19258c9108c704ec3cf47677065",
+      "actual": "dcbc0ec71e28275c18bb48087cee32166bacf19258c9108c704ec3cf47677065",
+      "matches": true
+    },
+    {
+      "path": "o2despy/o2des/utils/output_utils.py",
+      "expected": "aa178bd4d51ae57172abe71edf5a1312a93180f2dfdd8b61f63b7fa1b90bd72e",
+      "actual": "aa178bd4d51ae57172abe71edf5a1312a93180f2dfdd8b61f63b7fa1b90bd72e",
+      "matches": true
+    },
+    {
+      "path": "o2despy/o2des/utils/read_only.py",
+      "expected": "2ec075c8dc8449e9316fe2d6167124172666fa921a5ad1c1343bb9f3cd909a67",
+      "actual": "2ec075c8dc8449e9316fe2d6167124172666fa921a5ad1c1343bb9f3cd909a67",
+      "matches": true
+    },
+    {
+      "path": "o2despy/o2des/utils/xml_utils.py",
+      "expected": "de606da656a440bc0e637a42f5e6be9fd49559411d68be9b5f1a567ecf2111e3",
+      "actual": "de606da656a440bc0e637a42f5e6be9fd49559411d68be9b5f1a567ecf2111e3",
+      "matches": true
+    },
+    {
+      "path": "o2despy/pyproject.toml",
+      "expected": "9b40bd6ef3ed2500b59be89106248c0bf3c9f57edb3daf2b60549fed06ecceb0",
+      "actual": "9b40bd6ef3ed2500b59be89106248c0bf3c9f57edb3daf2b60549fed06ecceb0",
+      "matches": true
+    },
+    {
+      "path": "o2despy/requirements.txt",
+      "expected": "2504ada39935c10e99268145814ac2ce77bebf3f24a5f793f2e25036f5155c9a",
+      "actual": "2504ada39935c10e99268145814ac2ce77bebf3f24a5f793f2e25036f5155c9a",
+      "matches": true
+    },
+    {
+      "path": "o2despy/tests/utils/test_dotnet_distributions.py",
+      "expected": "c6da06803f830be7d8974c477bd772824fde3d7e48e2b5d72e458de10f7339bf",
+      "actual": "c6da06803f830be7d8974c477bd772824fde3d7e48e2b5d72e458de10f7339bf",
+      "matches": true
+    },
+    {
+      "path": "o2despy/tests/utils/test_dotnet_random.py",
+      "expected": "b15f85ff8ef03b21956eee15923515d8fc0161e91db561f3c0c6dc8e72ea5314",
+      "actual": "b15f85ff8ef03b21956eee15923515d8fc0161e91db561f3c0c6dc8e72ea5314",
+      "matches": true
+    },
+    {
+      "path": "o2despy/tests/utils/test_file_io_utils.py",
+      "expected": "f2f4a5489030b1554e6d2720619b7ed412452415794c72f1c5b9ac496e14b22f",
+      "actual": "f2f4a5489030b1554e6d2720619b7ed412452415794c72f1c5b9ac496e14b22f",
+      "matches": true
+    },
+    {
+      "path": "o2despy/tests/utils/test_log_utils.py",
+      "expected": "8266699e660d8bc8e92971b7c35dd797f39f1606de6758b143e7a20e808fb694",
+      "actual": "8266699e660d8bc8e92971b7c35dd797f39f1606de6758b143e7a20e808fb694",
+      "matches": true
+    },
+    {
+      "path": "o2despy/tests/utils/test_xml_utils.py",
+      "expected": "fb122e49d17d87c9d55daa8c441b9b69120d6e7d68133bcbfd0561ad8709e653",
+      "actual": "fb122e49d17d87c9d55daa8c441b9b69120d6e7d68133bcbfd0561ad8709e653",
+      "matches": true
+    },
+    {
+      "path": "requirements.txt",
+      "expected": "8708ea055e6e41cd82eb90795c5af3fac280f3ea18fd0e4352ea03f8b3e556e1",
+      "actual": "8708ea055e6e41cd82eb90795c5af3fac280f3ea18fd0e4352ea03f8b3e556e1",
+      "matches": true
+    },
+    {
+      "path": "scenario_builders/__init__.py",
+      "expected": "7360dfb6e6906236b47c76786c9ac0f17077051e8b57c2d38644881d6eca41f4",
+      "actual": "7360dfb6e6906236b47c76786c9ac0f17077051e8b57c2d38644881d6eca41f4",
+      "matches": true
+    },
+    {
+      "path": "scenario_builders/baseline_stable_scenario.py",
+      "expected": "11f9341dc38083585ad94dff6e0cb734e71e8f4fe46da99c0793c838b8bbe431",
+      "actual": "11f9341dc38083585ad94dff6e0cb734e71e8f4fe46da99c0793c838b8bbe431",
+      "matches": true
+    },
+    {
+      "path": "scenario_builders/disruption_scenario.py",
+      "expected": "7adbbde77fea55bedeffe3d0cccd1dacb4010f4dc5af3fcae208cfec72758487",
+      "actual": "7adbbde77fea55bedeffe3d0cccd1dacb4010f4dc5af3fcae208cfec72758487",
+      "matches": true
+    },
+    {
+      "path": "simulation_model/__init__.py",
+      "expected": "01f8986c8079a7638b7acd0179eeaaab194bc3415d0ff02971b3b5989ec4fe3a",
+      "actual": "01f8986c8079a7638b7acd0179eeaaab194bc3415d0ff02971b3b5989ec4fe3a",
+      "matches": true
+    },
+    {
+      "path": "simulation_model/activity_handler.py",
+      "expected": "8dd587edd8861d476d0b431a788574fcdd82301ba89e55e587f00e6148f97efd",
+      "actual": "8dd587edd8861d476d0b431a788574fcdd82301ba89e55e587f00e6148f97efd",
+      "matches": true
+    },
+    {
+      "path": "simulation_model/berth_berthing.py",
+      "expected": "14daa240d89f29444dc87fcd3e1a68fab382447fecf305db24db772e53e543cd",
+      "actual": "14daa240d89f29444dc87fcd3e1a68fab382447fecf305db24db772e53e543cd",
+      "matches": true
+    },
+    {
+      "path": "simulation_model/berth_generator.py",
+      "expected": "2cea338310d470ab9cfba53714c287126d98b0f598a5a5e59aed7c49b2866d76",
+      "actual": "2cea338310d470ab9cfba53714c287126d98b0f598a5a5e59aed7c49b2866d76",
+      "matches": true
+    },
+    {
+      "path": "simulation_model/berth_handling_cargo.py",
+      "expected": "98135460a0e0b8b45a00c51b1caca14fe8230df25f44f2a5d9afaa4a71807712",
+      "actual": "98135460a0e0b8b45a00c51b1caca14fe8230df25f44f2a5d9afaa4a71807712",
+      "matches": true
+    },
+    {
+      "path": "simulation_model/berth_idle.py",
+      "expected": "9d0d92fb764bdccc4511a60abf6015804678c727906d2c9c2f7c608874216062",
+      "actual": "9d0d92fb764bdccc4511a60abf6015804678c727906d2c9c2f7c608874216062",
+      "matches": true
+    },
+    {
+      "path": "simulation_model/disruption_manager.py",
+      "expected": "73b3cf703483df51994ea693e629eb62d8ae5fd38f48b7ffd08f58dbd47df5a1",
+      "actual": "73b3cf703483df51994ea693e629eb62d8ae5fd38f48b7ffd08f58dbd47df5a1",
+      "matches": true
+    },
+    {
+      "path": "simulation_model/disruption_status.py",
+      "expected": "110d0f670182b2078dea7d6fe34d97a6f211de623debf977474838427ac2623e",
+      "actual": "110d0f670182b2078dea7d6fe34d97a6f211de623debf977474838427ac2623e",
+      "matches": true
+    },
+    {
+      "path": "simulation_model/generator.py",
+      "expected": "5c3a2a5b34b0bba661d9711982a6e644d32578acf07fbf848e4c01b38825f3d8",
+      "actual": "5c3a2a5b34b0bba661d9711982a6e644d32578acf07fbf848e4c01b38825f3d8",
+      "matches": true
+    },
+    {
+      "path": "simulation_model/model.py",
+      "expected": "8cfd0da61265caf9608bcd5e9d1f6673f7117224b03f61f0dc428b8852203fb2",
+      "actual": "8cfd0da61265caf9608bcd5e9d1f6673f7117224b03f61f0dc428b8852203fb2",
+      "matches": true
+    },
+    {
+      "path": "simulation_model/ordered_set.py",
+      "expected": "9fabe89b73b50871e77a22ff1d33cb155266c4780f3965051f625af61dcddb81",
+      "actual": "9fabe89b73b50871e77a22ff1d33cb155266c4780f3965051f625af61dcddb81",
+      "matches": true
+    },
+    {
+      "path": "simulation_model/shipment_being_transported.py",
+      "expected": "17b43b08659fb0a3d072eddb4529e49873506fc9b739c5a34001e003b62d6b4d",
+      "actual": "17b43b08659fb0a3d072eddb4529e49873506fc9b739c5a34001e003b62d6b4d",
+      "matches": true
+    },
+    {
+      "path": "simulation_model/shipment_generator.py",
+      "expected": "52ec2a8bf5826c0a63795a0ef5450beb0c27aedc1329873fc1e255fd4c2d5ee2",
+      "actual": "52ec2a8bf5826c0a63795a0ef5450beb0c27aedc1329873fc1e255fd4c2d5ee2",
+      "matches": true
+    },
+    {
+      "path": "simulation_model/shipment_waiting_for_loading_at_origin_port.py",
+      "expected": "bfd3f11541a5fb80cee4d600c0a48341f72335954ccde63b6956f4988a0339da",
+      "actual": "bfd3f11541a5fb80cee4d600c0a48341f72335954ccde63b6956f4988a0339da",
+      "matches": true
+    },
+    {
+      "path": "simulation_model/shipment_waiting_for_loading_at_transshipment_port.py",
+      "expected": "3e95a7a1c2c536634f9d755f660e0942989dff7234db5aac4a29d1a656e99f33",
+      "actual": "3e95a7a1c2c536634f9d755f660e0942989dff7234db5aac4a29d1a656e99f33",
+      "matches": true
+    },
+    {
+      "path": "simulation_model/tests/test_baseline_stable_scenario.py",
+      "expected": "5d5f1976d88b07a29bb0c07060646845c6938ad6027713644aaa4bfe64c99382",
+      "actual": "5d5f1976d88b07a29bb0c07060646845c6938ad6027713644aaa4bfe64c99382",
+      "matches": true
+    },
+    {
+      "path": "simulation_model/tests/test_dashboard_launcher.py",
+      "expected": "1abb3a2eb11b6aaa435b26e8a586b4211d630fec47224b185166fb394e33f87a",
+      "actual": "1abb3a2eb11b6aaa435b26e8a586b4211d630fec47224b185166fb394e33f87a",
+      "matches": true
+    },
+    {
+      "path": "simulation_model/tests/test_disruptions_and_strategy.py",
+      "expected": "20c3b4d76f78b289cab7618dea536ff0bdd99d2789b93d8b7a1d390dda0b8f3e",
+      "actual": "20c3b4d76f78b289cab7618dea536ff0bdd99d2789b93d8b7a1d390dda0b8f3e",
+      "matches": true
+    },
+    {
+      "path": "simulation_model/tests/test_main_logging.py",
+      "expected": "d3bc1f7ef8304b3b890bfd52b465f69ee3eee7262c4d707a3ac08e20c39665cb",
+      "actual": "d3bc1f7ef8304b3b890bfd52b465f69ee3eee7262c4d707a3ac08e20c39665cb",
+      "matches": true
+    },
+    {
+      "path": "simulation_model/tests/test_reproducibility.py",
+      "expected": "2d3380cfa8ecbfa9c3575156e7f2d1ae7df8de242913cf541bb571bec8940842",
+      "actual": "2d3380cfa8ecbfa9c3575156e7f2d1ae7df8de242913cf541bb571bec8940842",
+      "matches": true
+    },
+    {
+      "path": "simulation_model/tests/test_resilience_kpi_calculator.py",
+      "expected": "806e898c5c3ef6373326808640337f3f2e9934f48acda004387f4573aad60ad7",
+      "actual": "806e898c5c3ef6373326808640337f3f2e9934f48acda004387f4573aad60ad7",
+      "matches": true
+    },
+    {
+      "path": "simulation_model/tests/test_run_configuration.py",
+      "expected": "67b4828a3866b033834b8b6616847b3d8381ecc3769d45d5fa9260a85e37a4ae",
+      "actual": "67b4828a3866b033834b8b6616847b3d8381ecc3769d45d5fa9260a85e37a4ae",
+      "matches": true
+    },
+    {
+      "path": "simulation_model/tests/test_shipment_generator_zero_teu.py",
+      "expected": "ecbedb06c1dbdd2d8b910225c2a145adc265fb6b812977a88d4ef1b9152cb15e",
+      "actual": "ecbedb06c1dbdd2d8b910225c2a145adc265fb6b812977a88d4ef1b9152cb15e",
+      "matches": true
+    },
+    {
+      "path": "simulation_model/tests/test_simulation_output_csv_writer.py",
+      "expected": "860c178f0491d169506752c942c39e0b22d3a72f98689369a464af0ed4e85192",
+      "actual": "860c178f0491d169506752c942c39e0b22d3a72f98689369a464af0ed4e85192",
+      "matches": true
+    },
+    {
+      "path": "simulation_model/tests/test_strategy_validation.py",
+      "expected": "e683a1c6a6153e2b5574768c4d6c95cfdeac1feb2dbd432cd3484e954734262d",
+      "actual": "e683a1c6a6153e2b5574768c4d6c95cfdeac1feb2dbd432cd3484e954734262d",
+      "matches": true
+    },
+    {
+      "path": "simulation_model/vessel_awaiting_instructions.py",
+      "expected": "c769098176d82545455a55173a6dc4982a914e6f2744cbec909f6d87c6a26ea0",
+      "actual": "c769098176d82545455a55173a6dc4982a914e6f2744cbec909f6d87c6a26ea0",
+      "matches": true
+    },
+    {
+      "path": "simulation_model/vessel_being_served.py",
+      "expected": "9d0ed62c979d13d60ea025b2b99e1af231b2ea74d4f437c60efc1dfcf530ce8f",
+      "actual": "9d0ed62c979d13d60ea025b2b99e1af231b2ea74d4f437c60efc1dfcf530ce8f",
+      "matches": true
+    },
+    {
+      "path": "simulation_model/vessel_generator.py",
+      "expected": "614bf830922c15ff499e5d75234c52a950671335829e17e45589746f549c1ec1",
+      "actual": "614bf830922c15ff499e5d75234c52a950671335829e17e45589746f549c1ec1",
+      "matches": true
+    },
+    {
+      "path": "simulation_model/vessel_queuing_for_berth.py",
+      "expected": "c51771e4bdb6f7d2a7f6246c3967d3d70c17cd7b7f8128240ca3baffda57b530",
+      "actual": "c51771e4bdb6f7d2a7f6246c3967d3d70c17cd7b7f8128240ca3baffda57b530",
+      "matches": true
+    },
+    {
+      "path": "simulation_model/vessel_sailing.py",
+      "expected": "acf8022bc6e4cf8255a016980684427a56e56723e43166751e53d5faa8c26204",
+      "actual": "acf8022bc6e4cf8255a016980684427a56e56723e43166751e53d5faa8c26204",
+      "matches": true
+    },
+    {
+      "path": "simulation_output_csv_writer.py",
+      "expected": "8531deb1b419fb379940b2e37789b6ea652b3ed37ecc40d4eeea9c417b4b0195",
+      "actual": "8531deb1b419fb379940b2e37789b6ea652b3ed37ecc40d4eeea9c417b4b0195",
+      "matches": true
+    }
+  ],
+  "authorized_documentation": "AGENTS.md was updated previously; it is outside the original 163-file manifest and was not edited in this review.",
+  "limitations": [
+    "CSV queue values are averages, not maxima or final states.",
+    "Vessel counts are averages and do not audit individual final states.",
+    "Time windows are network-wide, not causal OD estimates.",
+    "ATT is the mean of published rounded interval ATT values.",
+    "Integrated candidate performance remains unmeasured by these records."
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "AGENTS.md": {
+    "previous_sha256": "db3ed0deaa544db03ab0b8e8dab3200c716fc0474775e53e946cd523e69c63cb",
+    "authorized_sha256": "cce77268799ed94d6e98a5de523952102d07bb41e31c5881e644b33e3b244d77",
+    "authorized_on_local": "2026-09-18",
+    "request": "quiero que revises que paso y hagas commit a los cambios, porque el coso esta malo",
+    "scope": "Correccion documental para reflejar la retirada de la candidata integrada, mantener H1 como entrada activa y registrar la autorizacion de commit local. No autoriza simulaciones ni push."
+  }
+}

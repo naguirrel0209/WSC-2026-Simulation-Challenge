@@ -1,0 +1,14 @@
+ M response_strategies/validate_onboard_cost.py
+?? response_strategies/.gitattributes
+?? response_strategies/H2_DIAGNOSIS.md
+?? response_strategies/H2_EVALUATION_PROTOCOL.md
+?? response_strategies/H2_HYPOTHESIS.md
+?? response_strategies/H2_VALIDATION.md
+?? response_strategies/analyze_h2_evidence.py
+?? response_strategies/benchmark_results/h2_connections_20260913/
+?? response_strategies/h2_connection_strategy.py
+?? response_strategies/h2_control_strategy.py
+?? response_strategies/test_h2_connections.py
+?? response_strategies/test_validation_integrity.py
+?? response_strategies/validate_connections.py
+?? response_strategies/validation_integrity.py

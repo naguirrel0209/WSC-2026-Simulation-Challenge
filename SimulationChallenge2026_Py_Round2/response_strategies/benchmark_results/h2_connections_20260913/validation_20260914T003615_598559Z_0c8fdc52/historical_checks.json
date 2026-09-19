@@ -1,0 +1,43 @@
+{
+  "groups": {
+    "original_protected_including_baseline": {
+      "checked": 156,
+      "differences": {}
+    },
+    "control_outputs": {
+      "checked": 8,
+      "differences": {}
+    },
+    "observed_archive": {
+      "checked": 11,
+      "differences": {}
+    },
+    "current_outputs_vs_observed": {
+      "checked": 8,
+      "differences": {}
+    },
+    "control_source": {
+      "checked": 1,
+      "differences": {}
+    },
+    "candidate_base": {
+      "checked": 1,
+      "differences": {}
+    },
+    "active_H1": {
+      "checked": 2,
+      "differences": {}
+    }
+  },
+  "documentation": {
+    "README.md": {
+      "control": "959c352d3072e05a72bae9fe59f2391b1b4a846c9c67f2762ecc87e4df09dcac",
+      "current": "959c352d3072e05a72bae9fe59f2391b1b4a846c9c67f2762ecc87e4df09dcac"
+    },
+    "o2despy/README.md": {
+      "control": "37b332d9b903130d7f9f6cd2ecfcefd0cdb9a9730f4247c43ab1ed58ababade7",
+      "current": "37b332d9b903130d7f9f6cd2ecfcefd0cdb9a9730f4247c43ab1ed58ababade7"
+    }
+  },
+  "errors": []
+}

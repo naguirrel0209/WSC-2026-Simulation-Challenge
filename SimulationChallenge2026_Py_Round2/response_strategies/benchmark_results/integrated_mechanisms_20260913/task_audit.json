@@ -1,0 +1,59 @@
+{
+  "completed_utc": "2026-09-14T05:24:50.723389+00:00",
+  "changes": {
+    "AGENTS.md": {
+      "before": "db3ed0deaa544db03ab0b8e8dab3200c716fc0474775e53e946cd523e69c63cb",
+      "after": "2a7fc6356a76ed7ab3f9a36291b3ed7c77694e67330497b8a5e2b99fea774074"
+    },
+    "response_strategies/.gitattributes": {
+      "before": "aa8631cd4910915b6aa7026a7130453945938f7082c46faa55eb95cdfaaebaf4",
+      "after": "8e655aa952d5de6ead46ffb5c78709b6bd769331b89f7de4598a3d5fcb32300f"
+    },
+    "response_strategies/INTEGRATED_MECHANISMS.md": {
+      "before": null,
+      "after": "868bc93dbc0406f61707e43eb333b485e67f7f020e1b18f539e8e685ab76c79e"
+    },
+    "response_strategies/INTEGRATED_VALIDATION.md": {
+      "before": null,
+      "after": "6984620909b87d0382818423981e930bb0fa95823eeb28ac894a3b247c382f00"
+    },
+    "response_strategies/authorized_documentation_changes.json": {
+      "before": null,
+      "after": "eef59c41bf2b402be8b1383a595a58421212c796279722ede64a8a25eed88191"
+    },
+    "response_strategies/integrated_strategy.py": {
+      "before": null,
+      "after": "7ca9ce3562e47ecae0ad307ea4384ca7dd22c4912124c4a967201d6c4859340c"
+    },
+    "response_strategies/test_integrated_strategy.py": {
+      "before": null,
+      "after": "07b8266ad6af3b7ab1e61c87ea7430bf99ebf800cea60123afc35080bf599404"
+    },
+    "response_strategies/test_validation_integrity.py": {
+      "before": "97c01898ee88dd524d5294baba2974d1c74378f623930d92ee33afae08462f9a",
+      "after": "b33c0037b34d5dcbe4e3b473b9ac22c886d2a3027c52adfd354efe28bf355c69"
+    },
+    "response_strategies/validate_connections.py": {
+      "before": "c8c6ef1e99978dc6bbe799dc2e8177e59ba130fd950265a866718976c40fbcc3",
+      "after": "4e16de15e9580d9e8d7181617e6b57a081b3e36c6fcdcd2be685b1f0d26f9dde"
+    },
+    "response_strategies/validate_integrated.py": {
+      "before": null,
+      "after": "d5f0ac6c9d6a2c9a36b15f3536871d529849e2386c974784202ed3612f8aa3a0"
+    },
+    "response_strategies/validation_integrity.py": {
+      "before": "3c6e4e0897f96d4134c0e3d96cf8c8b6183131a8e62b3efdf0daeb45a3ebb733",
+      "after": "daa93b949594db1df004f6b68e04d00e4e3629dd7311e08bec4b2ba4112c5d77"
+    }
+  },
+  "explicitly_authorized_root_document": "AGENTS.md",
+  "unauthorized_changes": [],
+  "existing_historical_artifact_changes": [],
+  "historical_errors": [],
+  "active_H1_unchanged": true,
+  "isolated_H2_unchanged": true,
+  "simulations_executed": 0,
+  "git_write_operations": 0,
+  "candidate_kpi": null,
+  "validation": "validation_20260914T052330_657007Z_5db09ecd"
+}

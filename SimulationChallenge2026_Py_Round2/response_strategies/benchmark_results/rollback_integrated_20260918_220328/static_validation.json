@@ -1,0 +1,26 @@
+{
+  "parsed_python_files": [
+    "__init__.py",
+    "analyze_h2_evidence.py",
+    "default_strategy.py",
+    "expected_time_reference.py",
+    "h2_connection_strategy.py",
+    "h2_control_strategy.py",
+    "resilience_strategy.py",
+    "strategy_validation.py",
+    "test_h2_connections.py",
+    "test_onboard_cost.py",
+    "test_resilience_strategy.py",
+    "test_validation_integrity.py",
+    "user_strategy.py",
+    "validate_connections.py",
+    "validate_onboard_cost.py",
+    "validate_resilience.py",
+    "validation_integrity.py"
+  ],
+  "dangling_imports": [],
+  "active_strategy": "H1/ResilienceStrategy",
+  "simulation_executed": false,
+  "model_imported": false,
+  "verification": "AST parsing only; no project modules imported."
+}

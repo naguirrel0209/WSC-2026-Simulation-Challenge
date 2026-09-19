@@ -1,0 +1,1074 @@
+{
+  "day": 360,
+  "clock": "0002-05-16 00:00:00",
+  "ports": [
+    {
+      "port": "Shanghai",
+      "origin": 296.0,
+      "transshipment": 1205.0,
+      "total": 1501.0,
+      "max_stored_shipment_age_days": 499.99227593712965
+    },
+    {
+      "port": "Singapore",
+      "origin": 516.0,
+      "transshipment": 687.0,
+      "total": 1203.0,
+      "max_stored_shipment_age_days": 499.97934725975693
+    },
+    {
+      "port": "Shenzhen",
+      "origin": 373.0,
+      "transshipment": 548.0,
+      "total": 921.0,
+      "max_stored_shipment_age_days": 499.99805766251154
+    },
+    {
+      "port": "Qingdao",
+      "origin": 91.0,
+      "transshipment": 0.0,
+      "total": 91.0,
+      "max_stored_shipment_age_days": 499.991091584375
+    },
+    {
+      "port": "Busan",
+      "origin": 403.0,
+      "transshipment": 2.0,
+      "total": 405.0,
+      "max_stored_shipment_age_days": 499.9910317625347
+    },
+    {
+      "port": "Tianjin",
+      "origin": 96.0,
+      "transshipment": 0.0,
+      "total": 96.0,
+      "max_stored_shipment_age_days": 499.99298427266206
+    },
+    {
+      "port": "Xiamen",
+      "origin": 473.0,
+      "transshipment": 0.0,
+      "total": 473.0,
+      "max_stored_shipment_age_days": 499.99966269181715
+    },
+    {
+      "port": "Kaohsiung",
+      "origin": 253.0,
+      "transshipment": 0.0,
+      "total": 253.0,
+      "max_stored_shipment_age_days": 499.99770237803244
+    },
+    {
+      "port": "Laem Chabang",
+      "origin": 29.0,
+      "transshipment": 0.0,
+      "total": 29.0,
+      "max_stored_shipment_age_days": 499.9623374661806
+    },
+    {
+      "port": "Ho Chi Minh City",
+      "origin": 72.0,
+      "transshipment": 0.0,
+      "total": 72.0,
+      "max_stored_shipment_age_days": 499.90506628582176
+    },
+    {
+      "port": "Jakarta",
+      "origin": 78.0,
+      "transshipment": 0.0,
+      "total": 78.0,
+      "max_stored_shipment_age_days": 499.8441353199537
+    },
+    {
+      "port": "Colombo",
+      "origin": 616.0,
+      "transshipment": 186.0,
+      "total": 802.0,
+      "max_stored_shipment_age_days": 499.987777090706
+    },
+    {
+      "port": "Jebel Ali",
+      "origin": 488.0,
+      "transshipment": 0.0,
+      "total": 488.0,
+      "max_stored_shipment_age_days": 499.9889718474769
+    },
+    {
+      "port": "Rotterdam",
+      "origin": 1890.0,
+      "transshipment": 0.0,
+      "total": 1890.0,
+      "max_stored_shipment_age_days": 499.96502784019674
+    },
+    {
+      "port": "Hamburg",
+      "origin": 1269.0,
+      "transshipment": 0.0,
+      "total": 1269.0,
+      "max_stored_shipment_age_days": 499.9087713950463
+    },
+    {
+      "port": "Piraeus",
+      "origin": 626.0,
+      "transshipment": 0.0,
+      "total": 626.0,
+      "max_stored_shipment_age_days": 499.9151169953009
+    },
+    {
+      "port": "Los Angeles",
+      "origin": 418.0,
+      "transshipment": 0.0,
+      "total": 418.0,
+      "max_stored_shipment_age_days": 499.9886231901273
+    },
+    {
+      "port": "New Jersey",
+      "origin": 668.0,
+      "transshipment": 108.0,
+      "total": 776.0,
+      "max_stored_shipment_age_days": 499.9935315309143
+    },
+    {
+      "port": "Tanger Med",
+      "origin": 846.0,
+      "transshipment": 301.0,
+      "total": 1147.0,
+      "max_stored_shipment_age_days": 499.9856863160532
+    },
+    {
+      "port": "Cartagena",
+      "origin": 119.0,
+      "transshipment": 0.0,
+      "total": 119.0,
+      "max_stored_shipment_age_days": 499.94192885695605
+    }
+  ],
+  "vessels": [
+    {
+      "id": 1,
+      "states": [
+        "vessel_sailing.s_loads_started"
+      ],
+      "route": "S1",
+      "initial_route": "S1",
+      "pending_route": null,
+      "segment": 5,
+      "leg": [
+        "Piraeus",
+        "Tanger Med"
+      ],
+      "cargo_teu": 1043,
+      "capacity_teu": 18000,
+      "shipment_count": 646,
+      "registered": true,
+      "cargo_references_valid": true
+    },
+    {
+      "id": 2,
+      "states": [
+        "vessel_sailing.s_loads_started"
+      ],
+      "route": "S1",
+      "initial_route": "S1",
+      "pending_route": null,
+      "segment": 4,
+      "leg": [
+        "Colombo",
+        "Piraeus"
+      ],
+      "cargo_teu": 1203,
+      "capacity_teu": 18000,
+      "shipment_count": 889,
+      "registered": true,
+      "cargo_references_valid": true
+    },
+    {
+      "id": 3,
+      "states": [
+        "vessel_sailing.s_loads_started"
+      ],
+      "route": "S1",
+      "initial_route": "S1",
+      "pending_route": null,
+      "segment": 4,
+      "leg": [
+        "Colombo",
+        "Piraeus"
+      ],
+      "cargo_teu": 515,
+      "capacity_teu": 18000,
+      "shipment_count": 342,
+      "registered": true,
+      "cargo_references_valid": true
+    },
+    {
+      "id": 4,
+      "states": [
+        "vessel_sailing.s_loads_started"
+      ],
+      "route": "S1",
+      "initial_route": "S1",
+      "pending_route": null,
+      "segment": 2,
+      "leg": [
+        "Shenzhen",
+        "Singapore"
+      ],
+      "cargo_teu": 20,
+      "capacity_teu": 18000,
+      "shipment_count": 15,
+      "registered": true,
+      "cargo_references_valid": true
+    },
+    {
+      "id": 5,
+      "states": [
+        "vessel_sailing.s_loads_started"
+      ],
+      "route": "S1",
+      "initial_route": "S1",
+      "pending_route": null,
+      "segment": 2,
+      "leg": [
+        "Shenzhen",
+        "Singapore"
+      ],
+      "cargo_teu": 1961,
+      "capacity_teu": 18000,
+      "shipment_count": 1448,
+      "registered": true,
+      "cargo_references_valid": true
+    },
+    {
+      "id": 6,
+      "states": [
+        "vessel_sailing.s_loads_started"
+      ],
+      "route": "S1",
+      "initial_route": "S1",
+      "pending_route": null,
+      "segment": 5,
+      "leg": [
+        "Piraeus",
+        "Tanger Med"
+      ],
+      "cargo_teu": 1552,
+      "capacity_teu": 18000,
+      "shipment_count": 1162,
+      "registered": true,
+      "cargo_references_valid": true
+    },
+    {
+      "id": 7,
+      "states": [
+        "vessel_sailing.s_loads_started"
+      ],
+      "route": "S1",
+      "initial_route": "S1",
+      "pending_route": null,
+      "segment": 5,
+      "leg": [
+        "Piraeus",
+        "Tanger Med"
+      ],
+      "cargo_teu": 1338,
+      "capacity_teu": 18000,
+      "shipment_count": 989,
+      "registered": true,
+      "cargo_references_valid": true
+    },
+    {
+      "id": 8,
+      "states": [
+        "vessel_sailing.s_loads_started"
+      ],
+      "route": "S1",
+      "initial_route": "S1",
+      "pending_route": null,
+      "segment": 5,
+      "leg": [
+        "Piraeus",
+        "Tanger Med"
+      ],
+      "cargo_teu": 1427,
+      "capacity_teu": 18000,
+      "shipment_count": 942,
+      "registered": true,
+      "cargo_references_valid": true
+    },
+    {
+      "id": 9,
+      "states": [
+        "vessel_sailing.s_loads_started"
+      ],
+      "route": "S2",
+      "initial_route": "S2",
+      "pending_route": null,
+      "segment": 3,
+      "leg": [
+        "Shanghai",
+        "Xiamen"
+      ],
+      "cargo_teu": 914,
+      "capacity_teu": 8000,
+      "shipment_count": 725,
+      "registered": true,
+      "cargo_references_valid": true
+    },
+    {
+      "id": 10,
+      "states": [
+        "vessel_sailing.s_loads_started"
+      ],
+      "route": "S2",
+      "initial_route": "S2",
+      "pending_route": null,
+      "segment": 3,
+      "leg": [
+        "Shanghai",
+        "Xiamen"
+      ],
+      "cargo_teu": 300,
+      "capacity_teu": 8000,
+      "shipment_count": 168,
+      "registered": true,
+      "cargo_references_valid": true
+    },
+    {
+      "id": 11,
+      "states": [
+        "vessel_sailing.s_loads_started"
+      ],
+      "route": "S3",
+      "initial_route": "S3",
+      "pending_route": null,
+      "segment": 3,
+      "leg": [
+        "Laem Chabang",
+        "Singapore"
+      ],
+      "cargo_teu": 11,
+      "capacity_teu": 2800,
+      "shipment_count": 9,
+      "registered": true,
+      "cargo_references_valid": true
+    },
+    {
+      "id": 12,
+      "states": [
+        "vessel_sailing.s_loads_started"
+      ],
+      "route": "S3",
+      "initial_route": "S3",
+      "pending_route": null,
+      "segment": 3,
+      "leg": [
+        "Laem Chabang",
+        "Singapore"
+      ],
+      "cargo_teu": 219,
+      "capacity_teu": 2800,
+      "shipment_count": 193,
+      "registered": true,
+      "cargo_references_valid": true
+    },
+    {
+      "id": 13,
+      "states": [
+        "vessel_sailing.s_loads_started"
+      ],
+      "route": "S4",
+      "initial_route": "S4",
+      "pending_route": null,
+      "segment": 3,
+      "leg": [
+        "Los Angeles",
+        "Shanghai"
+      ],
+      "cargo_teu": 165,
+      "capacity_teu": 13000,
+      "shipment_count": 127,
+      "registered": true,
+      "cargo_references_valid": true
+    },
+    {
+      "id": 14,
+      "states": [
+        "vessel_sailing.s_loads_started"
+      ],
+      "route": "S4",
+      "initial_route": "S4",
+      "pending_route": null,
+      "segment": 2,
+      "leg": [
+        "Kaohsiung",
+        "Los Angeles"
+      ],
+      "cargo_teu": 807,
+      "capacity_teu": 13000,
+      "shipment_count": 510,
+      "registered": true,
+      "cargo_references_valid": true
+    },
+    {
+      "id": 15,
+      "states": [
+        "vessel_sailing.s_loads_started"
+      ],
+      "route": "S4",
+      "initial_route": "S4",
+      "pending_route": null,
+      "segment": 3,
+      "leg": [
+        "Los Angeles",
+        "Shanghai"
+      ],
+      "cargo_teu": 1039,
+      "capacity_teu": 13000,
+      "shipment_count": 685,
+      "registered": true,
+      "cargo_references_valid": true
+    },
+    {
+      "id": 16,
+      "states": [
+        "vessel_sailing.s_loads_started"
+      ],
+      "route": "S4",
+      "initial_route": "S4",
+      "pending_route": null,
+      "segment": 3,
+      "leg": [
+        "Los Angeles",
+        "Shanghai"
+      ],
+      "cargo_teu": 43,
+      "capacity_teu": 13000,
+      "shipment_count": 30,
+      "registered": true,
+      "cargo_references_valid": true
+    },
+    {
+      "id": 17,
+      "states": [
+        "vessel_sailing.s_loads_started"
+      ],
+      "route": "S5",
+      "initial_route": "S5",
+      "pending_route": null,
+      "segment": 5,
+      "leg": [
+        "New Jersey",
+        "Colombo"
+      ],
+      "cargo_teu": 14,
+      "capacity_teu": 13000,
+      "shipment_count": 11,
+      "registered": true,
+      "cargo_references_valid": true
+    },
+    {
+      "id": 18,
+      "states": [
+        "vessel_sailing.s_loads_started"
+      ],
+      "route": "S5",
+      "initial_route": "S5",
+      "pending_route": null,
+      "segment": 5,
+      "leg": [
+        "New Jersey",
+        "Colombo"
+      ],
+      "cargo_teu": 312,
+      "capacity_teu": 13000,
+      "shipment_count": 254,
+      "registered": true,
+      "cargo_references_valid": true
+    },
+    {
+      "id": 19,
+      "states": [
+        "vessel_sailing.s_loads_started"
+      ],
+      "route": "S5",
+      "initial_route": "S5",
+      "pending_route": null,
+      "segment": 5,
+      "leg": [
+        "New Jersey",
+        "Colombo"
+      ],
+      "cargo_teu": 138,
+      "capacity_teu": 13000,
+      "shipment_count": 98,
+      "registered": true,
+      "cargo_references_valid": true
+    },
+    {
+      "id": 20,
+      "states": [
+        "vessel_sailing.s_loads_started"
+      ],
+      "route": "S5",
+      "initial_route": "S5",
+      "pending_route": null,
+      "segment": 5,
+      "leg": [
+        "New Jersey",
+        "Colombo"
+      ],
+      "cargo_teu": 32,
+      "capacity_teu": 13000,
+      "shipment_count": 26,
+      "registered": true,
+      "cargo_references_valid": true
+    },
+    {
+      "id": 21,
+      "states": [
+        "vessel_sailing.s_loads_started"
+      ],
+      "route": "S5",
+      "initial_route": "S5",
+      "pending_route": null,
+      "segment": 4,
+      "leg": [
+        "Colombo",
+        "New Jersey"
+      ],
+      "cargo_teu": 755,
+      "capacity_teu": 13000,
+      "shipment_count": 547,
+      "registered": true,
+      "cargo_references_valid": true
+    },
+    {
+      "id": 22,
+      "states": [
+        "vessel_sailing.s_loads_started"
+      ],
+      "route": "S5",
+      "initial_route": "S5",
+      "pending_route": null,
+      "segment": 3,
+      "leg": [
+        "Singapore",
+        "Colombo"
+      ],
+      "cargo_teu": 860,
+      "capacity_teu": 13000,
+      "shipment_count": 633,
+      "registered": true,
+      "cargo_references_valid": true
+    },
+    {
+      "id": 23,
+      "states": [
+        "vessel_sailing.s_loads_started"
+      ],
+      "route": "S5",
+      "initial_route": "S5",
+      "pending_route": null,
+      "segment": 1,
+      "leg": [
+        "Shanghai",
+        "Shenzhen"
+      ],
+      "cargo_teu": 247,
+      "capacity_teu": 13000,
+      "shipment_count": 193,
+      "registered": true,
+      "cargo_references_valid": true
+    },
+    {
+      "id": 24,
+      "states": [
+        "vessel_sailing.s_loads_started"
+      ],
+      "route": "S5",
+      "initial_route": "S5",
+      "pending_route": null,
+      "segment": 7,
+      "leg": [
+        "Singapore",
+        "Shanghai"
+      ],
+      "cargo_teu": 209,
+      "capacity_teu": 13000,
+      "shipment_count": 176,
+      "registered": true,
+      "cargo_references_valid": true
+    },
+    {
+      "id": 25,
+      "states": [
+        "vessel_sailing.s_loads_started"
+      ],
+      "route": "S5",
+      "initial_route": "S5",
+      "pending_route": null,
+      "segment": 5,
+      "leg": [
+        "New Jersey",
+        "Colombo"
+      ],
+      "cargo_teu": 252,
+      "capacity_teu": 13000,
+      "shipment_count": 192,
+      "registered": true,
+      "cargo_references_valid": true
+    },
+    {
+      "id": 26,
+      "states": [
+        "vessel_sailing.s_loads_started"
+      ],
+      "route": "S6",
+      "initial_route": "S6",
+      "pending_route": null,
+      "segment": 3,
+      "leg": [
+        "Tanger Med",
+        "New Jersey"
+      ],
+      "cargo_teu": 1,
+      "capacity_teu": 8000,
+      "shipment_count": 1,
+      "registered": true,
+      "cargo_references_valid": true
+    },
+    {
+      "id": 27,
+      "states": [
+        "vessel_sailing.s_loads_started"
+      ],
+      "route": "S6",
+      "initial_route": "S6",
+      "pending_route": null,
+      "segment": 5,
+      "leg": [
+        "Cartagena",
+        "New Jersey"
+      ],
+      "cargo_teu": 8,
+      "capacity_teu": 8000,
+      "shipment_count": 6,
+      "registered": true,
+      "cargo_references_valid": true
+    },
+    {
+      "id": 28,
+      "states": [
+        "vessel_sailing.s_loads_started"
+      ],
+      "route": "S6",
+      "initial_route": "S6",
+      "pending_route": null,
+      "segment": 5,
+      "leg": [
+        "Cartagena",
+        "New Jersey"
+      ],
+      "cargo_teu": 508,
+      "capacity_teu": 8000,
+      "shipment_count": 398,
+      "registered": true,
+      "cargo_references_valid": true
+    },
+    {
+      "id": 29,
+      "states": [
+        "vessel_sailing.s_loads_started"
+      ],
+      "route": "S6",
+      "initial_route": "S6",
+      "pending_route": null,
+      "segment": 3,
+      "leg": [
+        "Tanger Med",
+        "New Jersey"
+      ],
+      "cargo_teu": 256,
+      "capacity_teu": 8000,
+      "shipment_count": 185,
+      "registered": true,
+      "cargo_references_valid": true
+    },
+    {
+      "id": 30,
+      "states": [
+        "vessel_sailing.s_loads_started"
+      ],
+      "route": "S6",
+      "initial_route": "S6",
+      "pending_route": null,
+      "segment": 3,
+      "leg": [
+        "Tanger Med",
+        "New Jersey"
+      ],
+      "cargo_teu": 76,
+      "capacity_teu": 8000,
+      "shipment_count": 50,
+      "registered": true,
+      "cargo_references_valid": true
+    },
+    {
+      "id": 31,
+      "states": [
+        "vessel_sailing.s_loads_started"
+      ],
+      "route": "S7",
+      "initial_route": "S7",
+      "pending_route": null,
+      "segment": 1,
+      "leg": [
+        "Singapore",
+        "Colombo"
+      ],
+      "cargo_teu": 844,
+      "capacity_teu": 8000,
+      "shipment_count": 542,
+      "registered": true,
+      "cargo_references_valid": true
+    },
+    {
+      "id": 32,
+      "states": [
+        "vessel_sailing.s_loads_started"
+      ],
+      "route": "S7",
+      "initial_route": "S7",
+      "pending_route": null,
+      "segment": 3,
+      "leg": [
+        "Jebel Ali",
+        "Piraeus"
+      ],
+      "cargo_teu": 9,
+      "capacity_teu": 8000,
+      "shipment_count": 5,
+      "registered": true,
+      "cargo_references_valid": true
+    },
+    {
+      "id": 33,
+      "states": [
+        "vessel_sailing.s_loads_started"
+      ],
+      "route": "S7",
+      "initial_route": "S7",
+      "pending_route": null,
+      "segment": 3,
+      "leg": [
+        "Jebel Ali",
+        "Piraeus"
+      ],
+      "cargo_teu": 494,
+      "capacity_teu": 8000,
+      "shipment_count": 345,
+      "registered": true,
+      "cargo_references_valid": true
+    },
+    {
+      "id": 34,
+      "states": [
+        "vessel_sailing.s_loads_started"
+      ],
+      "route": "S7",
+      "initial_route": "S7",
+      "pending_route": null,
+      "segment": 1,
+      "leg": [
+        "Singapore",
+        "Colombo"
+      ],
+      "cargo_teu": 7,
+      "capacity_teu": 8000,
+      "shipment_count": 2,
+      "registered": true,
+      "cargo_references_valid": true
+    },
+    {
+      "id": 35,
+      "states": [
+        "vessel_sailing.s_loads_started"
+      ],
+      "route": "S7",
+      "initial_route": "S7",
+      "pending_route": null,
+      "segment": 1,
+      "leg": [
+        "Singapore",
+        "Colombo"
+      ],
+      "cargo_teu": 15,
+      "capacity_teu": 8000,
+      "shipment_count": 7,
+      "registered": true,
+      "cargo_references_valid": true
+    },
+    {
+      "id": 36,
+      "states": [
+        "vessel_sailing.s_loads_started"
+      ],
+      "route": "S8",
+      "initial_route": "S8",
+      "pending_route": null,
+      "segment": 1,
+      "leg": [
+        "Singapore",
+        "Jakarta"
+      ],
+      "cargo_teu": 74,
+      "capacity_teu": 1800,
+      "shipment_count": 54,
+      "registered": true,
+      "cargo_references_valid": true
+    },
+    {
+      "id": 37,
+      "states": [
+        "vessel_sailing.s_loads_started"
+      ],
+      "route": "S9",
+      "initial_route": "S9",
+      "pending_route": null,
+      "segment": 3,
+      "leg": [
+        "Busan",
+        "Los Angeles"
+      ],
+      "cargo_teu": 40,
+      "capacity_teu": 13000,
+      "shipment_count": 16,
+      "registered": true,
+      "cargo_references_valid": true
+    },
+    {
+      "id": 38,
+      "states": [
+        "vessel_sailing.s_loads_started"
+      ],
+      "route": "S9",
+      "initial_route": "S9",
+      "pending_route": null,
+      "segment": 5,
+      "leg": [
+        "Busan",
+        "Tianjin"
+      ],
+      "cargo_teu": 34,
+      "capacity_teu": 13000,
+      "shipment_count": 26,
+      "registered": true,
+      "cargo_references_valid": true
+    },
+    {
+      "id": 39,
+      "states": [
+        "vessel_sailing.s_loads_started"
+      ],
+      "route": "S9",
+      "initial_route": "S9",
+      "pending_route": null,
+      "segment": 4,
+      "leg": [
+        "Los Angeles",
+        "Busan"
+      ],
+      "cargo_teu": 83,
+      "capacity_teu": 13000,
+      "shipment_count": 54,
+      "registered": true,
+      "cargo_references_valid": true
+    },
+    {
+      "id": 40,
+      "states": [
+        "vessel_sailing.s_loads_started"
+      ],
+      "route": "S9",
+      "initial_route": "S9",
+      "pending_route": null,
+      "segment": 3,
+      "leg": [
+        "Busan",
+        "Los Angeles"
+      ],
+      "cargo_teu": 527,
+      "capacity_teu": 13000,
+      "shipment_count": 283,
+      "registered": true,
+      "cargo_references_valid": true
+    },
+    {
+      "id": 41,
+      "states": [
+        "vessel_sailing.s_loads_started"
+      ],
+      "route": "S9",
+      "initial_route": "S9",
+      "pending_route": null,
+      "segment": 3,
+      "leg": [
+        "Busan",
+        "Los Angeles"
+      ],
+      "cargo_teu": 177,
+      "capacity_teu": 13000,
+      "shipment_count": 115,
+      "registered": true,
+      "cargo_references_valid": true
+    }
+  ],
+  "routes": [
+    {
+      "id": "S1",
+      "source": null,
+      "disruption_key": null,
+      "vessels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "onboard_teu": 9059
+    },
+    {
+      "id": "S2",
+      "source": null,
+      "disruption_key": null,
+      "vessels": [
+        9,
+        10
+      ],
+      "onboard_teu": 1214
+    },
+    {
+      "id": "S3",
+      "source": null,
+      "disruption_key": null,
+      "vessels": [
+        11,
+        12
+      ],
+      "onboard_teu": 230
+    },
+    {
+      "id": "S4",
+      "source": null,
+      "disruption_key": null,
+      "vessels": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "onboard_teu": 2054
+    },
+    {
+      "id": "S5",
+      "source": null,
+      "disruption_key": null,
+      "vessels": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "onboard_teu": 2819
+    },
+    {
+      "id": "S6",
+      "source": null,
+      "disruption_key": null,
+      "vessels": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "onboard_teu": 849
+    },
+    {
+      "id": "S7",
+      "source": null,
+      "disruption_key": null,
+      "vessels": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "onboard_teu": 1369
+    },
+    {
+      "id": "S8",
+      "source": null,
+      "disruption_key": null,
+      "vessels": [
+        36
+      ],
+      "onboard_teu": 74
+    },
+    {
+      "id": "S9",
+      "source": null,
+      "disruption_key": null,
+      "vessels": [
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "onboard_teu": 861
+    },
+    {
+      "id": "S1-ALT-1",
+      "source": "S1",
+      "disruption_key": [
+        [
+          "piraeus"
+        ],
+        []
+      ],
+      "vessels": [],
+      "onboard_teu": 0
+    },
+    {
+      "id": "S7-ALT-1",
+      "source": "S7",
+      "disruption_key": [
+        [
+          "piraeus"
+        ],
+        []
+      ],
+      "vessels": [],
+      "onboard_teu": 0
+    }
+  ],
+  "strategy_errors": {},
+  "hook_calls": {
+    "create_alternative_service_routes": 347308,
+    "assign_associated_bookings": 339309,
+    "adjust_bookings_before_cargo_handling": 3998,
+    "select_vessel_for_berth": 11
+  },
+  "hook_none": {}
+}

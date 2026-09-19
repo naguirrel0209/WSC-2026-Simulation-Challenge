@@ -1,0 +1,319 @@
+{
+  "queue_maxima_at_every_counter_update": {
+    "Shanghai": {
+      "origin": {
+        "teu": 1905.0,
+        "day": 334.93607893332177
+      },
+      "transshipment": {
+        "teu": 2990.0,
+        "day": 336.52021425836807
+      },
+      "total": {
+        "teu": 4816.0,
+        "day": 337.42542761996526
+      }
+    },
+    "Singapore": {
+      "origin": {
+        "teu": 2074.0,
+        "day": 286.8545413408796
+      },
+      "transshipment": {
+        "teu": 2949.0,
+        "day": 344.9744707469792
+      },
+      "total": {
+        "teu": 3846.0,
+        "day": 286.8545413408796
+      }
+    },
+    "Shenzhen": {
+      "origin": {
+        "teu": 2324.0,
+        "day": 337.88271768515045
+      },
+      "transshipment": {
+        "teu": 1751.0,
+        "day": 341.8759045456134
+      },
+      "total": {
+        "teu": 3493.0,
+        "day": 293.20183154211804
+      }
+    },
+    "Qingdao": {
+      "origin": {
+        "teu": 541.0,
+        "day": 327.6469304664352
+      },
+      "transshipment": {
+        "teu": 73.0,
+        "day": 353.1125682873495
+      },
+      "total": {
+        "teu": 541.0,
+        "day": 327.6469304664352
+      }
+    },
+    "Busan": {
+      "origin": {
+        "teu": 1031.0,
+        "day": 329.02051228706017
+      },
+      "transshipment": {
+        "teu": 538.0,
+        "day": 193.3637571813773
+      },
+      "total": {
+        "teu": 1316.0,
+        "day": 329.02051228706017
+      }
+    },
+    "Tianjin": {
+      "origin": {
+        "teu": 351.0,
+        "day": 349.99708598964116
+      },
+      "transshipment": {
+        "teu": 0.0,
+        "day": 0.0
+      },
+      "total": {
+        "teu": 351.0,
+        "day": 349.99708598964116
+      }
+    },
+    "Xiamen": {
+      "origin": {
+        "teu": 550.0,
+        "day": 181.5586751713889
+      },
+      "transshipment": {
+        "teu": 0.0,
+        "day": 0.0
+      },
+      "total": {
+        "teu": 550.0,
+        "day": 181.5586751713889
+      }
+    },
+    "Kaohsiung": {
+      "origin": {
+        "teu": 419.0,
+        "day": 299.91949791637734
+      },
+      "transshipment": {
+        "teu": 25.0,
+        "day": 175.70523986377316
+      },
+      "total": {
+        "teu": 423.0,
+        "day": 299.91949791637734
+      }
+    },
+    "Laem Chabang": {
+      "origin": {
+        "teu": 150.0,
+        "day": 21.176358093969906
+      },
+      "transshipment": {
+        "teu": 0.0,
+        "day": 0.0
+      },
+      "total": {
+        "teu": 150.0,
+        "day": 21.176358093969906
+      }
+    },
+    "Ho Chi Minh City": {
+      "origin": {
+        "teu": 159.0,
+        "day": 182.7355336335301
+      },
+      "transshipment": {
+        "teu": 0.0,
+        "day": 0.0
+      },
+      "total": {
+        "teu": 159.0,
+        "day": 182.7355336335301
+      }
+    },
+    "Jakarta": {
+      "origin": {
+        "teu": 121.0,
+        "day": 119.49619259230325
+      },
+      "transshipment": {
+        "teu": 0.0,
+        "day": 0.0
+      },
+      "total": {
+        "teu": 121.0,
+        "day": 119.49619259230325
+      }
+    },
+    "Colombo": {
+      "origin": {
+        "teu": 1571.0,
+        "day": 283.5516832648727
+      },
+      "transshipment": {
+        "teu": 1352.0,
+        "day": 292.2364681955903
+      },
+      "total": {
+        "teu": 2508.0,
+        "day": 283.5516832648727
+      }
+    },
+    "Jebel Ali": {
+      "origin": {
+        "teu": 1073.0,
+        "day": 281.43601064078706
+      },
+      "transshipment": {
+        "teu": 0.0,
+        "day": 0.0
+      },
+      "total": {
+        "teu": 1073.0,
+        "day": 281.43601064078706
+      }
+    },
+    "Rotterdam": {
+      "origin": {
+        "teu": 2051.0,
+        "day": 315.7144260974884
+      },
+      "transshipment": {
+        "teu": 146.0,
+        "day": 261.6927746914005
+      },
+      "total": {
+        "teu": 2051.0,
+        "day": 315.7144260974884
+      }
+    },
+    "Hamburg": {
+      "origin": {
+        "teu": 1539.0,
+        "day": 314.9778175277894
+      },
+      "transshipment": {
+        "teu": 0.0,
+        "day": 0.0
+      },
+      "total": {
+        "teu": 1539.0,
+        "day": 314.9778175277894
+      }
+    },
+    "Piraeus": {
+      "origin": {
+        "teu": 1182.0,
+        "day": 274.06618720887735
+      },
+      "transshipment": {
+        "teu": 1051.0,
+        "day": 274.3991349766551
+      },
+      "total": {
+        "teu": 1909.0,
+        "day": 357.49667255365745
+      }
+    },
+    "Los Angeles": {
+      "origin": {
+        "teu": 847.0,
+        "day": 159.47317045069445
+      },
+      "transshipment": {
+        "teu": 580.0,
+        "day": 340.4170554608449
+      },
+      "total": {
+        "teu": 1053.0,
+        "day": 349.3555537918287
+      }
+    },
+    "New Jersey": {
+      "origin": {
+        "teu": 1627.0,
+        "day": 138.44771563983795
+      },
+      "transshipment": {
+        "teu": 1809.0,
+        "day": 288.7420587710648
+      },
+      "total": {
+        "teu": 1943.0,
+        "day": 289.5446319726273
+      }
+    },
+    "Tanger Med": {
+      "origin": {
+        "teu": 1124.0,
+        "day": 318.11927070255786
+      },
+      "transshipment": {
+        "teu": 1608.0,
+        "day": 65.88070858006944
+      },
+      "total": {
+        "teu": 2008.0,
+        "day": 66.34808071642361
+      }
+    },
+    "Cartagena": {
+      "origin": {
+        "teu": 535.0,
+        "day": 300.92511458099534
+      },
+      "transshipment": {
+        "teu": 0.0,
+        "day": 0.0
+      },
+      "total": {
+        "teu": 535.0,
+        "day": 300.92511458099534
+      }
+    }
+  },
+  "sailing_legs_started": {
+    "S2": 649,
+    "S3": 532,
+    "S6": 529,
+    "S9": 350,
+    "S7": 370,
+    "S1": 774,
+    "S4": 160,
+    "S8": 308,
+    "S5": 329
+  },
+  "empty_sailing_legs_started": {
+    "S3": 36,
+    "S7": 18,
+    "S6": 8,
+    "S5": 36,
+    "S4": 4,
+    "S1": 4
+  },
+  "strategy_errors": {},
+  "hook_calls": {
+    "create_alternative_service_routes": 347308,
+    "assign_associated_bookings": 339309,
+    "adjust_bookings_before_cargo_handling": 3998,
+    "select_vessel_for_berth": 11
+  },
+  "hook_none": {},
+  "same_41_vessel_objects": true,
+  "same_leg_objects": true,
+  "limitations": [
+    "Vessel states sampled daily, not continuously.",
+    "Shipment age is since generation, not local queue residence.",
+    "Historical H1 lacks comparable queue maxima and vessel snapshots.",
+    "Booking cost components not traced."
+  ]
+}
