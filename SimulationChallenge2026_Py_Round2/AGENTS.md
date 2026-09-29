@@ -12,6 +12,42 @@ No modificar archivos fuera de esa carpeta salvo solicitud explicita del
 usuario. Los archivos `README.md` y `AGENTS.md` de la raiz existen por solicitud
 expresa y documentan el proyecto; no forman parte de la estrategia ejecutable.
 
+## Estado Actual Y Pasos Para La Proxima Ronda (2026-09-29)
+
+Esta seccion refleja la entrega final de Round 2 y prevalece sobre las
+referencias historicas a H1 y E1 que aparecen mas abajo. La entrada activa es
+`response_strategies/user_strategy.py`; su implementacion esta en
+`response_strategies/round2_strategy.py`. La corrida completa archivada en
+`response_strategies/benchmark_results/round2_optimized_strategy_run_20260923_172158/`
+reporta ATT medio de 13.9504166667 dias y Loss de 0.614422312139. La limpieza
+de comentarios de esta entrega no cambia la estructura ejecutable; no se ha
+realizado una nueva simulacion tras esa limpieza.
+
+1. Conservar el commit de esta entrega, ambos archivos de estrategia y la
+   corrida archivada como referencia reproducible. Registrar los hashes de los
+   archivos activos antes de iniciar cualquier adaptacion.
+2. Al recibir el material oficial de la proxima ronda, leer sus reglas,
+   contratos, archivos de entrada, escenario, KPI y permisos de modificacion.
+   No asumir que las rutas, indices, ventanas, semilla o configuracion de Round 2
+   continuan iguales.
+3. Inspeccionar la nueva red y construir un control sin estrategia personalizada
+   con los parametros oficiales, solo cuando el usuario autorice la simulacion.
+   Guardar codigo, configuracion, semilla, log, CSV y hashes antes de comparar.
+4. Adaptar la estrategia dentro del directorio permitido por las nuevas reglas.
+   Verificar importacion, contratos, conectividad de rutas, reservas, indices y
+   conservacion de buques con pruebas que no ejecuten la simulacion.
+5. Formular una hipotesis medible por variante. Congelar codigo y manifiesto
+   antes de cada corrida autorizada; archivar la salida completa y comparar
+   ATT, KPI, ventanas criticas, colas, transbordos, utilizacion y estados de
+   buques con el control de esa ronda.
+6. Promover una variante solo si mejora el objetivo oficial sin violar las
+   restricciones ni provocar acumulaciones o estados inconsistentes. Documentar
+   tambien las regresiones locales y conservar las variantes rechazadas.
+
+Hasta que el usuario indique lo contrario, sigue vigente la prohibicion de
+simular. La autorizacion de commit y push de esta entrega no se extiende a
+cambios o corridas posteriores.
+
 ## Limites De Trabajo
 
 1. No cambiar `Input/`, `config/`, `scenario_builders/`, `simulation_model/` ni

@@ -1,19 +1,3 @@
-"""Round 2 response strategy.
-
-The strategy keeps the implementation inside ``response_strategies`` while
-addressing the two main causes of resilience loss in this scenario:
-
-* booking paths based only on nautical miles ignore service frequency and
-  transshipment waiting; and
-* a vessel that starts a multiplied leg remains delayed even when the
-  disruption later ends.  The default one-vessel alternatives do not protect
-  the rest of the affected service.
-
-For multiplied legs we therefore build a cycle-preserving detour and migrate
-the complete affected fleet shortly before the event.  Booking selection uses
-an expected-time graph, including half-headway at every boarding and known
-disruption delays.
-"""
 
 from __future__ import annotations
 
@@ -36,9 +20,6 @@ _ROUND2_CLOSED_PORTS = {"piraeus", "tianjin"}
 _BERTHING_DAYS_PER_CALL = 3.0 / 24.0
 _KNOTS_TO_NM_PER_DAY = 24.0
 
-# Trial 20: deterministic Round 2 result, Loss = 0.6144223121391709.
-# These defaults are deliberately stored in source code so a normal judging
-# run does not depend on Optuna's generated/ignored optuna_state directory.
 _DEFAULT_WAIT_FRACTION = 0.7801957406282308
 _DEFAULT_ESTIMATED_BERTH_CALL_DAYS = 0.334316796877574
 _DEFAULT_BERTH_WAIT_WEIGHT = 3612.197176310383
@@ -88,7 +69,6 @@ class _Edge:
 
 
 def is_round_two_context(context) -> bool:
-    """Recognise the published Round 2 scenario without affecting toy tests."""
     route_ids = {route.id.casefold() for route in context.initial_service_routes}
     if route_ids != {f"s{index}" for index in range(1, 10)}:
         return False
@@ -110,12 +90,10 @@ def is_round_two_context(context) -> bool:
 
 
 def strategy_mode() -> str:
-    """Allow reproducible comparison runs without changing simulator code."""
     return os.environ.get("WSC_ROUND2_MODE", "detour").strip().casefold()
 
 
 def manage_service_routes(context, now, vessel=None):
-    """Create/activate full-fleet detours and suppress the default alternatives."""
     if not is_round_two_context(context):
         return None
 
@@ -136,9 +114,6 @@ def manage_service_routes(context, now, vessel=None):
 
         start_day = float(event.start_offset_days)
         end_day = start_day + float(event.duration_days)
-        # A source vessel must change course before it can start the affected
-        # leg.  One normal traversal time plus a daily-manager margin is enough
-        # to catch it at an earlier port call.
         speed = _route_speed(source_route)
         lead_margin = _env_float(
             f"WSC_LEAD_MARGIN_{source_route.id.upper()}",
@@ -175,9 +150,6 @@ def manage_service_routes(context, now, vessel=None):
             elif not active and vessel.assigned_service_route is alternative:
                 _restore_vessel_to_source(vessel, source_route, alternative)
 
-    # S7 becomes a valid, shorter Singapore-Colombo-Jebel Ali cycle when the
-    # closed Piraeus call is removed.  S1 does not: its available bypass adds
-    # roughly 26 sailing days, so it is intentionally left unchanged.
     for event in _unique_closed_port_events(context):
         closed_port = event.target_berth.port
         for source_route in context.initial_service_routes:
@@ -250,7 +222,6 @@ def manage_service_routes(context, now, vessel=None):
 
 
 def assign_bookings(context, now, shipment):
-    """Assign an expected-time-minimising booking chain for Round 2."""
     if not is_round_two_context(context):
         return None
     if strategy_mode() == "suppress":
@@ -265,8 +236,6 @@ def assign_bookings(context, now, shipment):
     if origin is destination:
         return True
 
-    # Cargo whose destination cannot currently handle a vessel is better kept
-    # at origin.  The activity already retries immediately after reopening.
     if _port_is_closed(context, destination, now):
         return False
 
@@ -299,7 +268,6 @@ def select_vessel_for_berth(
     current_time,
     waiting_since_by_vessel=None,
 ):
-    """Prioritise TEU-hours already accumulated, with starvation protection."""
     if not is_round_two_context(context) or not waiting_vessels:
         return None
     waiting_since_by_vessel = waiting_since_by_vessel or {}
@@ -322,7 +290,6 @@ def select_vessel_for_berth(
             for shipment in vessel.carried_shipments
             if shipment.generated_time is not None
         )
-        # Waiting time dominates after a prolonged queue, preventing starvation.
         starvation_weight = _env_float(
             "WSC_BERTH_WAIT_WEIGHT",
             _DEFAULT_BERTH_WAIT_WEIGHT,
@@ -371,7 +338,6 @@ def _source_route_for_leg(context, target_leg):
     for route in context.initial_service_routes:
         if any(segment.associated_leg is target_leg for segment in route.segments):
             return route
-    # Scenario construction can contain equivalent physical leg objects.
     key = _leg_key(target_leg)
     return next(
         (
@@ -475,7 +441,6 @@ def _create_shorter_port_skip_detour(context, source_route, closed_port, event):
 
 
 def _create_s1_port_bypass(context, source_route, closed_port, event):
-    """Build S1's connected cross-ocean bypass while Piraeus is unavailable."""
     source_segments = sorted(source_route.segments, key=lambda item: item.sequence_index)
     if closed_port.name.casefold() != "piraeus":
         return None
@@ -719,7 +684,6 @@ def _restore_vessel_to_source(vessel, source_route, alternative):
             ),
             None,
         )
-        # Detour-only intermediate ports have no equivalent source position.
         if source_index is None:
             return False
         while vessel in current.current_vessels:
